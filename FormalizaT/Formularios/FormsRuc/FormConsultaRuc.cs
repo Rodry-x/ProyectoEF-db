@@ -15,7 +15,7 @@ namespace FormalizaT.Formularios.FormsRuc
 
         private void consultarRuc(object sender, EventArgs e)
         {
-            
+            AbrirUrl.AbrirEnNavegador("https://e-consultaruc.sunat.gob.pe/cl-ti-itmrconsruc/FrameCriterioBusquedaWeb.jsp");
         }
 
         private void cambiarAlPanelInformacionBasica(object sender, EventArgs e)

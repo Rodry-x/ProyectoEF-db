@@ -28,5 +28,10 @@ namespace FormalizaT.Formularios.FormsRuc
             formQuienDebeInscribirseEnElRuc = new FormQuienDebeInscribirseEnElRuc();
             PanelController.CambiarPanel(panelInscripcionRuc, formQuienDebeInscribirseEnElRuc.PanelQuienDebeInscribirseEnElRucControl);
         }
+
+        private void linkParaGenerarClaveSOl_LinkLabel(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            AbrirUrl.AbrirEnNavegador("https://ww1.sunat.gob.pe/ol-ti-itadminforuc-inscripcion/inscripcion");
+        }
     }
 }

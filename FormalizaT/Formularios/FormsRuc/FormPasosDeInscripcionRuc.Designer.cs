@@ -39,11 +39,15 @@
             label3 = new Label();
             label1 = new Label();
             label2 = new Label();
+            label7 = new Label();
+            li = new LinkLabel();
             panelInscripcionRuc.SuspendLayout();
             SuspendLayout();
             // 
             // panelInscripcionRuc
             // 
+            panelInscripcionRuc.Controls.Add(li);
+            panelInscripcionRuc.Controls.Add(label7);
             panelInscripcionRuc.Controls.Add(linkLabel1);
             panelInscripcionRuc.Controls.Add(label5);
             panelInscripcionRuc.Controls.Add(label6);
@@ -61,7 +65,7 @@
             // linkLabel1
             // 
             linkLabel1.AutoSize = true;
-            linkLabel1.Location = new Point(112, 275);
+            linkLabel1.Location = new Point(109, 315);
             linkLabel1.Name = "linkLabel1";
             linkLabel1.Size = new Size(338, 20);
             linkLabel1.TabIndex = 12;
@@ -72,7 +76,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(67, 275);
+            label5.Location = new Point(64, 315);
             label5.Name = "label5";
             label5.Size = new Size(38, 20);
             label5.TabIndex = 11;
@@ -100,7 +104,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(227, 350);
+            button1.Location = new Point(227, 388);
             button1.Name = "button1";
             button1.Size = new Size(223, 49);
             button1.TabIndex = 7;
@@ -112,7 +116,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(31, 322);
+            label4.Location = new Point(31, 360);
             label4.Name = "label4";
             label4.Size = new Size(279, 23);
             label4.TabIndex = 6;
@@ -146,6 +150,26 @@
             label2.TabIndex = 3;
             label2.Text = "Pasos para inscribirte en el RUC";
             // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(64, 277);
+            label7.Name = "label7";
+            label7.Size = new Size(38, 20);
+            label7.TabIndex = 13;
+            label7.Text = "URL:";
+            // 
+            // li
+            // 
+            li.AutoSize = true;
+            li.Location = new Point(113, 278);
+            li.Name = "li";
+            li.Size = new Size(454, 20);
+            li.TabIndex = 14;
+            li.TabStop = true;
+            li.Text = "https://ww1.sunat.gob.pe/ol-ti-itadminforuc-inscripcion/inscripcion";
+            li.LinkClicked += linkParaGenerarClaveSOl_LinkLabel;
+            // 
             // FormPasosDeInscripcionRuc
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -171,5 +195,7 @@
         private LinkLabel linkLabel1;
         private Label label5;
         private Label label6;
+        private LinkLabel li;
+        private Label label7;
     }
 }
