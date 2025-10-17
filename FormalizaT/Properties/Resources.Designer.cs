@@ -83,6 +83,26 @@ namespace FormalizaT.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imagenAppPersonas {
+            get {
+                object obj = ResourceManager.GetObject("imagenAppPersonas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagenAprendizaje {
+            get {
+                object obj = ResourceManager.GetObject("imagenAprendizaje", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagenBeneficio {
             get {
                 object obj = ResourceManager.GetObject("imagenBeneficio", resourceCulture);
@@ -103,9 +123,29 @@ namespace FormalizaT.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imagenBolsaDeAcciones1 {
+            get {
+                object obj = ResourceManager.GetObject("imagenBolsaDeAcciones1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagenCanchitoDeFinanzas {
             get {
                 object obj = ResourceManager.GetObject("imagenCanchitoDeFinanzas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagenConsulta {
+            get {
+                object obj = ResourceManager.GetObject("imagenConsulta", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,6 +163,46 @@ namespace FormalizaT.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imagenDeAlquilarCasa1 {
+            get {
+                object obj = ResourceManager.GetObject("imagenDeAlquilarCasa1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagenDeErrorNoHayImagen {
+            get {
+                object obj = ResourceManager.GetObject("imagenDeErrorNoHayImagen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagenDeErrorNoHayImagen1 {
+            get {
+                object obj = ResourceManager.GetObject("imagenDeErrorNoHayImagen1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagenDeErrorNoHayImagen2 {
+            get {
+                object obj = ResourceManager.GetObject("imagenDeErrorNoHayImagen2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagenDeRuc {
             get {
                 object obj = ResourceManager.GetObject("imagenDeRuc", resourceCulture);
@@ -133,9 +213,39 @@ namespace FormalizaT.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imagenDeRuc1 {
+            get {
+                object obj = ResourceManager.GetObject("imagenDeRuc1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagenDeTrabajadorEnConstruccion {
             get {
                 object obj = ResourceManager.GetObject("imagenDeTrabajadorEnConstruccion", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagenDeTrabajadorEnConstruccion1 {
+            get {
+                object obj = ResourceManager.GetObject("imagenDeTrabajadorEnConstruccion1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagenDeTrabajadorEnConstruccion2 {
+            get {
+                object obj = ResourceManager.GetObject("imagenDeTrabajadorEnConstruccion2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,9 +273,69 @@ namespace FormalizaT.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imagenEmpresa1 {
+            get {
+                object obj = ResourceManager.GetObject("imagenEmpresa1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagenHombrePeruanoConMegafono {
             get {
                 object obj = ResourceManager.GetObject("imagenHombrePeruanoConMegafono", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagenLibroAbierto {
+            get {
+                object obj = ResourceManager.GetObject("imagenLibroAbierto", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagenNinioSaludando {
+            get {
+                object obj = ResourceManager.GetObject("imagenNinioSaludando", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagenPersonaPreguntandose {
+            get {
+                object obj = ResourceManager.GetObject("imagenPersonaPreguntandose", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagenSunatRegistro {
+            get {
+                object obj = ResourceManager.GetObject("imagenSunatRegistro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagenSunatRuc {
+            get {
+                object obj = ResourceManager.GetObject("imagenSunatRuc", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -118,40 +118,91 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="imagenBeneficio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\imagenBeneficio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imagenBolsaDeAcciones" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\imagenBolsaDeAcciones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imagenEmpresa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="imagenEmpresa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenEmpresa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imagenHombrePeruanoConMegafono" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\imagenHombrePeruanoConMegafono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imagenDeAlquilarCasa" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\imagenDeAlquilarCasa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="iconoCiudadanos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\iconoCiudadanos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imagenDeTrabajadorEnConstruccion" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\imagenDeTrabajadorEnConstruccion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="iconoUsuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\iconoUsuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imagenCanchitoDeFinanzas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\imagenCanchitoDeFinanzas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imagenDeRuc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\imagenDeRuc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="imagenHombrePeruanoConMegafono" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenHombrePeruanoConMegafono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imagenTips" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenTips.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="imagenAprendizaje" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenAprendizaje.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenDeAlquilarCasa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenDeAlquilarCasa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenDeErrorNoHayImagen2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenDeErrorNoHayImagen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenEmpresa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenEmpresa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenDeRuc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenDeRuc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="imagenDeTrabajadorOficina" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenDeTrabajadorOficina.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenNinioSaludando" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenNinioSaludando.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenAppPersonas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenAppPersonas.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenBolsaDeAcciones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenBolsaDeAcciones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="iconoUsuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\iconoUsuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenDeErrorNoHayImagen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenDeErrorNoHayImagen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenDeRuc1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenDeRuc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenDeTrabajadorEnConstruccion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenDeTrabajadorEnConstruccion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenSunatRuc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenSunatRuc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenDeErrorNoHayImagen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenDeErrorNoHayImagen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenPersonaPreguntandose" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenPersonaPreguntandose.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenCanchitoDeFinanzas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenCanchitoDeFinanzas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenBolsaDeAcciones1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenBolsaDeAcciones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenBeneficio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenBeneficio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenLibroAbierto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenLibroAbierto.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenConsulta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenConsulta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenDeAlquilarCasa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenDeAlquilarCasa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenSunatRegistro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenSunatRegistro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenDeTrabajadorEnConstruccion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenDeTrabajadorEnConstruccion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenDeTrabajadorEnConstruccion2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenDeTrabajadorEnConstruccion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -183,7 +183,7 @@
             ClientSize = new Size(640, 539);
             Controls.Add(panelConsejos);
             Name = "FormConsejos";
-            Text = "FormConsejos";
+            Text = "Form Consejos";
             panelConsejos.ResumeLayout(false);
             panelConsejos.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)iconRucQuintaCategoria).EndInit();

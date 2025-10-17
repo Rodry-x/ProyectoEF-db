@@ -33,7 +33,7 @@
             // 
             // panelBeneficios
             // 
-            panelBeneficios.Location = new Point(5, 3);
+            panelBeneficios.Location = new Point(7, 3);
             panelBeneficios.Name = "panelBeneficios";
             panelBeneficios.Size = new Size(630, 530);
             panelBeneficios.TabIndex = 0;
@@ -42,7 +42,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(640, 540);
+            ClientSize = new Size(642, 538);
             Controls.Add(panelBeneficios);
             Name = "FormBeneficios";
             Text = "FormBeneficios";

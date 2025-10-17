@@ -39,6 +39,7 @@
             iconoRuc = new PictureBox();
             iconoBeneficio = new PictureBox();
             btnSalir = new Button();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)iconoPerfil).BeginInit();
             ((System.ComponentModel.ISupportInitialize)iconoTributos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)iconoConsejos).BeginInit();
@@ -75,7 +76,7 @@
             // 
             // btnAyuda
             // 
-            btnAyuda.Location = new Point(74, 289);
+            btnAyuda.Location = new Point(74, 385);
             btnAyuda.Name = "btnAyuda";
             btnAyuda.Size = new Size(152, 40);
             btnAyuda.TabIndex = 3;
@@ -85,19 +86,19 @@
             // 
             // btnRuc
             // 
-            btnRuc.Location = new Point(74, 344);
+            btnRuc.Location = new Point(74, 284);
             btnRuc.Name = "btnRuc";
             btnRuc.Size = new Size(152, 40);
             btnRuc.TabIndex = 4;
-            btnRuc.Text = "Tipos de Ruc";
+            btnRuc.Text = "Aprendizaje";
             btnRuc.UseVisualStyleBackColor = true;
             btnRuc.Click += cambiarAlPanelRuc_Click;
             // 
             // btnBeneficios
             // 
-            btnBeneficios.Location = new Point(74, 400);
+            btnBeneficios.Location = new Point(74, 332);
             btnBeneficios.Name = "btnBeneficios";
-            btnBeneficios.Size = new Size(152, 34);
+            btnBeneficios.Size = new Size(152, 42);
             btnBeneficios.TabIndex = 5;
             btnBeneficios.Text = "Beneficios";
             btnBeneficios.UseVisualStyleBackColor = true;
@@ -116,7 +117,7 @@
             // iconoConsejos
             // 
             iconoConsejos.Image = Properties.Resources.imagenTips;
-            iconoConsejos.Location = new Point(22, 289);
+            iconoConsejos.Location = new Point(22, 385);
             iconoConsejos.Name = "iconoConsejos";
             iconoConsejos.Size = new Size(46, 40);
             iconoConsejos.SizeMode = PictureBoxSizeMode.Zoom;
@@ -125,8 +126,8 @@
             // 
             // iconoRuc
             // 
-            iconoRuc.Image = Properties.Resources.imagenDeRuc;
-            iconoRuc.Location = new Point(22, 344);
+            iconoRuc.Image = Properties.Resources.imagenAprendizaje;
+            iconoRuc.Location = new Point(22, 284);
             iconoRuc.Name = "iconoRuc";
             iconoRuc.Size = new Size(46, 40);
             iconoRuc.SizeMode = PictureBoxSizeMode.Zoom;
@@ -136,7 +137,7 @@
             // iconoBeneficio
             // 
             iconoBeneficio.Image = Properties.Resources.imagenBeneficio;
-            iconoBeneficio.Location = new Point(22, 400);
+            iconoBeneficio.Location = new Point(22, 338);
             iconoBeneficio.Name = "iconoBeneficio";
             iconoBeneficio.Size = new Size(46, 34);
             iconoBeneficio.SizeMode = PictureBoxSizeMode.Zoom;
@@ -195,5 +196,6 @@
         private PictureBox iconoRuc;
         private PictureBox iconoBeneficio;
         private Button btnSalir;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

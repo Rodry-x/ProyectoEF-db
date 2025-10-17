@@ -4,6 +4,24 @@
     <Compile Update="Formularios\FormBeneficios.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Formularios\FormsDeBeneficios\FormBeneficioCuartaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsDeBeneficios\FormBeneficioPrimeraCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsDeBeneficios\FormBeneficioQuintaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsDeBeneficios\FormBeneficioSegundaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsDeBeneficios\FormBeneficioTerceraCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsDeConsejos\FormConsejoPrimeraCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Formularios\FormConsejos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -16,7 +34,58 @@
     <Compile Update="Formularios\FormRuc.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Formularios\FormsDeConsejos\FormConsejoQuintaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsDeConsejos\FormConsejoSegundaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsDeConsejos\FormConsejoTerceraCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsDeConsejos\FormConsejoCuartaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Formularios\FormSimularTributos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\FormConsultaRuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\FormTiposDeRenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\FormFuentes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\FormInformacionBasica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\FormParaQueNosSirve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\FormPasosDeInscripcionRuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\FormQueEsElRuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\FormQuienDebeInscribirseEnElRuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsSimularTributos\FormSimularTributosCuartaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsSimularTributos\FormSimularTributosPrimeraCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsSimularTributos\FormSimularTributosQuintaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsSimularTributos\FormSimularTributosSegundaCategoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsSimularTributos\FormSimularTributosTerceraCategoria.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
