@@ -117,12 +117,12 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Requieren más documentación, como partida registral certificada de Registros Públicos, documento de identidad del representante legal, dirección fiscal del negocio, formularios de inscripción y, en caso de tramitarlo a través de un tercero, una carta poder notarizada.
+</value>
+  </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>- Todas las personas naturales o jurídicas que realicen rentas, actividades económicas, u operaciones comerciales sujetas a tributación.
-
-- En el caso de personas naturales que perciben rentas de Primera categoría (por ejemplo arrendamientos) están obligadas a tener RUC.
-
-- Desde el 1 de julio de 2024, se han incluido nuevos supuestos de obligatoriedad, como ser propietario de varios predios con valor conjunto elevado, o 
-tener participaciones accionarias que superen ciertos montos, entre otros.</value>
+    <value>Además del DNI, deben registrar la dirección fiscal del negocio (que puede ser distinta a la del DNI) con un documento que lo acredita, como recibos o contratos. Deben seleccionar su régimen tributario (NRUS, Régimen Especial, Mype Tributario, Régimen General) y declarar su actividad económica conforme a la Clasificación Industrial Internacional Uniforme (CIIU).
+</value>
   </data>
 </root>

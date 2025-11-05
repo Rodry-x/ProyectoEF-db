@@ -49,28 +49,37 @@
     <Compile Update="Formularios\FormSimularTributos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\FormsRuc\FormConsultaRuc.cs">
+    <Compile Update="Formularios\FormsRuc\Nivel_Introductorio\FormConsultaRuc.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\FormsRuc\FormTiposDeRenta.cs">
+    <Compile Update="Formularios\FormsRuc\Nivel_Introductorio\FormFuentes2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\FormsRuc\FormFuentes.cs">
+    <Compile Update="Formularios\FormsRuc\Nivel_Introductorio\FormFuentes3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\FormsRuc\FormInformacionBasica.cs">
+    <Compile Update="Formularios\FormsRuc\Nivel_Introductorio\FormTiposDeRUC.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\FormsRuc\FormParaQueNosSirve.cs">
+    <Compile Update="Formularios\FormsRuc\Nivel_Introductorio\FormFuentes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\FormsRuc\FormPasosDeInscripcionRuc.cs">
+    <Compile Update="Formularios\FormsRuc\Nivel_Introductorio\FormInformacionBasica.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\FormsRuc\FormQueEsElRuc.cs">
+    <Compile Update="Formularios\FormsRuc\Nivel_Introductorio\FormParaQueNosSirve.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\FormsRuc\FormQuienDebeInscribirseEnElRuc.cs">
+    <Compile Update="Formularios\FormsRuc\Nivel_Introductorio\FormPasosDeInscripcionRuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Introductorio\FormQueEsElRuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Introductorio\FormQuienDebeInscribirseEnElRuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Introductorio\FormTiposDeRUC2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Formularios\FormsSimularTributos\FormSimularTributosCuartaCategoria.cs">

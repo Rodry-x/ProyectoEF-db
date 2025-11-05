@@ -35,12 +35,16 @@
             label2 = new Label();
             pictureBox1 = new PictureBox();
             label1 = new Label();
+            label3 = new Label();
+            label4 = new Label();
             panelQuienDebeInscribirseEnElRuc.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panelQuienDebeInscribirseEnElRuc
             // 
+            panelQuienDebeInscribirseEnElRuc.Controls.Add(label4);
+            panelQuienDebeInscribirseEnElRuc.Controls.Add(label3);
             panelQuienDebeInscribirseEnElRuc.Controls.Add(button2);
             panelQuienDebeInscribirseEnElRuc.Controls.Add(button1);
             panelQuienDebeInscribirseEnElRuc.Controls.Add(label2);
@@ -53,11 +57,11 @@
             // 
             // button2
             // 
-            button2.Location = new Point(421, 466);
+            button2.Location = new Point(483, 466);
             button2.Name = "button2";
-            button2.Size = new Size(176, 50);
+            button2.Size = new Size(114, 50);
             button2.TabIndex = 4;
-            button2.Text = "Pasos De Inscripcion";
+            button2.Text = "Siguiente";
             button2.UseVisualStyleBackColor = true;
             button2.Click += cambiarAlPanelInscripcionRuc;
             // 
@@ -84,7 +88,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.imagenAppPersonas;
-            pictureBox1.Location = new Point(120, 252);
+            pictureBox1.Location = new Point(105, 252);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(359, 208);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -93,11 +97,28 @@
             // 
             // label1
             // 
-            label1.Location = new Point(25, 58);
+            label1.Location = new Point(25, 55);
             label1.Name = "label1";
-            label1.Size = new Size(572, 191);
+            label1.Size = new Size(572, 95);
             label1.TabIndex = 0;
             label1.Text = resources.GetString("label1.Text");
+            // 
+            // label3
+            // 
+            label3.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label3.Location = new Point(25, 148);
+            label3.Name = "label3";
+            label3.Size = new Size(267, 31);
+            label3.TabIndex = 5;
+            label3.Text = "Personas naturales sin negocio";
+            // 
+            // label4
+            // 
+            label4.Location = new Point(25, 179);
+            label4.Name = "label4";
+            label4.Size = new Size(572, 70);
+            label4.TabIndex = 6;
+            label4.Text = resources.GetString("label4.Text");
             // 
             // FormQuienDebeInscribirseEnElRuc
             // 
@@ -121,5 +142,7 @@
         private PictureBox pictureBox1;
         private Button button1;
         private Button button2;
+        private Label label4;
+        private Label label3;
     }
 }

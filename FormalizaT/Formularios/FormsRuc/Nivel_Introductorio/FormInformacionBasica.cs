@@ -12,6 +12,8 @@ namespace FormalizaT.Formularios.FormsRuc
 
         private FormConsultaRuc formConsultaRuc;
         private FormQueEsElRuc formQueEsElRuc;
+        private FormFuentes formFuentes;
+        private FormTiposDeRUC formTiposDeRenta;
         private FormQuienDebeInscribirseEnElRuc formQuienDebeInscribirseEnElRuc;
 
         public Panel PanelInformacionBasicaControl => panelInformacionBasica;
@@ -24,7 +26,8 @@ namespace FormalizaT.Formularios.FormsRuc
 
         private void cambiarAlPanelTiposDeRenta(object sender, EventArgs e)
         {
-
+            formTiposDeRenta = new FormTiposDeRUC();
+            PanelController.CambiarPanel(panelInformacionBasica, formTiposDeRenta.PanelEscogerRentaController);
         }
 
         private void cambiarAlPanelQueEsElRuc(object sender, EventArgs e)
@@ -41,7 +44,8 @@ namespace FormalizaT.Formularios.FormsRuc
 
         private void cambiarAlPanelFuentes(object sender, EventArgs e)
         {
-
+            formFuentes = new FormFuentes();
+            PanelController.CambiarPanel(panelInformacionBasica, formFuentes.PanelFuentesControl);
         }
     }
 }

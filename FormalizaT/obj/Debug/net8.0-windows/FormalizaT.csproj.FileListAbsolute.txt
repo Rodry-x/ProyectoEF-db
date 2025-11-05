@@ -43,4 +43,7 @@ C:\Users\rodry\source\repos\FormalizaT\FormalizaT\obj\Debug\net8.0-windows\Forma
 C:\Users\rodry\source\repos\FormalizaT\FormalizaT\obj\Debug\net8.0-windows\FormalizaT.Formularios.FormsRuc.FormPasosDeInscripcionRuc.resources
 C:\Users\rodry\source\repos\FormalizaT\FormalizaT\obj\Debug\net8.0-windows\FormalizaT.Formularios.FormsRuc.FormQueEsElRuc.resources
 C:\Users\rodry\source\repos\FormalizaT\FormalizaT\obj\Debug\net8.0-windows\FormalizaT.Formularios.FormsRuc.FormQuienDebeInscribirseEnElRuc.resources
-C:\Users\rodry\source\repos\FormalizaT\FormalizaT\obj\Debug\net8.0-windows\FormalizaT.Formularios.FormsRuc.FormTiposDeRenta.resources
+C:\Users\rodry\source\repos\FormalizaT\FormalizaT\obj\Debug\net8.0-windows\FormalizaT.Formularios.FormsRuc.Nivel_Introductorio.FormFuentes2.resources
+C:\Users\rodry\source\repos\FormalizaT\FormalizaT\obj\Debug\net8.0-windows\FormalizaT.Formularios.FormsRuc.Nivel_Introductorio.FormFuentes3.resources
+C:\Users\rodry\source\repos\FormalizaT\FormalizaT\obj\Debug\net8.0-windows\FormalizaT.Formularios.FormsRuc.FormTiposDeRUC.resources
+C:\Users\rodry\source\repos\FormalizaT\FormalizaT\obj\Debug\net8.0-windows\FormalizaT.Formularios.FormsRuc.Nivel_Introductorio.FormTiposDeRUC2.resources

@@ -117,4 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Pide Comprobantes Electrónicos: Para que estos gastos sean válidos, debes exigir boletas de venta electrónicas o recibos por honorarios electrónicos, asegurándote de registrar tu DNI/RUC en el comprobante.</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>- Arrendamiento de viviendas: El 30% del alquiler pagado.
+- Honorarios médicos y odontológicos: El 30% de los pagos por servicios prestados por médicos y odontólogos, incluyendo análisis y medicamentos.
+- Servicios profesionales: El 30% de los pagos por servicios de abogados, contadores, nutricionistas, entre otros (con algunas excepciones).
+- Aportaciones a Essalud por trabajadores del hogar: El 100% de las aportaciones.
+- Servicios de guías de turismo y servicios de alojamiento en hoteles: El 30% de los pagos.</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>- El impuesto solo se aplica si tus ingresos anuales proyectados superan las 7 Unidades Impositivas Tributarias (UIT). Para el año fiscal 2025, este monto asciende a S/ 46,813 (considerando una UIT de S/ 5,575 para 2025)</value>
+  </data>
 </root>

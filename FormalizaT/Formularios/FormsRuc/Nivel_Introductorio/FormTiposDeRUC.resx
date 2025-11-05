@@ -117,9 +117,17 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label6.Text" xml:space="preserve">
+    <value>- El RUC generalmente se asigna a nombre del individuo.
+- Pueden ejercer actividades como comercio informal, servicios profesionales o pequeños emprendimientos.
+- La declaración y pago de impuestos se realiza a título personal.
+- Cuando el contribuyente genere ingresos superiores a ciertos límites, deberá inscribirse en el régimen general y cumplir con obligaciones fiscales formales.
+</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Una persona natural es un individuo que realiza actividades económicas por sí mismo, sin constituir una entidad jurídica propia. En esta categoría, el RUC puede estar asociado a profesionales independientes, pequeños comerciantes y empresarios que trabajan por su cuenta</value>
+  </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>- Para personas con DNI: se puede hacer de manera virtual (a través del portal SUNAT Virtual o App “Personas”).
-
-- Para personas que no usan DNI (por ejemplo personas jurídicas, extranjeros sin DNI) o casos especiales: inscripción presencial en centros de servicios al contribuyente (CSC) de la SUNAT.</value>
+    <value>El RUC en Perú se clasifica en dos grandes categorías principales según la naturaleza del contribuyente: persona natural y persona jurídica. Cada tipo tiene características y requisitos específicos que reflejan la existencia y actividad legal del contribuyente</value>
   </data>
 </root>

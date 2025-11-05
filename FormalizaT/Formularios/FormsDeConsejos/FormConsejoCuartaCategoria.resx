@@ -117,4 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label4.Text" xml:space="preserve">
+    <value>- Si emites un recibo por honorarios por un monto mayor a S/ 1,500 a una entidad calificada como agente de retención (generalmente empresas), te retendrán automáticamente el 8% del total, a menos que presentes tu constancia de suspensión de retenciones</value>
+  </data>
 </root>

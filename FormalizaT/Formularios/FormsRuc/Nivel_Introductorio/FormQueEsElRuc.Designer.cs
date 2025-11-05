@@ -75,7 +75,7 @@
             // 
             label1.Location = new Point(38, 54);
             label1.Name = "label1";
-            label1.Size = new Size(572, 209);
+            label1.Size = new Size(572, 230);
             label1.TabIndex = 4;
             label1.Text = resources.GetString("label1.Text");
             // 

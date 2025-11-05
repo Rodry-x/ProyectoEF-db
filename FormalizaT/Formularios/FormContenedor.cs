@@ -56,7 +56,7 @@ namespace FormalizaT
 
         private void cerrarAplicacion_click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

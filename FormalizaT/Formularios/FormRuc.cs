@@ -28,7 +28,7 @@ namespace FormalizaT.Formularios
 
         private void cambiarAlPanelInformacionAvanzada(object sender, EventArgs e)
         {
-
+            
         }
     }
 }

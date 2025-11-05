@@ -263,6 +263,16 @@ namespace FormalizaT.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap imagenDiferenciasPersonaNaturalJudicial {
+            get {
+                object obj = ResourceManager.GetObject("imagenDiferenciasPersonaNaturalJudicial", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap imagenEmpresa {
             get {
                 object obj = ResourceManager.GetObject("imagenEmpresa", resourceCulture);

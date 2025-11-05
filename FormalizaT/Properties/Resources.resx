@@ -139,11 +139,17 @@
   <data name="imagenDeErrorNoHayImagen2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenDeErrorNoHayImagen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="imagenDeTrabajadorEnConstruccion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenDeTrabajadorEnConstruccion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="imagenEmpresa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenEmpresa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imagenDeRuc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenDeRuc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenDeTrabajadorEnConstruccion2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenDeTrabajadorEnConstruccion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imagenDeTrabajadorOficina" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenDeTrabajadorOficina.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -199,10 +205,7 @@
   <data name="imagenSunatRegistro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenSunatRegistro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imagenDeTrabajadorEnConstruccion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\imagenDeTrabajadorEnConstruccion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imagenDeTrabajadorEnConstruccion2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\imagenDeTrabajadorEnConstruccion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="imagenDiferenciasPersonaNaturalJudicial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenDiferenciasPersonaNaturalJudicial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
