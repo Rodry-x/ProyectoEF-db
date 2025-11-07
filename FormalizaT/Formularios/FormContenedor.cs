@@ -22,12 +22,12 @@ namespace FormalizaT
         private void InicializarPanelPrincipal()
         {
             formPrincipal = new FormPrincipal();
-            PanelController.CambiarPanel(panelContenedor,formPrincipal.PanelPrincipalControl);
+            PanelController.CambiarPanel(panelContenedor, formPrincipal.PanelPrincipalControl);
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void cambiarAlPanelSimularTributos_Click(object sender, EventArgs e)
@@ -52,6 +52,10 @@ namespace FormalizaT
         {
             formBeneficios = new FormBeneficios();
             PanelController.CambiarPanel(panelContenedor, formBeneficios.PanelBeneficiosControl);
+        }
+        private void enviarAlFormularioDeGoogle_Click(object sender, EventArgs e)
+        {
+            AbrirUrl.AbrirEnNavegador("https://forms.gle/hUJqukDXQEUjv9eH6");
         }
 
         private void cerrarAplicacion_click(object sender, EventArgs e)

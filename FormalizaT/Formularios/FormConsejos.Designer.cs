@@ -69,7 +69,7 @@
             // iconRucQuintaCategoria
             // 
             iconRucQuintaCategoria.Image = Properties.Resources.imagenDeTrabajadorOficina;
-            iconRucQuintaCategoria.Location = new Point(352, 276);
+            iconRucQuintaCategoria.Location = new Point(352, 300);
             iconRucQuintaCategoria.Name = "iconRucQuintaCategoria";
             iconRucQuintaCategoria.Size = new Size(160, 159);
             iconRucQuintaCategoria.SizeMode = PictureBoxSizeMode.Zoom;
@@ -79,7 +79,7 @@
             // iconRucCuartaCategoria
             // 
             iconRucCuartaCategoria.Image = Properties.Resources.imagenDeTrabajadorEnConstruccion;
-            iconRucCuartaCategoria.Location = new Point(97, 276);
+            iconRucCuartaCategoria.Location = new Point(97, 300);
             iconRucCuartaCategoria.Name = "iconRucCuartaCategoria";
             iconRucCuartaCategoria.Size = new Size(160, 159);
             iconRucCuartaCategoria.SizeMode = PictureBoxSizeMode.Zoom;
@@ -89,7 +89,7 @@
             // iconRucTerceraCategoria
             // 
             iconRucTerceraCategoria.Image = Properties.Resources.imagenEmpresa;
-            iconRucTerceraCategoria.Location = new Point(440, 60);
+            iconRucTerceraCategoria.Location = new Point(440, 84);
             iconRucTerceraCategoria.Name = "iconRucTerceraCategoria";
             iconRucTerceraCategoria.Size = new Size(160, 140);
             iconRucTerceraCategoria.SizeMode = PictureBoxSizeMode.Zoom;
@@ -99,7 +99,7 @@
             // iconRucSegundaCategoria
             // 
             iconRucSegundaCategoria.Image = Properties.Resources.imagenBolsaDeAcciones;
-            iconRucSegundaCategoria.Location = new Point(232, 60);
+            iconRucSegundaCategoria.Location = new Point(232, 84);
             iconRucSegundaCategoria.Name = "iconRucSegundaCategoria";
             iconRucSegundaCategoria.Size = new Size(160, 140);
             iconRucSegundaCategoria.SizeMode = PictureBoxSizeMode.Zoom;
@@ -109,7 +109,7 @@
             // iconRucPrimeraCategoria
             // 
             iconRucPrimeraCategoria.Image = Properties.Resources.imagenDeAlquilarCasa;
-            iconRucPrimeraCategoria.Location = new Point(28, 60);
+            iconRucPrimeraCategoria.Location = new Point(28, 84);
             iconRucPrimeraCategoria.Name = "iconRucPrimeraCategoria";
             iconRucPrimeraCategoria.Size = new Size(160, 140);
             iconRucPrimeraCategoria.SizeMode = PictureBoxSizeMode.Zoom;
@@ -118,7 +118,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(352, 439);
+            button3.Location = new Point(352, 463);
             button3.Name = "button3";
             button3.Size = new Size(160, 50);
             button3.TabIndex = 5;
@@ -128,7 +128,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(97, 437);
+            button2.Location = new Point(97, 461);
             button2.Name = "button2";
             button2.Size = new Size(160, 50);
             button2.TabIndex = 4;
@@ -138,7 +138,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(440, 206);
+            button1.Location = new Point(440, 230);
             button1.Name = "button1";
             button1.Size = new Size(160, 50);
             button1.TabIndex = 3;
@@ -148,7 +148,7 @@
             // 
             // btnTipsSegundaCat
             // 
-            btnTipsSegundaCat.Location = new Point(232, 206);
+            btnTipsSegundaCat.Location = new Point(232, 230);
             btnTipsSegundaCat.Name = "btnTipsSegundaCat";
             btnTipsSegundaCat.Size = new Size(160, 50);
             btnTipsSegundaCat.TabIndex = 2;
@@ -158,7 +158,7 @@
             // 
             // btnTipsPrimeraCat
             // 
-            btnTipsPrimeraCat.Location = new Point(28, 206);
+            btnTipsPrimeraCat.Location = new Point(28, 230);
             btnTipsPrimeraCat.Name = "btnTipsPrimeraCat";
             btnTipsPrimeraCat.Size = new Size(160, 50);
             btnTipsPrimeraCat.TabIndex = 1;
@@ -169,12 +169,12 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 15F);
-            label1.Location = new Point(199, 6);
+            label1.Font = new Font("Segoe UI", 28.2F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label1.Location = new Point(162, 7);
             label1.Name = "label1";
-            label1.Size = new Size(231, 35);
+            label1.Size = new Size(312, 62);
             label1.TabIndex = 0;
-            label1.Text = "Algunos tips para ti";
+            label1.Text = "Algunos Tips";
             // 
             // FormConsejos
             // 

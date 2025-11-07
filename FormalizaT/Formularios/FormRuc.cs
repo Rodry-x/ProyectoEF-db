@@ -10,7 +10,7 @@ namespace FormalizaT.Formularios
         {
             InitializeComponent();
         }
-
+        private FormInformacionIntermedia formInformacionIntermedia;
         private FormInformacionBasica formInformacionBasica;
 
         public Panel PanelRucControl => panelRuc;
@@ -23,7 +23,8 @@ namespace FormalizaT.Formularios
 
         private void cambiarAlPanelInformacionIntermedia(object sender, EventArgs e)
         {
-
+            formInformacionIntermedia = new FormInformacionIntermedia();
+            PanelController.CambiarPanel(panelRuc, formInformacionIntermedia.PanelInformacionIntermediaControl);
         }
 
         private void cambiarAlPanelInformacionAvanzada(object sender, EventArgs e)

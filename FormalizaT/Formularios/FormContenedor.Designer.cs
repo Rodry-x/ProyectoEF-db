@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormContenedor));
             panelContenedor = new Panel();
             iconoPerfil = new PictureBox();
             btnSimularTributos = new Button();
@@ -40,11 +41,14 @@
             iconoBeneficio = new PictureBox();
             btnSalir = new Button();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            button1 = new Button();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)iconoPerfil).BeginInit();
             ((System.ComponentModel.ISupportInitialize)iconoTributos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)iconoConsejos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)iconoRuc).BeginInit();
             ((System.ComponentModel.ISupportInitialize)iconoBeneficio).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panelContenedor
@@ -57,7 +61,7 @@
             // iconoPerfil
             // 
             iconoPerfil.Image = Properties.Resources.iconoCiudadanos;
-            iconoPerfil.Location = new Point(22, 29);
+            iconoPerfil.Location = new Point(22, 12);
             iconoPerfil.Name = "iconoPerfil";
             iconoPerfil.Size = new Size(204, 185);
             iconoPerfil.SizeMode = PictureBoxSizeMode.Zoom;
@@ -66,7 +70,7 @@
             // 
             // btnSimularTributos
             // 
-            btnSimularTributos.Location = new Point(74, 235);
+            btnSimularTributos.Location = new Point(74, 219);
             btnSimularTributos.Name = "btnSimularTributos";
             btnSimularTributos.Size = new Size(152, 39);
             btnSimularTributos.TabIndex = 2;
@@ -76,7 +80,7 @@
             // 
             // btnAyuda
             // 
-            btnAyuda.Location = new Point(74, 385);
+            btnAyuda.Location = new Point(74, 369);
             btnAyuda.Name = "btnAyuda";
             btnAyuda.Size = new Size(152, 40);
             btnAyuda.TabIndex = 3;
@@ -86,7 +90,7 @@
             // 
             // btnRuc
             // 
-            btnRuc.Location = new Point(74, 284);
+            btnRuc.Location = new Point(74, 268);
             btnRuc.Name = "btnRuc";
             btnRuc.Size = new Size(152, 40);
             btnRuc.TabIndex = 4;
@@ -96,7 +100,7 @@
             // 
             // btnBeneficios
             // 
-            btnBeneficios.Location = new Point(74, 332);
+            btnBeneficios.Location = new Point(74, 316);
             btnBeneficios.Name = "btnBeneficios";
             btnBeneficios.Size = new Size(152, 42);
             btnBeneficios.TabIndex = 5;
@@ -107,7 +111,7 @@
             // iconoTributos
             // 
             iconoTributos.Image = Properties.Resources.imagenCanchitoDeFinanzas;
-            iconoTributos.Location = new Point(22, 235);
+            iconoTributos.Location = new Point(22, 219);
             iconoTributos.Name = "iconoTributos";
             iconoTributos.Size = new Size(46, 39);
             iconoTributos.SizeMode = PictureBoxSizeMode.Zoom;
@@ -117,7 +121,7 @@
             // iconoConsejos
             // 
             iconoConsejos.Image = Properties.Resources.imagenTips;
-            iconoConsejos.Location = new Point(22, 385);
+            iconoConsejos.Location = new Point(22, 369);
             iconoConsejos.Name = "iconoConsejos";
             iconoConsejos.Size = new Size(46, 40);
             iconoConsejos.SizeMode = PictureBoxSizeMode.Zoom;
@@ -127,7 +131,7 @@
             // iconoRuc
             // 
             iconoRuc.Image = Properties.Resources.imagenAprendizaje;
-            iconoRuc.Location = new Point(22, 284);
+            iconoRuc.Location = new Point(22, 268);
             iconoRuc.Name = "iconoRuc";
             iconoRuc.Size = new Size(46, 40);
             iconoRuc.SizeMode = PictureBoxSizeMode.Zoom;
@@ -137,7 +141,7 @@
             // iconoBeneficio
             // 
             iconoBeneficio.Image = Properties.Resources.imagenBeneficio;
-            iconoBeneficio.Location = new Point(22, 338);
+            iconoBeneficio.Location = new Point(22, 322);
             iconoBeneficio.Name = "iconoBeneficio";
             iconoBeneficio.Size = new Size(46, 34);
             iconoBeneficio.SizeMode = PictureBoxSizeMode.Zoom;
@@ -155,12 +159,34 @@
             btnSalir.UseVisualStyleBackColor = true;
             btnSalir.Click += cerrarAplicacion_click;
             // 
+            // button1
+            // 
+            button1.Location = new Point(74, 415);
+            button1.Name = "button1";
+            button1.Size = new Size(152, 40);
+            button1.TabIndex = 11;
+            button1.Text = "Encuesta";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += enviarAlFormularioDeGoogle_Click;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(22, 415);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(46, 40);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 12;
+            pictureBox1.TabStop = false;
+            // 
             // FormContenedor
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
             ClientSize = new Size(882, 553);
+            Controls.Add(pictureBox1);
+            Controls.Add(button1);
             Controls.Add(btnSalir);
             Controls.Add(iconoBeneficio);
             Controls.Add(iconoRuc);
@@ -180,6 +206,7 @@
             ((System.ComponentModel.ISupportInitialize)iconoConsejos).EndInit();
             ((System.ComponentModel.ISupportInitialize)iconoRuc).EndInit();
             ((System.ComponentModel.ISupportInitialize)iconoBeneficio).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -197,5 +224,7 @@
         private PictureBox iconoBeneficio;
         private Button btnSalir;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private Button button1;
+        private PictureBox pictureBox1;
     }
 }

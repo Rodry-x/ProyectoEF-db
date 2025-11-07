@@ -49,6 +49,57 @@
     <Compile Update="Formularios\FormSimularTributos.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormClaveSOLySUNATVirtual.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormDeclaracionesYPagosMensuales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormDeclaracionesYPagosMensuales2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormEducaciónFinanciera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormEmisiónComprobantesElectrónicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormEmisiónComprobantesElectrónicos2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormFuentes_int.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormMultasySanciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormMultasySanciones2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormObligacionesContables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormPasosParaFormalizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormPlanilla.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormRegimenesTributarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormRegimenesTributarios2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormRegimenesTributarios3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormSeguridadSocial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\InformacionIntermedia.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Formularios\FormsRuc\Nivel_Introductorio\FormConsultaRuc.cs">
       <SubType>Form</SubType>
     </Compile>
