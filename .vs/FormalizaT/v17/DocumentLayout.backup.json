@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formconsejos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formconsejos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\utilidades\\panelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\utilidades\\panelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,26 +35,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormConsejos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormConsejos.cs",
-              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormConsejos.cs",
-              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormConsejos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormalizaT\\Formularios\\FormConsejos.cs [Dise\u00F1o]",
+              "Title": "PanelController.cs",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Utilidades\\PanelController.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Utilidades\\PanelController.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Utilidades\\PanelController.cs",
+              "RelativeToolTip": "FormalizaT\\Utilidades\\PanelController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T02:19:35.874Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormRuc.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormRuc.cs",
-              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormRuc.cs",
-              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormRuc.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormalizaT\\Formularios\\FormRuc.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T02:19:26.999Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-11-07T02:22:24.523Z",
+              "EditorCaption": ""
             }
           ]
         }

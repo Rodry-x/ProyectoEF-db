@@ -124,11 +124,23 @@
   <data name="iconoCiudadanos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\iconoCiudadanos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sistemas-comprobantes-electronicos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\sistemas-comprobantes-electronicos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RUS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\RUS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SeguridadSocial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\SeguridadSocial.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="imagenHombrePeruanoConMegafono" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenHombrePeruanoConMegafono.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imagenTips" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\imagenTips.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="imagenBeneficio" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenBeneficio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Educaciónfinanciera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\Educaciónfinanciera.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imagenAprendizaje" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenAprendizaje.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -142,14 +154,26 @@
   <data name="imagenDeTrabajadorEnConstruccion1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenDeTrabajadorEnConstruccion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Ahorro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\Ahorro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="imagenEmpresa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenEmpresa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imagenDeRuc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenDeRuc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Multasysanciones" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\Multasysanciones.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="imagenDeTrabajadorEnConstruccion2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenDeTrabajadorEnConstruccion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenLibroAbierto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenLibroAbierto.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PasosFOR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\PasosFOR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imagenDeTrabajadorOficina" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenDeTrabajadorOficina.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,14 +181,17 @@
   <data name="imagenNinioSaludando" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenNinioSaludando.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imagenAppPersonas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\imagenAppPersonas.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iconoUsuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\iconoUsuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imagenBolsaDeAcciones" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenBolsaDeAcciones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="iconoUsuario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\iconoUsuario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="imagenDiferenciasPersonaNaturalJudicial" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenDiferenciasPersonaNaturalJudicial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imagenAppPersonas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenAppPersonas.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imagenDeErrorNoHayImagen" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenDeErrorNoHayImagen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,20 +211,35 @@
   <data name="imagenPersonaPreguntandose" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenPersonaPreguntandose.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SunatVirtual" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\SunatVirtual.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="imagenCanchitoDeFinanzas" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenCanchitoDeFinanzas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imagenBolsaDeAcciones1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenBolsaDeAcciones.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imagenBeneficio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\imagenBeneficio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="RER" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\RER.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imagenLibroAbierto" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\imagenLibroAbierto.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="imagenTips" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\imagenTips.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Comprobante" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\Comprobante.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PagosMensuales" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\PagosMensuales.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RegimenesTributarios" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\RegimenesTributarios.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imagenConsulta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenConsulta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ObligacionesContables" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\ObligacionesContables.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="imagenDeAlquilarCasa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenDeAlquilarCasa.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,7 +247,7 @@
   <data name="imagenSunatRegistro" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\imagenes\imagenSunatRegistro.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imagenDiferenciasPersonaNaturalJudicial" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\imagenes\imagenDiferenciasPersonaNaturalJudicial.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="iconoEncuesta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\imagenes\iconoEncuesta.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

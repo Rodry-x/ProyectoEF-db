@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormContenedor));
             panelContenedor = new Panel();
             iconoPerfil = new PictureBox();
             btnSimularTributos = new Button();
@@ -171,7 +170,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Image = Properties.Resources.iconoEncuesta;
             pictureBox1.Location = new Point(22, 415);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(46, 40);

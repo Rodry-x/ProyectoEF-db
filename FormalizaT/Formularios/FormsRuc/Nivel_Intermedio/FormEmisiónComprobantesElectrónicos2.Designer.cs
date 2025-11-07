@@ -63,7 +63,7 @@
             // 
             // pictureBox1
             // 
-            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Image = Properties.Resources.Comprobante;
             pictureBox1.Location = new Point(443, 358);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(157, 163);

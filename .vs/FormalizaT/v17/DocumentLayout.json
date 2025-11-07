@@ -7,20 +7,76 @@
       "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\utilidades\\panelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\utilidades\\abrirurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\utilidades\\abrirurl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\formdeclaracionesypagosmensuales2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\formdeclaracionesypagosmensuales2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\app.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\formemisi\u00F3ncomprobanteselectr\u00F3nicos2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\formemisi\u00F3ncomprobanteselectr\u00F3nicos2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formconsejos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formconsejos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\formmultasysanciones2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\formmultasysanciones2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\formregimenestributarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\formregimenestributarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\formregimenestributarios3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\formregimenestributarios3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\informacionintermedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\informacionintermedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formcontenedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formcontenedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\formseguridadsocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\formseguridadsocial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\formregimenestributarios2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\formregimenestributarios2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\formplanilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\formplanilla.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\formpasosparaformalizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\formpasosparaformalizar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\formobligacionescontables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\formobligacionescontables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\formmultasysanciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\formmultasysanciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\formfuentes_int.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\formfuentes_int.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\formemisi\u00F3ncomprobanteselectr\u00F3nicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\formemisi\u00F3ncomprobanteselectr\u00F3nicos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\formeducaci\u00F3nfinanciera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\formeducaci\u00F3nfinanciera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\formdeclaracionesypagosmensuales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\formdeclaracionesypagosmensuales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\formclavesolysunatvirtual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\formclavesolysunatvirtual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,59 +112,225 @@
               "RelativeDocumentMoniker": "FormalizaT\\Utilidades\\PanelController.cs",
               "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Utilidades\\PanelController.cs",
               "RelativeToolTip": "FormalizaT\\Utilidades\\PanelController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T02:22:24.523Z",
+              "WhenOpened": "2025-11-07T03:05:42.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AbrirUrl.cs",
-              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Utilidades\\AbrirUrl.cs",
-              "RelativeDocumentMoniker": "FormalizaT\\Utilidades\\AbrirUrl.cs",
-              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Utilidades\\AbrirUrl.cs",
-              "RelativeToolTip": "FormalizaT\\Utilidades\\AbrirUrl.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "InformacionIntermedia.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\InformacionIntermedia.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\InformacionIntermedia.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\InformacionIntermedia.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\InformacionIntermedia.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T02:22:21.48Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-07T02:58:23.293Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "App.cs",
-              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\App.cs",
-              "RelativeDocumentMoniker": "FormalizaT\\App.cs",
-              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\App.cs",
-              "RelativeToolTip": "FormalizaT\\App.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "FormRegimenesTributarios3.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormRegimenesTributarios3.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormRegimenesTributarios3.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormRegimenesTributarios3.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormRegimenesTributarios3.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T02:22:19.803Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormConsejos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormConsejos.cs",
-              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormConsejos.cs",
-              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormConsejos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormalizaT\\Formularios\\FormConsejos.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T02:19:35.874Z",
+              "WhenOpened": "2025-11-07T02:58:14.643Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FormRuc.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormRuc.cs",
-              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormRuc.cs",
-              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormRuc.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormalizaT\\Formularios\\FormRuc.cs [Dise\u00F1o]",
+              "Title": "FormRegimenesTributarios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormRegimenesTributarios.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormRegimenesTributarios.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormRegimenesTributarios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormRegimenesTributarios.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-07T02:19:26.999Z",
+              "WhenOpened": "2025-11-07T02:58:02.339Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormMultasySanciones2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormMultasySanciones2.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormMultasySanciones2.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormMultasySanciones2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormMultasySanciones2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:57:49.269Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormEmisi\u00F3nComprobantesElectr\u00F3nicos2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormEmisi\u00F3nComprobantesElectr\u00F3nicos2.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormEmisi\u00F3nComprobantesElectr\u00F3nicos2.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormEmisi\u00F3nComprobantesElectr\u00F3nicos2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormEmisi\u00F3nComprobantesElectr\u00F3nicos2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:57:34.428Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormDeclaracionesYPagosMensuales2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormDeclaracionesYPagosMensuales2.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormDeclaracionesYPagosMensuales2.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormDeclaracionesYPagosMensuales2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormDeclaracionesYPagosMensuales2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:57:22.789Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FormContenedor.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormContenedor.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormContenedor.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormContenedor.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormContenedor.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T03:05:19.24Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FormSeguridadSocial.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormSeguridadSocial.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormSeguridadSocial.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormSeguridadSocial.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormSeguridadSocial.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:58:21.943Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FormRegimenesTributarios2.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormRegimenesTributarios2.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormRegimenesTributarios2.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormRegimenesTributarios2.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormRegimenesTributarios2.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:58:13.848Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FormPlanilla.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormPlanilla.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormPlanilla.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormPlanilla.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormPlanilla.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:58:01.652Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FormPasosParaFormalizar.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormPasosParaFormalizar.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormPasosParaFormalizar.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormPasosParaFormalizar.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormPasosParaFormalizar.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:58:00.869Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FormObligacionesContables.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormObligacionesContables.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormObligacionesContables.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormObligacionesContables.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormObligacionesContables.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:58:00.039Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FormMultasySanciones.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormMultasySanciones.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormMultasySanciones.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormMultasySanciones.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormMultasySanciones.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:57:48.014Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FormFuentes_int.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormFuentes_int.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormFuentes_int.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormFuentes_int.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormFuentes_int.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:57:47.056Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FormEmisi\u00F3nComprobantesElectr\u00F3nicos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormEmisi\u00F3nComprobantesElectr\u00F3nicos.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormEmisi\u00F3nComprobantesElectr\u00F3nicos.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormEmisi\u00F3nComprobantesElectr\u00F3nicos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormEmisi\u00F3nComprobantesElectr\u00F3nicos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:57:33.573Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FormEducaci\u00F3nFinanciera.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormEducaci\u00F3nFinanciera.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormEducaci\u00F3nFinanciera.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormEducaci\u00F3nFinanciera.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormEducaci\u00F3nFinanciera.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:57:32.607Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FormDeclaracionesYPagosMensuales.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormDeclaracionesYPagosMensuales.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormDeclaracionesYPagosMensuales.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormDeclaracionesYPagosMensuales.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormDeclaracionesYPagosMensuales.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:57:21.437Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FormClaveSOLySUNATVirtual.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormClaveSOLySUNATVirtual.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormClaveSOLySUNATVirtual.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormClaveSOLySUNATVirtual.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\FormClaveSOLySUNATVirtual.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-07T02:57:02.937Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]
