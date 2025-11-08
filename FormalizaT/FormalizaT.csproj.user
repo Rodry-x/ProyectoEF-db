@@ -49,6 +49,48 @@
     <Compile Update="Formularios\FormSimularTributos.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Avanzado\FormCrecimientoYEscalamiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Avanzado\FormCumplimientoLegalIntegral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Avanzado\FormDigitalizacionDelNegocio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Avanzado\FormFinanciamientoYCreditos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Avanzado\FormFuentesAV.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Avanzado\FormFuentesAV2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Avanzado\FormFuentesAV3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Avanzado\FormGestionContableYFinanciera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Avanzado\FormGestionDeAuditoriasTributarias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Avanzado\FormGestionLaboralFormal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Avanzado\FormGestionTributariaAvanzada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Avanzado\FormINDECOPI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Avanzado\FormInformacionAvanzada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Avanzado\FormResponsabilidadSocial.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormClaveSOLySUNATVirtual.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -68,6 +110,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormFuentes_int.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormFuentes_int2.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Formularios\FormsRuc\Nivel_Intermedio\FormMultasySanciones.cs">

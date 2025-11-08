@@ -117,4 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Nuestro proyecto busca facilitar la comprensión y el acceso a la formalización en el Perú de una forma sencilla y por pasos, comenzando desde el nivel Introductorio hasta el Avanzado, tambien contamos con un simulador de impuestos
+</value>
+  </data>
 </root>

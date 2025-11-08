@@ -69,7 +69,7 @@
             // 
             // pictureBox3
             // 
-            pictureBox3.Image = Properties.Resources.imagenDeErrorNoHayImagen1;
+            pictureBox3.Image = Properties.Resources.imagenProfesor;
             pictureBox3.Location = new Point(435, 175);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(158, 163);

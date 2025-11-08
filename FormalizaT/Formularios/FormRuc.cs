@@ -1,5 +1,6 @@
 ﻿using FormalizaT.Utilidades;
 using FormalizaT.Formularios.FormsRuc;
+using FormalizaT.Formularios.FormsRuc.Nivel_Avanzado;
 
 namespace FormalizaT.Formularios
 {
@@ -12,6 +13,7 @@ namespace FormalizaT.Formularios
         }
         private FormInformacionIntermedia formInformacionIntermedia;
         private FormInformacionBasica formInformacionBasica;
+        private FormInformacionAvanzada formInformacionAvanzada;
 
         public Panel PanelRucControl => panelRuc;
 
@@ -29,7 +31,8 @@ namespace FormalizaT.Formularios
 
         private void cambiarAlPanelInformacionAvanzada(object sender, EventArgs e)
         {
-            
+            formInformacionAvanzada = new FormInformacionAvanzada();
+            PanelController.CambiarPanel(panelRuc, formInformacionAvanzada.PanelInformacionAvanzadaControl);
         }
     }
 }

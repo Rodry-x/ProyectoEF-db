@@ -51,6 +51,8 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             pictureBox8 = new PictureBox();
+            pictureBox12 = new PictureBox();
+            button10 = new Button();
             panelInformacionIntermedia.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
@@ -63,11 +65,14 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             SuspendLayout();
             // 
             // panelInformacionIntermedia
             // 
             panelInformacionIntermedia.AutoScroll = true;
+            panelInformacionIntermedia.Controls.Add(button10);
+            panelInformacionIntermedia.Controls.Add(pictureBox12);
             panelInformacionIntermedia.Controls.Add(button9);
             panelInformacionIntermedia.Controls.Add(button8);
             panelInformacionIntermedia.Controls.Add(button7);
@@ -106,7 +111,7 @@
             // 
             // button8
             // 
-            button8.Location = new Point(353, 620);
+            button8.Location = new Point(277, 620);
             button8.Name = "button8";
             button8.Size = new Size(123, 57);
             button8.TabIndex = 32;
@@ -116,7 +121,7 @@
             // 
             // button7
             // 
-            button7.Location = new Point(113, 620);
+            button7.Location = new Point(80, 620);
             button7.Name = "button7";
             button7.Size = new Size(123, 57);
             button7.TabIndex = 31;
@@ -197,7 +202,7 @@
             // pictureBox10
             // 
             pictureBox10.Image = Properties.Resources.Educaciónfinanciera;
-            pictureBox10.Location = new Point(343, 510);
+            pictureBox10.Location = new Point(268, 510);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(142, 104);
             pictureBox10.SizeMode = PictureBoxSizeMode.Zoom;
@@ -207,7 +212,7 @@
             // pictureBox9
             // 
             pictureBox9.Image = Properties.Resources.SeguridadSocial;
-            pictureBox9.Location = new Point(93, 510);
+            pictureBox9.Location = new Point(63, 510);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(157, 104);
             pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
@@ -314,6 +319,26 @@
             pictureBox8.TabIndex = 18;
             pictureBox8.TabStop = false;
             // 
+            // pictureBox12
+            // 
+            pictureBox12.Image = Properties.Resources.imagenLibroAbierto;
+            pictureBox12.Location = new Point(466, 510);
+            pictureBox12.Name = "pictureBox12";
+            pictureBox12.Size = new Size(112, 104);
+            pictureBox12.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox12.TabIndex = 34;
+            pictureBox12.TabStop = false;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(463, 620);
+            button10.Name = "button10";
+            button10.Size = new Size(123, 57);
+            button10.TabIndex = 35;
+            button10.Text = "Fuentes";
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += cambiarAlPanelFuentes_int;
+            // 
             // FormInformacionIntermedia
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -336,6 +361,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ResumeLayout(false);
         }
 
@@ -364,5 +390,7 @@
         private Button button5;
         private Button button4;
         private Button button3;
+        private PictureBox pictureBox12;
+        private Button button10;
     }
 }

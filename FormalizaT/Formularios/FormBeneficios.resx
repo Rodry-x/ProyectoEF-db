@@ -117,4 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="label2.GenerateMember" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </metadata>
+  <data name="label2.Text" xml:space="preserve">
+    <value>-Formaliza tu negocio y te reconoce legalmente ante la SUNAT.
+
+-Permite emitir comprobantes de pago (boletas y facturas).
+
+-Acceso a créditos bancarios y programas del Estado para emprendedores.
+
+-Posibilidad de vender a empresas y al Estado, ya que exigen comprobantes válidos.
+
+-Mejora la imagen y credibilidad de tu negocio frente a clientes y proveedores.
+
+-Te permite abrir cuentas bancarias empresariales y separar tus finanzas personales.
+
+-Brinda protección legal y evita sanciones por informalidad.
+
+-Facilita la contratación formal de trabajadores y el registro en planilla.
+
+-Permite participar en licitaciones públicas y proyectos con instituciones.
+
+-Ayuda a llevar un mejor control contable y financiero de tus operaciones.</value>
+  </data>
 </root>
