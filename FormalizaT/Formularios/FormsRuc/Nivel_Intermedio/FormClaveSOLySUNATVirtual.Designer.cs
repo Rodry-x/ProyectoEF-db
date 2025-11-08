@@ -58,7 +58,7 @@
             // 
             // label1
             // 
-            label1.Location = new Point(18, 57);
+            label1.Location = new Point(20, 54);
             label1.Name = "label1";
             label1.Size = new Size(598, 392);
             label1.TabIndex = 4;

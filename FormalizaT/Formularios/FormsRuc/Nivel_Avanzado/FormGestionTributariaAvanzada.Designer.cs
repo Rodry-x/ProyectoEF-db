@@ -40,6 +40,7 @@
             // 
             // panelQueEsElRuc
             // 
+            panelQueEsElRuc.AutoScroll = true;
             panelQueEsElRuc.Controls.Add(pictureBox1);
             panelQueEsElRuc.Controls.Add(button1);
             panelQueEsElRuc.Controls.Add(label1);
