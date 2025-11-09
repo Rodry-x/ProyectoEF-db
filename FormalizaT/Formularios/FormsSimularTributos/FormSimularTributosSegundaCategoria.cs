@@ -1,12 +1,15 @@
-﻿
-using FormalizaT.Utilidades;
+﻿using FormalizaT.Utilidades;
 using System.Globalization;
 using System.Text;
+using System.Collections.Generic; // para List<T>
 
 namespace FormalizaT.Formularios.FormsSimularTributos
 {
     public partial class FormSimularTributosSegundaCategoria : Form
     {
+        // Estructura de datos para guardar las simulaciones realizadas
+        private List<string> historialSegundaCategoria = new List<string>();
+
         public FormSimularTributosSegundaCategoria()
         {
             InitializeComponent();
@@ -42,6 +45,9 @@ namespace FormalizaT.Formularios.FormsSimularTributos
                 impuestoBuilder.AppendLine($"Bruta: {parsed.Value.impuesto}");
                 resultadoBuilder.AppendLine($"Bruta: {parsed.Value.resultado}");
                 anyValue = true;
+
+                // Guardar en la estructura de datos
+                historialSegundaCategoria.Add($"Monto Bruto: {txtMontoBruto.Text} | Impuesto: {parsed.Value.impuesto} | Resultado: {parsed.Value.resultado}");
             }
 
             // Procesar txtNeta (6.25%)
@@ -58,6 +64,9 @@ namespace FormalizaT.Formularios.FormsSimularTributos
                 impuestoBuilder.AppendLine($"Neta: {parsed.Value.impuesto}");
                 resultadoBuilder.AppendLine($"Neta: {parsed.Value.resultado}");
                 anyValue = true;
+
+                // Guardar también en la lista
+                historialSegundaCategoria.Add($"Monto Neto: {txtMontoNeto.Text} | Impuesto: {parsed.Value.impuesto} | Resultado: {parsed.Value.resultado}");
             }
 
             if (!anyValue)
@@ -67,7 +76,7 @@ namespace FormalizaT.Formularios.FormsSimularTributos
                 return;
             }
 
-            // Mostrar resultados; se usan varias líneas si ambos campos fueron completados.
+            // Mostrar resultados finales
             lblImpuesto.Text = impuestoBuilder.ToString().TrimEnd();
             lblResultados.Text = resultadoBuilder.ToString().TrimEnd();
         }
@@ -78,8 +87,8 @@ namespace FormalizaT.Formularios.FormsSimularTributos
             if (string.IsNullOrEmpty(t))
                 return null;
 
-            if (!decimal.TryParse(t, System.Globalization.NumberStyles.Number | System.Globalization.NumberStyles.AllowCurrencySymbol, CultureInfo.CurrentCulture, out decimal monto) &&
-                !decimal.TryParse(t, System.Globalization.NumberStyles.Number | System.Globalization.NumberStyles.AllowCurrencySymbol, CultureInfo.InvariantCulture, out monto))
+            if (!decimal.TryParse(t, NumberStyles.Number | NumberStyles.AllowCurrencySymbol, CultureInfo.CurrentCulture, out decimal monto) &&
+                !decimal.TryParse(t, NumberStyles.Number | NumberStyles.AllowCurrencySymbol, CultureInfo.InvariantCulture, out monto))
             {
                 return null;
             }

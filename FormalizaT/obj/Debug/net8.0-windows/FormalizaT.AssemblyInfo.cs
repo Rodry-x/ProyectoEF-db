@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FormalizaT")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35870326a57c26919d08e613ae6f7a05ee31ff86")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3555c511004c2e9b52f36d8462cbd9198e2f8978")]
 [assembly: System.Reflection.AssemblyProductAttribute("FormalizaT")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FormalizaT")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

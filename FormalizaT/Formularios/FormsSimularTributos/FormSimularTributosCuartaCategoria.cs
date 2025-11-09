@@ -1,6 +1,4 @@
-﻿
-
-using FormalizaT.Utilidades;
+﻿using FormalizaT.Utilidades;
 using System.Globalization;
 
 namespace FormalizaT.Formularios.FormsSimularTributos
@@ -11,6 +9,7 @@ namespace FormalizaT.Formularios.FormsSimularTributos
         {
             InitializeComponent();
         }
+
         private FormSimularTributos formSimularTributos;
         public Panel CuartaCategoria => panelSimularTributosCuartaCategoria;
 
@@ -18,6 +17,13 @@ namespace FormalizaT.Formularios.FormsSimularTributos
         {
             formSimularTributos = new FormSimularTributos();
             PanelController.CambiarPanel(panelSimularTributosCuartaCategoria, formSimularTributos.PanelSimularTributosControl);
+        }
+
+        // --- Estructura de datos para tramos de IR ---
+        private class TramoIR
+        {
+            public decimal Limite { get; set; }   // Límite superior del tramo en soles
+            public decimal Tasa { get; set; }     // Tasa correspondiente
         }
 
         private void simularImporte(object sender, EventArgs e)
@@ -31,9 +37,10 @@ namespace FormalizaT.Formularios.FormsSimularTributos
                 return;
             }
 
-            // Intentar parsear usando la cultura actual; si falla, intentar InvariantCulture
-            if (!decimal.TryParse(texto, NumberStyles.Number | NumberStyles.AllowCurrencySymbol, CultureInfo.CurrentCulture, out decimal monto) &&
-                !decimal.TryParse(texto, NumberStyles.Number | NumberStyles.AllowCurrencySymbol, CultureInfo.InvariantCulture, out monto))
+            if (!decimal.TryParse(texto, NumberStyles.Number | NumberStyles.AllowCurrencySymbol,
+                CultureInfo.CurrentCulture, out decimal monto) &&
+                !decimal.TryParse(texto, NumberStyles.Number | NumberStyles.AllowCurrencySymbol,
+                CultureInfo.InvariantCulture, out monto))
             {
                 lblResultado.Text = "Formato de monto inválido.";
                 lblImpuesto.Text = string.Empty;
@@ -47,76 +54,59 @@ namespace FormalizaT.Formularios.FormsSimularTributos
                 return;
             }
 
-            // Configuración de tramos
+            // --- Parámetros tributarios ---
             decimal UIT = 5350m;
-            decimal[] limitesUIT = { 5m, 20m, 35m, 45m }; // en UIT
-            decimal[] tasas = { 0.08m, 0.14m, 0.17m, 0.20m, 0.30m }; // tramos: 0-5, 5-20, 20-35, 35-45, >45
 
-            // Convertir límites a moneda
-            decimal[] limites = limitesUIT.Select(u => u * UIT).ToArray();
+            // Definimos los tramos usando la estructura de datos
+            List<TramoIR> tramos = new List<TramoIR>
+            {
+                new TramoIR { Limite = 5m * UIT,  Tasa = 0.08m },
+                new TramoIR { Limite = 20m * UIT, Tasa = 0.14m },
+                new TramoIR { Limite = 35m * UIT, Tasa = 0.17m },
+                new TramoIR { Limite = 45m * UIT, Tasa = 0.20m },
+                new TramoIR { Limite = decimal.MaxValue, Tasa = 0.30m } // Para el exceso
+            };
 
-            // 1) Aplicar deducción: primero descontar 20% del bruto
+            // --- Cálculos ---
             decimal bruto = monto;
-            decimal despues20 = bruto * 0.80m; // queda el 80%
-
-            // 2) Restar 7 UIT (en moneda) a lo anterior
+            decimal despues20 = bruto * 0.80m;
             decimal deduccion7UIT = 7m * UIT;
             decimal baseImponible = despues20 - deduccion7UIT;
 
-            // Si la base imponible es negativa, no hay base gravable
             if (baseImponible <= 0m)
             {
-                decimal impuestoTotalCero = 0m;
-                decimal tasaEfectivaCero = 0m;
-                decimal netoCero = bruto - impuestoTotalCero;
-
-                lblImpuesto.Text = $"{impuestoTotalCero.ToString("C2", CultureInfo.CurrentCulture)} (tasa efectiva: {tasaEfectivaCero.ToString("P2", CultureInfo.CurrentCulture)})";
-                lblResultado.Text = $"{netoCero.ToString("C2", CultureInfo.CurrentCulture)} (base imponible: {baseImponible.ToString("C2", CultureInfo.CurrentCulture)}, tasa marginal: N/A)";
+                lblImpuesto.Text = $"S/ 0.00 (tasa efectiva: 0%)";
+                lblResultado.Text = $"{bruto.ToString("C2", CultureInfo.CurrentCulture)} (base imponible: S/ 0.00, tasa marginal: N/A)";
                 return;
             }
 
-            // 3) Aplicar tasas por tramo sobre la base imponible resultante
             decimal impuestoTotal = 0m;
-            decimal anterior = 0m; // marcador en moneda de la frontera anterior ya gravada
-            int tasaIndex = tasas.Length - 1; // por defecto, el último tramo si se pasa por encima
+            decimal anterior = 0m;
+            decimal tasaMarginal = 0m;
 
-            for (int i = 0; i < limites.Length; i++)
+            foreach (var tramo in tramos)
             {
-                decimal limite = limites[i];
-
-                if (baseImponible <= limite)
+                if (baseImponible <= tramo.Limite)
                 {
-                    decimal sujeto = Math.Max(0m, baseImponible - anterior);
-                    impuestoTotal += sujeto * tasas[i];
-                    tasaIndex = i;
-                    anterior = baseImponible;
+                    decimal sujeto = baseImponible - anterior;
+                    impuestoTotal += sujeto * tramo.Tasa;
+                    tasaMarginal = tramo.Tasa;
                     break;
                 }
                 else
                 {
-                    decimal sujeto = Math.Max(0m, limite - anterior);
-                    impuestoTotal += sujeto * tasas[i];
-                    anterior = limite;
+                    decimal sujeto = tramo.Limite - anterior;
+                    impuestoTotal += sujeto * tramo.Tasa;
+                    anterior = tramo.Limite;
                 }
             }
 
-            // Si baseImponible excede el último límite (>45 UIT)
-            if (baseImponible > anterior)
-            {
-                decimal restante = baseImponible - anterior;
-                impuestoTotal += restante * tasas[tasas.Length - 1];
-                tasaIndex = tasas.Length - 1;
-            }
-
-            decimal tasaAplicable = tasas[tasaIndex];
-
-            // Tasa efectiva respecto al bruto (evitar división por cero)
             decimal tasaEfectiva = bruto != 0m ? impuestoTotal / bruto : 0m;
             decimal neto = bruto - impuestoTotal;
 
-            // Mostrar resultados: impuesto total + tasa efectiva, y neto + detalles de la base y tasa marginal
+            // --- Salida en pantalla ---
             lblImpuesto.Text = $"{impuestoTotal.ToString("C2", CultureInfo.CurrentCulture)} (tasa efectiva: {tasaEfectiva.ToString("P2", CultureInfo.CurrentCulture)})";
-            lblResultado.Text = $"{neto.ToString("C2", CultureInfo.CurrentCulture)} (base imponible: {baseImponible.ToString("C2", CultureInfo.CurrentCulture)}, tasa marginal: {tasaAplicable.ToString("P0", CultureInfo.CurrentCulture)})";
+            lblResultado.Text = $"{neto.ToString("C2", CultureInfo.CurrentCulture)} (base imponible: {baseImponible.ToString("C2", CultureInfo.CurrentCulture)}, tasa marginal: {tasaMarginal.ToString("P0", CultureInfo.CurrentCulture)})";
         }
     }
 }
