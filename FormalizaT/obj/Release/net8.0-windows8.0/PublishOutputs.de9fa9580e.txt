@@ -1,0 +1,5 @@
+C:\Users\rodry\Downloads\publicar\FormalizaT.exe
+C:\Users\rodry\Downloads\publicar\FormalizaT.dll
+C:\Users\rodry\Downloads\publicar\FormalizaT.deps.json
+C:\Users\rodry\Downloads\publicar\FormalizaT.runtimeconfig.json
+C:\Users\rodry\Downloads\publicar\FormalizaT.pdb

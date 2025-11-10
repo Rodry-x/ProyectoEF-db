@@ -47,22 +47,22 @@
             panelQueEsElRuc.Controls.Add(label2);
             panelQueEsElRuc.Location = new Point(11, 15);
             panelQueEsElRuc.Name = "panelQueEsElRuc";
-            panelQueEsElRuc.Size = new Size(630, 941);
+            panelQueEsElRuc.Size = new Size(630, 1151);
             panelQueEsElRuc.TabIndex = 7;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.imageFinaiciamientoEmpresarial;
-            pictureBox1.Location = new Point(150, 733);
+            pictureBox1.Location = new Point(168, 891);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(374, 199);
+            pictureBox1.Size = new Size(369, 199);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 39;
             pictureBox1.TabStop = false;
             // 
             // button1
             // 
-            button1.Location = new Point(3, 887);
+            button1.Location = new Point(25, 1082);
             button1.Name = "button1";
             button1.Size = new Size(106, 52);
             button1.TabIndex = 7;
@@ -72,9 +72,9 @@
             // 
             // label1
             // 
-            label1.Location = new Point(16, 42);
+            label1.Location = new Point(16, 58);
             label1.Name = "label1";
-            label1.Size = new Size(598, 713);
+            label1.Size = new Size(598, 819);
             label1.TabIndex = 4;
             label1.Text = resources.GetString("label1.Text");
             // 
@@ -93,7 +93,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
-            ClientSize = new Size(653, 961);
+            ClientSize = new Size(653, 1186);
             Controls.Add(panelQueEsElRuc);
             Margin = new Padding(3, 4, 3, 4);
             Name = "FormResponsabilidadSocial";

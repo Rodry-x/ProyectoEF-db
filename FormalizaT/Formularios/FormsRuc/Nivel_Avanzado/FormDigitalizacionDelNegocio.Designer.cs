@@ -53,7 +53,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.imagedigitalizacion;
-            pictureBox1.Location = new Point(173, 735);
+            pictureBox1.Location = new Point(173, 745);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(312, 171);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -72,9 +72,9 @@
             // 
             // label1
             // 
-            label1.Location = new Point(17, 35);
+            label1.Location = new Point(17, 42);
             label1.Name = "label1";
-            label1.Size = new Size(598, 697);
+            label1.Size = new Size(598, 695);
             label1.TabIndex = 4;
             label1.Text = resources.GetString("label1.Text");
             // 
@@ -82,7 +82,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 15F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label2.Location = new Point(158, -3);
+            label2.Location = new Point(158, 5);
             label2.Name = "label2";
             label2.Size = new Size(327, 35);
             label2.TabIndex = 6;

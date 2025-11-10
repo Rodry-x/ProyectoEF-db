@@ -1,0 +1,5 @@
+C:\Users\rodry\source\repos\FormalizaT\FormalizaT\bin\Release\net8.0-windows8.0\publish\FormalizaT.exe
+C:\Users\rodry\source\repos\FormalizaT\FormalizaT\bin\Release\net8.0-windows8.0\publish\FormalizaT.dll
+C:\Users\rodry\source\repos\FormalizaT\FormalizaT\bin\Release\net8.0-windows8.0\publish\FormalizaT.deps.json
+C:\Users\rodry\source\repos\FormalizaT\FormalizaT\bin\Release\net8.0-windows8.0\publish\FormalizaT.runtimeconfig.json
+C:\Users\rodry\source\repos\FormalizaT\FormalizaT\bin\Release\net8.0-windows8.0\publish\FormalizaT.pdb

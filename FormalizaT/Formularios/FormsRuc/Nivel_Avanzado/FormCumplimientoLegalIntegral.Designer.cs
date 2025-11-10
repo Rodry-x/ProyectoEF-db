@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCumplimientoLegalIntegral));
             panelQueEsElRuc = new Panel();
+            label3 = new Label();
             pictureBox1 = new PictureBox();
             button1 = new Button();
             label1 = new Label();
@@ -41,6 +42,7 @@
             // panelQueEsElRuc
             // 
             panelQueEsElRuc.AutoScroll = true;
+            panelQueEsElRuc.Controls.Add(label3);
             panelQueEsElRuc.Controls.Add(pictureBox1);
             panelQueEsElRuc.Controls.Add(button1);
             panelQueEsElRuc.Controls.Add(label1);
@@ -50,12 +52,20 @@
             panelQueEsElRuc.Size = new Size(630, 915);
             panelQueEsElRuc.TabIndex = 7;
             // 
+            // label3
+            // 
+            label3.Location = new Point(16, 671);
+            label3.Name = "label3";
+            label3.Size = new Size(238, 158);
+            label3.TabIndex = 40;
+            label3.Text = "Otras Normas Relevantes\r\n\r\n• Seguridad y salud ocupacional.\r\n• Protección y defensa civiles.\r\n• La adecuada documentación y cumplimientos laborales asociados.";
+            // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.imagenCumplimiento;
-            pictureBox1.Location = new Point(258, 670);
+            pictureBox1.Location = new Point(270, 666);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(356, 203);
+            pictureBox1.Size = new Size(334, 193);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 39;
             pictureBox1.TabStop = false;
@@ -72,9 +82,9 @@
             // 
             // label1
             // 
-            label1.Location = new Point(16, 37);
+            label1.Location = new Point(16, 46);
             label1.Name = "label1";
-            label1.Size = new Size(598, 704);
+            label1.Size = new Size(598, 609);
             label1.TabIndex = 4;
             label1.Text = resources.GetString("label1.Text");
             // 
@@ -82,7 +92,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 15F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label2.Location = new Point(154, 0);
+            label2.Location = new Point(154, 4);
             label2.Name = "label2";
             label2.Size = new Size(353, 35);
             label2.TabIndex = 6;
@@ -110,5 +120,6 @@
         private Button button1;
         private Label label1;
         private Label label2;
+        private Label label3;
     }
 }

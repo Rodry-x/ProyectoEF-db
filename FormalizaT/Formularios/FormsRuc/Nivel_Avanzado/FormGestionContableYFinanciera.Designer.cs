@@ -53,9 +53,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.imageGestionFinancier;
-            pictureBox1.Location = new Point(163, 683);
+            pictureBox1.Location = new Point(189, 725);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(317, 183);
+            pictureBox1.Size = new Size(238, 146);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 39;
             pictureBox1.TabStop = false;
@@ -74,7 +74,7 @@
             // 
             label1.Location = new Point(18, 51);
             label1.Name = "label1";
-            label1.Size = new Size(598, 633);
+            label1.Size = new Size(598, 671);
             label1.TabIndex = 4;
             label1.Text = resources.GetString("label1.Text");
             // 

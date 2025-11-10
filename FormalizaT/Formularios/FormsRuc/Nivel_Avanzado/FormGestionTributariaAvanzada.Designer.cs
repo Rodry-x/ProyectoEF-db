@@ -47,22 +47,22 @@
             panelQueEsElRuc.Controls.Add(label2);
             panelQueEsElRuc.Location = new Point(11, 12);
             panelQueEsElRuc.Name = "panelQueEsElRuc";
-            panelQueEsElRuc.Size = new Size(630, 984);
+            panelQueEsElRuc.Size = new Size(630, 1214);
             panelQueEsElRuc.TabIndex = 6;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.imagenGestion;
-            pictureBox1.Location = new Point(280, 813);
+            pictureBox1.Location = new Point(194, 1004);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(273, 156);
+            pictureBox1.Size = new Size(326, 188);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 40;
             pictureBox1.TabStop = false;
             // 
             // button1
             // 
-            button1.Location = new Point(14, 908);
+            button1.Location = new Point(14, 1140);
             button1.Name = "button1";
             button1.Size = new Size(106, 52);
             button1.TabIndex = 7;
@@ -74,7 +74,7 @@
             // 
             label1.Location = new Point(14, 49);
             label1.Name = "label1";
-            label1.Size = new Size(598, 771);
+            label1.Size = new Size(598, 936);
             label1.TabIndex = 4;
             label1.Text = resources.GetString("label1.Text");
             // 
@@ -93,7 +93,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
-            ClientSize = new Size(653, 999);
+            ClientSize = new Size(653, 1260);
             Controls.Add(panelQueEsElRuc);
             Margin = new Padding(3, 4, 3, 4);
             Name = "FormGestionTributariaAvanzada";

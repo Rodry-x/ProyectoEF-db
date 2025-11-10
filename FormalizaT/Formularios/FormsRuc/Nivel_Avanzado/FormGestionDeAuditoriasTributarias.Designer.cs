@@ -44,12 +44,12 @@
             panelQueEsElRuc.Controls.Add(label2);
             panelQueEsElRuc.Location = new Point(11, 9);
             panelQueEsElRuc.Name = "panelQueEsElRuc";
-            panelQueEsElRuc.Size = new Size(630, 915);
+            panelQueEsElRuc.Size = new Size(630, 1041);
             panelQueEsElRuc.TabIndex = 8;
             // 
             // button1
             // 
-            button1.Location = new Point(3, 860);
+            button1.Location = new Point(16, 964);
             button1.Name = "button1";
             button1.Size = new Size(106, 52);
             button1.TabIndex = 7;
@@ -59,9 +59,9 @@
             // 
             // label1
             // 
-            label1.Location = new Point(16, 37);
+            label1.Location = new Point(16, 47);
             label1.Name = "label1";
-            label1.Size = new Size(598, 820);
+            label1.Size = new Size(598, 876);
             label1.TabIndex = 4;
             label1.Text = resources.GetString("label1.Text");
             // 
@@ -69,7 +69,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 15F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label2.Location = new Point(128, 0);
+            label2.Location = new Point(128, 7);
             label2.Name = "label2";
             label2.Size = new Size(397, 35);
             label2.TabIndex = 6;
@@ -80,7 +80,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
-            ClientSize = new Size(653, 935);
+            ClientSize = new Size(653, 1162);
             Controls.Add(panelQueEsElRuc);
             Margin = new Padding(3, 4, 3, 4);
             Name = "FormGestionDeAuditoriasTributarias";

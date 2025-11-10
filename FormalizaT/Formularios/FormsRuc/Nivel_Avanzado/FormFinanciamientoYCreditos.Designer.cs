@@ -53,9 +53,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.gestion_financiera1;
-            pictureBox1.Location = new Point(207, 693);
+            pictureBox1.Location = new Point(203, 731);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(257, 171);
+            pictureBox1.Size = new Size(199, 133);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 39;
             pictureBox1.TabStop = false;
@@ -72,9 +72,9 @@
             // 
             // label1
             // 
-            label1.Location = new Point(18, 57);
+            label1.Location = new Point(18, 50);
             label1.Name = "label1";
-            label1.Size = new Size(598, 633);
+            label1.Size = new Size(598, 668);
             label1.TabIndex = 4;
             label1.Text = resources.GetString("label1.Text");
             // 
@@ -82,7 +82,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 15F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label2.Location = new Point(88, 0);
+            label2.Location = new Point(88, 7);
             label2.Name = "label2";
             label2.Size = new Size(493, 35);
             label2.TabIndex = 6;
