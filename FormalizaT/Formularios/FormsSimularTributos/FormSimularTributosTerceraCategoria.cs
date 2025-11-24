@@ -1,4 +1,5 @@
-﻿using FormalizaT.Utilidades;
+﻿using FormalizaT.EstructuraDeDatos;
+using FormalizaT.Utilidades;
 using System.Globalization;
 
 namespace FormalizaT.Formularios.FormsSimularTributos
@@ -39,27 +40,62 @@ namespace FormalizaT.Formularios.FormsSimularTributos
                 cmbRegimenes.Items.Add(key);
         }
 
-        private void simularImporte_Click(object sender, EventArgs e)
+        // Clase para tramos
+        private class Tramo
         {
-            if (cmbRegimenes.SelectedItem == null)
+            public decimal Limite { get; set; }
+            public decimal Tasa { get; set; }
+        }
+
+        private ListaEnlazada<Tramo> CrearListaTramosTerceraCategoria()
+        {
+            decimal UIT = 5350m; // UIT para 2025 según tu uso
+
+            var lista = new ListaEnlazada<Tramo>();
+
+            // Tramos según SUNAT tramos IR 2025
+            lista.Agregar(new Tramo { Limite = 5 * UIT, Tasa = 0.08m });
+            lista.Agregar(new Tramo { Limite = 20 * UIT, Tasa = 0.14m });
+            lista.Agregar(new Tramo { Limite = 35 * UIT, Tasa = 0.17m });
+            lista.Agregar(new Tramo { Limite = 45 * UIT, Tasa = 0.20m });
+            lista.Agregar(new Tramo { Limite = decimal.MaxValue, Tasa = 0.30m });
+
+            return lista;
+        }
+
+        private decimal CalcularImpuestoTerceraCategoria(decimal utilidad)
+        {
+            // utilidad: ingreso neto (o base imponible)
+            var tramos = CrearListaTramosTerceraCategoria();
+            var nodo = tramos.Inicio;
+
+            while (nodo != null)
             {
-                lblResultados.Text = "Seleccione un régimen tributario.";
-                lblImpuesto.Text = string.Empty;
-                return;
+                if (utilidad <= nodo.Valor.Limite)
+                {
+                    return utilidad * nodo.Valor.Tasa;
+                }
+                nodo = nodo.Siguiente;
             }
 
-            string regimenSeleccionado = cmbRegimenes.SelectedItem.ToString();
+            return 0m;
+        }
 
-            // Validar ingresos y gastos
-            if (!decimal.TryParse(txtMontoBruto.Text, NumberStyles.Number, CultureInfo.InvariantCulture, out decimal ingresos) ||
-                !decimal.TryParse(txtMontoNeto.Text, NumberStyles.Number, CultureInfo.InvariantCulture, out decimal gastos))
+        private void simularImporte_Click(object sender, EventArgs e)
+        {
+            string textoIngresos = txtMontoBruto.Text?.Trim() ?? string.Empty;
+            string textoGastos = txtMontoNeto.Text?.Trim() ?? string.Empty;
+
+            if (!decimal.TryParse(textoIngresos, NumberStyles.Number | NumberStyles.AllowCurrencySymbol,
+                    CultureInfo.CurrentCulture, out decimal ingresos) ||
+                !decimal.TryParse(textoGastos, NumberStyles.Number | NumberStyles.AllowCurrencySymbol,
+                    CultureInfo.CurrentCulture, out decimal gastos))
             {
                 lblResultados.Text = "Ingrese valores válidos para ingresos y gastos.";
                 lblImpuesto.Text = string.Empty;
                 return;
             }
 
-            // Calcular utilidad
             decimal utilidad = ingresos - gastos;
             if (utilidad < 0)
             {
@@ -68,35 +104,10 @@ namespace FormalizaT.Formularios.FormsSimularTributos
                 return;
             }
 
-            decimal impuesto = 0m;
-
-            // Calcular según el régimen
-            switch (regimenSeleccionado)
-            {
-                case "MYPE Tributario":
-                    decimal limite = 15 * UIT;
-                    if (utilidad <= limite)
-                        impuesto = utilidad * 0.10m;
-                    else
-                        impuesto = (limite * 0.10m) + ((utilidad - limite) * 0.295m);
-                    break;
-
-                case "Régimen General":
-                    impuesto = utilidad * 0.295m;
-                    break;
-
-                case "RER (Especial)":
-                    impuesto = utilidad * 0.015m;
-                    break;
-
-                case "RUS (Simplificado)":
-                    impuesto = utilidad * 0.01m;
-                    break;
-            }
-
+            decimal impuesto = CalcularImpuestoTerceraCategoria(utilidad);
             decimal resultado = utilidad - impuesto;
 
-            lblImpuesto.Text = $"Impuesto ({regimenSeleccionado}): {impuesto.ToString("C2", CultureInfo.CurrentCulture)}";
+            lblImpuesto.Text = $"Impuesto: {impuesto.ToString("C2", CultureInfo.CurrentCulture)}";
             lblResultados.Text = $"Utilidad neta después de impuesto: {resultado.ToString("C2", CultureInfo.CurrentCulture)}";
         }
 
@@ -116,10 +127,6 @@ namespace FormalizaT.Formularios.FormsSimularTributos
         {
             lblResultados.Text = string.Empty;
             lblImpuesto.Text = string.Empty;
-        }
-
-        private void label7_Click(object sender, EventArgs e)
-        {
         }
     }
 }

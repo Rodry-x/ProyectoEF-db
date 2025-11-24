@@ -1,5 +1,4 @@
 ﻿using FormalizaT.Utilidades;
-using System.Globalization;
 
 namespace FormalizaT.Formularios.FormsSimularTributos
 {

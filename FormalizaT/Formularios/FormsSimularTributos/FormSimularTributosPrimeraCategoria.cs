@@ -1,21 +1,17 @@
 ﻿using FormalizaT.Utilidades;
+using FormalizaT.EstructuraDeDatos;
 using System.Globalization;
-using System.Collections.Generic; // para List<T>
 
 namespace FormalizaT.Formularios.FormsSimularTributos
 {
     public partial class FormSimularTributosPrimeraCategoria : Form
     {
-        // Lista para almacenar los resultados o montos simulados
-        private List<string> historialSimulaciones = new List<string>();
-
         public FormSimularTributosPrimeraCategoria()
         {
             InitializeComponent();
         }
 
         private FormSimularTributos formSimularTributos;
-
         public Panel PrimeraCategoria => panelSimularTributosPrimeraCategoria;
 
         private void cambiarAlPanelSimularTributos(object sender, EventArgs e)
@@ -24,56 +20,73 @@ namespace FormalizaT.Formularios.FormsSimularTributos
             PanelController.CambiarPanel(panelSimularTributosPrimeraCategoria, formSimularTributos.PanelSimularTributosControl);
         }
 
+        // ----------- ESTRUCTURA CON LISTA ENLAZADA -----------
+        private class Tramo
+        {
+            public decimal Limite { get; set; }
+            public decimal Tasa { get; set; }
+        }
+
+        private ListaEnlazada<Tramo> CrearListaTramos(decimal tasaUnica)
+        {
+            var lista = new ListaEnlazada<Tramo>();
+            lista.Agregar(new Tramo
+            {
+                Limite = decimal.MaxValue,
+                Tasa = tasaUnica
+            });
+            return lista;
+        }
+        // -------------------------------------------------------
+
         private void simularImporte_Click(object sender, EventArgs e)
         {
             string texto = txtMonto.Text?.Trim() ?? string.Empty;
 
             if (string.IsNullOrEmpty(texto))
             {
-                lblResultado.Text = "Ingrese un monto.";
+                lblResultado.Text = "Ingrese un monto válido.";
                 lblImpuesto.Text = string.Empty;
                 lblAdicional.Text = string.Empty;
                 return;
             }
 
-            if (!decimal.TryParse(texto, NumberStyles.Number | NumberStyles.AllowCurrencySymbol, CultureInfo.CurrentCulture, out decimal monto) &&
-                !decimal.TryParse(texto, NumberStyles.Number | NumberStyles.AllowCurrencySymbol, CultureInfo.InvariantCulture, out monto))
+            if (!decimal.TryParse(texto, NumberStyles.Number | NumberStyles.AllowCurrencySymbol,
+                CultureInfo.CurrentCulture, out decimal monto))
             {
-                lblResultado.Text = "Formato de monto inválido.";
+                lblResultado.Text = "Formato inválido.";
                 lblImpuesto.Text = string.Empty;
                 lblAdicional.Text = string.Empty;
                 return;
             }
 
-            decimal descuento = monto * 0.05m;
-            decimal resultado = monto - descuento;
-
-            lblImpuesto.Text = descuento.ToString("C2", CultureInfo.CurrentCulture);
-            lblResultado.Text = resultado.ToString("C2", CultureInfo.CurrentCulture);
-
-            decimal impuestoAnual = descuento * 12m;
-            const decimal umbralAnual = 600m;
-
-            string mensaje;
-            if (impuestoAnual > umbralAnual)
+            if (monto <= 0)
             {
-                mensaje = "No hay obligación de presentar declaración jurada anual";
-            }
-            else
-            {
-                decimal diferenciaAnual = umbralAnual - impuestoAnual;
-                decimal diferenciaMensual = diferenciaAnual / 12m;
-                mensaje = "Debe presentar su declaración jurada anual y pagar la diferencia resultante. " +
-                          $"Diferencia: {diferenciaMensual.ToString("C2", CultureInfo.CurrentCulture)} mensuales " +
-                          $"({diferenciaAnual.ToString("C2", CultureInfo.CurrentCulture)} anuales).";
+                lblResultado.Text = "El monto debe ser mayor que cero.";
+                lblImpuesto.Text = string.Empty;
+                lblAdicional.Text = string.Empty;
+                return;
             }
 
-            lblAdicional.Text = mensaje;
+            // Crear lista enlazada con la tasa de Primera Categoría (5%)
+            decimal tasa = 0.05m;
+            var listaTramos = CrearListaTramos(tasa);
 
-            // Guardamos un resumen de la simulación en la lista (estructura de datos)
-            historialSimulaciones.Add(
-                $"Monto: {monto.ToString("C2")} | Descuento: {descuento.ToString("C2")} | Resultado: {resultado.ToString("C2")} | {mensaje}"
-            );
+            // Calcular impuesto usando la lista enlazada
+            decimal impuesto = 0m;
+            var nodo = listaTramos.Inicio;
+            if (nodo != null)
+            {
+                impuesto = monto * nodo.Valor.Tasa;
+            }
+
+
+            decimal neto = monto - impuesto;
+
+            // Mostrar resultados
+            lblResultado.Text = neto.ToString("C2", CultureInfo.CurrentCulture);
+            lblImpuesto.Text = impuesto.ToString("C2", CultureInfo.CurrentCulture);
+            lblAdicional.Text = "Cálculo correcto para Primera Categoría (5%).";
         }
     }
 }
