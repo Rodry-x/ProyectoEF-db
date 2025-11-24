@@ -9,7 +9,6 @@ namespace FormalizaT.Formularios.FormsSimularTributos
     {
         private ListaEnlazada<string> historialSegundaCategoria = new ListaEnlazada<string>();
 
-
         public FormSimularTributosSegundaCategoria()
         {
             InitializeComponent();
@@ -25,9 +24,7 @@ namespace FormalizaT.Formularios.FormsSimularTributos
             PanelController.CambiarPanel(panelSimularTributoSegundaCategoria, formSimularTributos.PanelSimularTributosControl);
         }
 
-        // =========================================================
-        // ===============   ESTRUCTURA DE TRAMOS   ================
-        // =========================================================
+        //  ESTRUCTURA DE TRAMOS  //
 
         private class Tramo
         {
@@ -81,9 +78,7 @@ namespace FormalizaT.Formularios.FormsSimularTributos
             return 0m; // Nunca debería llegar aquí
         }
 
-        // =========================================================
-        // ===============   EVENTO DE SIMULACIÓN    ===============
-        // =========================================================
+        //  EVENTO DE SIMULACIÓN  //  
 
         private void simularImporte_Click(object sender, EventArgs e)
         {

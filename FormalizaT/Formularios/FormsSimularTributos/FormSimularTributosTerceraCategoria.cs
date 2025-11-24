@@ -14,9 +14,6 @@ namespace FormalizaT.Formularios.FormsSimularTributos
 
         private FormSimularTributos formSimularTributos;
 
-        // Diccionario para almacenar tasas base de regímenes
-        private readonly Dictionary<string, decimal> regimenes = new Dictionary<string, decimal>();
-
         // Valor referencial de la UIT 2025 (según SUNAT)
         private const decimal UIT = 5350m;
 
@@ -30,55 +27,52 @@ namespace FormalizaT.Formularios.FormsSimularTributos
 
         private void InicializarRegimenes()
         {
-            regimenes.Add("RUS (Simplificado)", 0.01m);   // Aprox. 1%
-            regimenes.Add("RER (Especial)", 0.015m);      // Aprox. 1.5%
-            regimenes.Add("MYPE Tributario", 0.10m);      // 10% hasta 15 UIT
-            regimenes.Add("Régimen General", 0.295m);     // 29.5%
-
             cmbRegimenes.Items.Clear();
-            foreach (var key in regimenes.Keys)
-                cmbRegimenes.Items.Add(key);
+            cmbRegimenes.Items.Add("RUS (Categorías 1 y 2)");
+            cmbRegimenes.Items.Add("RER (1.5%)");
+            cmbRegimenes.Items.Add("MYPE Tributario");
+            cmbRegimenes.Items.Add("Régimen General (29.5%)");
         }
 
-        // Clase para tramos
+
+        // --- TRAMOS MYPE ---
         private class Tramo
         {
             public decimal Limite { get; set; }
             public decimal Tasa { get; set; }
         }
 
-        private ListaEnlazada<Tramo> CrearListaTramosTerceraCategoria()
+        private ListaEnlazada<Tramo> CrearTramosMype()
         {
-            decimal UIT = 5350m; // UIT para 2025 según tu uso
-
             var lista = new ListaEnlazada<Tramo>();
-
-            // Tramos según SUNAT tramos IR 2025
-            lista.Agregar(new Tramo { Limite = 5 * UIT, Tasa = 0.08m });
-            lista.Agregar(new Tramo { Limite = 20 * UIT, Tasa = 0.14m });
-            lista.Agregar(new Tramo { Limite = 35 * UIT, Tasa = 0.17m });
-            lista.Agregar(new Tramo { Limite = 45 * UIT, Tasa = 0.20m });
-            lista.Agregar(new Tramo { Limite = decimal.MaxValue, Tasa = 0.30m });
-
+            lista.Agregar(new Tramo { Limite = 15 * UIT, Tasa = 0.10m });
+            lista.Agregar(new Tramo { Limite = decimal.MaxValue, Tasa = 0.295m });
             return lista;
         }
 
-        private decimal CalcularImpuestoTerceraCategoria(decimal utilidad)
+        private decimal CalcularMype(decimal utilidad)
         {
-            // utilidad: ingreso neto (o base imponible)
-            var tramos = CrearListaTramosTerceraCategoria();
+            var tramos = CrearTramosMype();
             var nodo = tramos.Inicio;
+            decimal anterior = 0m;
+            decimal impuesto = 0m;
 
             while (nodo != null)
             {
-                if (utilidad <= nodo.Valor.Limite)
+                var tramo = nodo.Valor;
+                if (utilidad <= tramo.Limite)
                 {
-                    return utilidad * nodo.Valor.Tasa;
+                    impuesto += (utilidad - anterior) * tramo.Tasa;
+                    break;
+                }
+                else
+                {
+                    impuesto += (tramo.Limite - anterior) * tramo.Tasa;
+                    anterior = tramo.Limite;
                 }
                 nodo = nodo.Siguiente;
             }
-
-            return 0m;
+            return impuesto;
         }
 
         private void simularImporte_Click(object sender, EventArgs e)
@@ -86,12 +80,10 @@ namespace FormalizaT.Formularios.FormsSimularTributos
             string textoIngresos = txtMontoBruto.Text?.Trim() ?? string.Empty;
             string textoGastos = txtMontoNeto.Text?.Trim() ?? string.Empty;
 
-            if (!decimal.TryParse(textoIngresos, NumberStyles.Number | NumberStyles.AllowCurrencySymbol,
-                    CultureInfo.CurrentCulture, out decimal ingresos) ||
-                !decimal.TryParse(textoGastos, NumberStyles.Number | NumberStyles.AllowCurrencySymbol,
-                    CultureInfo.CurrentCulture, out decimal gastos))
+            if (!decimal.TryParse(textoIngresos, out decimal ingresos) ||
+                !decimal.TryParse(textoGastos, out decimal gastos))
             {
-                lblResultados.Text = "Ingrese valores válidos para ingresos y gastos.";
+                lblResultados.Text = "Ingrese valores válidos.";
                 lblImpuesto.Text = string.Empty;
                 return;
             }
@@ -99,34 +91,78 @@ namespace FormalizaT.Formularios.FormsSimularTributos
             decimal utilidad = ingresos - gastos;
             if (utilidad < 0)
             {
-                lblResultados.Text = "Pérdida: los gastos superan los ingresos.";
-                lblImpuesto.Text = string.Empty;
+                lblResultados.Text = "Pérdida: gastos mayores a ingresos.";
+                lblImpuesto.Text = "";
                 return;
             }
 
-            decimal impuesto = CalcularImpuestoTerceraCategoria(utilidad);
+            if (cmbRegimenes.SelectedIndex == -1)
+            {
+                lblResultados.Text = "Seleccione un régimen.";
+                return;
+            }
+
+            string regimen = cmbRegimenes.SelectedItem.ToString();
+            decimal impuesto = 0m;
+
+
+            // ----- RUS -----
+            if (regimen.Contains("RUS"))
+            {
+                if (ingresos <= 5000m)
+                {
+                    impuesto = 20m;  // Categoría 1
+                }
+                else if (ingresos <= 8000m)
+                {
+                    impuesto = 50m;  // Categoría 2
+                }
+                else
+                {
+                    lblResultados.Text = "El monto supera el límite del RUS.";
+                    lblImpuesto.Text = "";
+                    return;
+                }
+            }
+
+            // ----- RER -----
+            else if (regimen.Contains("RER"))
+            {
+                impuesto = ingresos * 0.015m;
+            }
+            // ----- MYPE -----
+            else if (regimen.Contains("MYPE"))
+            {
+                impuesto = CalcularMype(utilidad);
+            }
+            // ----- GENERAL -----
+            else if (regimen.Contains("General"))
+            {
+                impuesto = utilidad * 0.295m;
+            }
+
             decimal resultado = utilidad - impuesto;
 
-            lblImpuesto.Text = $"Impuesto: {impuesto.ToString("C2", CultureInfo.CurrentCulture)}";
-            lblResultados.Text = $"Utilidad neta después de impuesto: {resultado.ToString("C2", CultureInfo.CurrentCulture)}";
+            lblImpuesto.Text = $"Impuesto: {impuesto.ToString("C2")}";
+            lblResultados.Text = $"Utilidad neta después de impuesto: {resultado.ToString("C2")}";
         }
 
         private void txtMontoBruto_TextChanged(object sender, EventArgs e)
         {
-            lblResultados.Text = string.Empty;
-            lblImpuesto.Text = string.Empty;
+            lblResultados.Text = "";
+            lblImpuesto.Text = "";
         }
 
         private void txtMontoNeto_TextChanged(object sender, EventArgs e)
         {
-            lblResultados.Text = string.Empty;
-            lblImpuesto.Text = string.Empty;
+            lblResultados.Text = "";
+            lblImpuesto.Text = "";
         }
 
         private void cmbRegimenes_SelectedIndexChanged(object sender, EventArgs e)
         {
-            lblResultados.Text = string.Empty;
-            lblImpuesto.Text = string.Empty;
+            lblResultados.Text = "";
+            lblImpuesto.Text = "";
         }
     }
 }
