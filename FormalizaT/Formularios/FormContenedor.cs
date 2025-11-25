@@ -2,8 +2,6 @@
 using FormalizaT.Utilidades;
 using MaterialSkin;
 using MaterialSkin.Controls;
-using System.Runtime.InteropServices;
-
 
 namespace FormalizaT
 {
@@ -20,10 +18,9 @@ namespace FormalizaT
         {
             InitializeComponent();
 
-            // --- MaterialSkin: mantener la configuración de colores/tema pero NO registrar el form ---
+            // --- MaterialSkin ---
             var materialManager = MaterialSkinManager.Instance;
-            // NO llamar a materialManager.AddFormToManage(this);
-            materialManager.Theme = MaterialSkinManager.Themes.LIGHT; // o DARK
+            materialManager.Theme = MaterialSkinManager.Themes.LIGHT;
             materialManager.ColorScheme = new ColorScheme(
                 Primary.Blue600, Primary.Blue700, Primary.Blue200,
                 Accent.LightBlue200, TextShade.WHITE);
@@ -36,11 +33,6 @@ namespace FormalizaT
         {
             formPrincipal = new FormPrincipal();
             PanelController.CambiarPanel(panelContenedor, formPrincipal.PanelPrincipalControl);
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void cambiarAlPanelSimularTributos_Click(object sender, EventArgs e)

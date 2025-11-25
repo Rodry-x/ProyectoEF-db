@@ -40,16 +40,19 @@
             button1 = new Button();
             pictureBox1 = new PictureBox();
             label1 = new Label();
+            pictureBox6 = new PictureBox();
             panelInformacionBasica.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox5).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
             SuspendLayout();
             // 
             // panelInformacionBasica
             // 
+            panelInformacionBasica.Controls.Add(pictureBox6);
             panelInformacionBasica.Controls.Add(button5);
             panelInformacionBasica.Controls.Add(pictureBox5);
             panelInformacionBasica.Controls.Add(button4);
@@ -176,6 +179,17 @@
             label1.TabIndex = 0;
             label1.Text = "Nivel Introduccion";
             // 
+            // pictureBox6
+            // 
+            pictureBox6.Image = Properties.Resources.iconoHelp;
+            pictureBox6.Location = new Point(564, 466);
+            pictureBox6.Name = "pictureBox6";
+            pictureBox6.Size = new Size(45, 46);
+            pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox6.TabIndex = 12;
+            pictureBox6.TabStop = false;
+            pictureBox6.Click += Ayuda_Click;
+            // 
             // FormInformacionBasica
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -191,6 +205,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             ResumeLayout(false);
         }
 
@@ -208,5 +223,6 @@
         private PictureBox pictureBox4;
         private PictureBox pictureBox5;
         private Button button5;
+        private PictureBox pictureBox6;
     }
 }

@@ -61,19 +61,17 @@
             panelSimularTributos.Controls.Add(button1);
             panelSimularTributos.Controls.Add(pictureBox1);
             panelSimularTributos.Controls.Add(label1);
-            panelSimularTributos.Location = new Point(6, 3);
-            panelSimularTributos.Margin = new Padding(3, 2, 3, 2);
+            panelSimularTributos.Location = new Point(7, 4);
             panelSimularTributos.Name = "panelSimularTributos";
-            panelSimularTributos.Size = new Size(551, 398);
+            panelSimularTributos.Size = new Size(630, 531);
             panelSimularTributos.TabIndex = 0;
             // 
             // pictureBox5
             // 
             pictureBox5.Image = Properties.Resources.imagenDeTrabajadorOficina;
-            pictureBox5.Location = new Point(328, 219);
-            pictureBox5.Margin = new Padding(3, 2, 3, 2);
+            pictureBox5.Location = new Point(375, 292);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(122, 100);
+            pictureBox5.Size = new Size(139, 133);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox5.TabIndex = 10;
             pictureBox5.TabStop = false;
@@ -81,20 +79,18 @@
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.imagenDeTrabajadorEnConstruccion2;
-            pictureBox4.Location = new Point(88, 228);
-            pictureBox4.Margin = new Padding(3, 2, 3, 2);
+            pictureBox4.Location = new Point(101, 304);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(122, 98);
+            pictureBox4.Size = new Size(139, 131);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox4.TabIndex = 9;
             pictureBox4.TabStop = false;
             // 
             // button5
             // 
-            button5.Location = new Point(328, 331);
-            button5.Margin = new Padding(3, 2, 3, 2);
+            button5.Location = new Point(375, 441);
             button5.Name = "button5";
-            button5.Size = new Size(122, 61);
+            button5.Size = new Size(139, 60);
             button5.TabIndex = 8;
             button5.Text = "Renta de Quinta Categoria";
             button5.UseVisualStyleBackColor = true;
@@ -102,10 +98,9 @@
             // 
             // button4
             // 
-            button4.Location = new Point(88, 336);
-            button4.Margin = new Padding(3, 2, 3, 2);
+            button4.Location = new Point(101, 448);
             button4.Name = "button4";
-            button4.Size = new Size(122, 56);
+            button4.Size = new Size(139, 53);
             button4.TabIndex = 7;
             button4.Text = "Renta de Cuarta Categoria";
             button4.UseVisualStyleBackColor = true;
@@ -113,10 +108,9 @@
             // 
             // button3
             // 
-            button3.Location = new Point(395, 162);
-            button3.Margin = new Padding(3, 2, 3, 2);
+            button3.Location = new Point(451, 216);
             button3.Name = "button3";
-            button3.Size = new Size(122, 48);
+            button3.Size = new Size(139, 54);
             button3.TabIndex = 6;
             button3.Text = "Renta de Tercera Categoria";
             button3.UseVisualStyleBackColor = true;
@@ -124,10 +118,9 @@
             // 
             // button2
             // 
-            button2.Location = new Point(212, 162);
-            button2.Margin = new Padding(3, 2, 3, 2);
+            button2.Location = new Point(242, 216);
             button2.Name = "button2";
-            button2.Size = new Size(122, 48);
+            button2.Size = new Size(139, 54);
             button2.TabIndex = 5;
             button2.Text = "Renta de Segunda Categoria";
             button2.UseVisualStyleBackColor = true;
@@ -136,10 +129,9 @@
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.imagenEmpresa1;
-            pictureBox3.Location = new Point(395, 66);
-            pictureBox3.Margin = new Padding(3, 2, 3, 2);
+            pictureBox3.Location = new Point(451, 88);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(129, 91);
+            pictureBox3.Size = new Size(147, 121);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex = 4;
             pictureBox3.TabStop = false;
@@ -147,20 +139,18 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.imagenBolsaDeAcciones1;
-            pictureBox2.Location = new Point(212, 66);
-            pictureBox2.Margin = new Padding(3, 2, 3, 2);
+            pictureBox2.Location = new Point(242, 88);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(125, 91);
+            pictureBox2.Size = new Size(143, 121);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
             // 
             // button1
             // 
-            button1.Location = new Point(21, 162);
-            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Location = new Point(24, 216);
             button1.Name = "button1";
-            button1.Size = new Size(122, 48);
+            button1.Size = new Size(139, 54);
             button1.TabIndex = 2;
             button1.Text = "Renta de Primera Categoria";
             button1.UseVisualStyleBackColor = true;
@@ -169,10 +159,9 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.imagenDeAlquilarCasa1;
-            pictureBox1.Location = new Point(21, 66);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Location = new Point(24, 88);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(122, 91);
+            pictureBox1.Size = new Size(139, 121);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
@@ -181,19 +170,18 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 30F, FontStyle.Bold | FontStyle.Italic);
-            label1.Location = new Point(112, 7);
+            label1.Location = new Point(104, 9);
             label1.Name = "label1";
-            label1.Size = new Size(337, 54);
+            label1.Size = new Size(423, 67);
             label1.TabIndex = 0;
             label1.Text = "Simular Tributos";
             // 
             // FormSimularTributos
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(563, 406);
+            ClientSize = new Size(643, 541);
             Controls.Add(panelSimularTributos);
-            Margin = new Padding(3, 2, 3, 2);
             Name = "FormSimularTributos";
             Text = "FormPrincipal";
             panelSimularTributos.ResumeLayout(false);

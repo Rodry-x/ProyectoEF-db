@@ -52,6 +52,7 @@
             cambiarAlPanelPasosParaFormalizar = new Button();
             pictureBox1 = new PictureBox();
             label1 = new Label();
+            pictureBox8 = new PictureBox();
             panelInformacionAvanzada.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
@@ -64,11 +65,13 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             SuspendLayout();
             // 
             // panelInformacionAvanzada
             // 
             panelInformacionAvanzada.AutoScroll = true;
+            panelInformacionAvanzada.Controls.Add(pictureBox8);
             panelInformacionAvanzada.Controls.Add(button11);
             panelInformacionAvanzada.Controls.Add(pictureBox12);
             panelInformacionAvanzada.Controls.Add(button9);
@@ -327,6 +330,17 @@
             label1.TabIndex = 0;
             label1.Text = "Nivel Avanzado";
             // 
+            // pictureBox8
+            // 
+            pictureBox8.Image = Properties.Resources.iconoHelp;
+            pictureBox8.Location = new Point(555, 644);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(47, 43);
+            pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox8.TabIndex = 36;
+            pictureBox8.TabStop = false;
+            pictureBox8.Click += Ayuda_Click;
+            // 
             // FormInformacionAvanzada
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -350,6 +364,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ResumeLayout(false);
         }
 
@@ -379,5 +394,6 @@
         private Button cambiarAlPanelPasosParaFormalizar;
         private PictureBox pictureBox1;
         private Label label1;
+        private PictureBox pictureBox8;
     }
 }

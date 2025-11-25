@@ -47,5 +47,16 @@ namespace FormalizaT.Formularios.FormsRuc
             formFuentes = new FormFuentes();
             PanelController.CambiarPanel(panelInformacionBasica, formFuentes.PanelFuentesControl);
         }
+
+        private void Ayuda_Click(object sender, EventArgs e)
+        {
+            var texto =
+                "Consultar Ruc: Nos sirve para ver quienes tienen ruc activo y todo su historial." + Environment.NewLine +
+                "Tipos de RUC: para saber las diferencias entre Persona Jurídica y Natural." + Environment.NewLine +
+                "¿Que es un RUC?: las características del RUC." + Environment.NewLine +
+                "¿Quien debe inscribirse?: Nos ayuda a identificar quienes deben de estar inscritos en el RUC.";
+
+            MensajeEmergente.Mostrar(texto, "Ayuda - Información Introductoria");
+        }
     }
 }

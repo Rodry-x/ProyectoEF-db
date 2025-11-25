@@ -88,5 +88,22 @@ namespace FormalizaT.Formularios.FormsRuc.Nivel_Avanzado
             formFuentesAV = new FormFuentesAV();
             PanelController.CambiarPanel(panelInformacionAvanzada, formFuentesAV.PanelFuentesAVControl);
         }
+
+        private void Ayuda_Click(object sender, EventArgs e)
+        {
+            var texto =
+                "Gestión Tributaria Avanzada: Información sobre cómo manejar aspectos tributarios complejos." + Environment.NewLine +
+                "Gestión Contable y Financiera: Consejos para una gestión financiera eficiente." + Environment.NewLine +
+                "Gestión Laboral Formal: Información sobre cumplimiento de normativas laborales." + Environment.NewLine +
+                "INDECOPI: Información relevante sobre el INDECOPI y sus funciones." + Environment.NewLine +
+                "Financiamiento y Créditos: Opciones de financiamiento disponibles para negocios." + Environment.NewLine +
+                "Digitalización del Negocio: Beneficios y estrategias para digitalizar un negocio." + Environment.NewLine +
+                "Cumplimiento Legal Integral: Aspectos legales que deben cumplirse en un negocio." + Environment.NewLine +
+                "Responsabilidad Social: Importancia de la responsabilidad social empresarial." + Environment.NewLine +
+                "Crecimiento y Escalamiento: Estrategias para hacer crecer y escalar un negocio." + Environment.NewLine +
+                "Gestión de Auditorías Tributarias: Cómo prepararse y gestionar auditorías tributarias.";
+
+            MensajeEmergente.Mostrar(texto, "Ayuda - Información Avanzada");
+        }
     }
 }

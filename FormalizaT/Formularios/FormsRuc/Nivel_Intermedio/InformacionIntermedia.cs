@@ -93,5 +93,14 @@ namespace FormalizaT.Formularios
             formFuentes_Int = new FormFuentes_int();
             PanelController.CambiarPanel(panelInformacionIntermedia, formFuentes_Int.PanelFuentesIntControl);
         }
+
+        private void Ayuda_Click(object sender, EventArgs e)
+        {
+            var texto =
+                "En esta sección encontrarás información sobre Pagos a la Sunat, Como empezar una empresa, como generar boletas y más cosas" + Environment.NewLine +
+                "Recuerda seguir en orden para que puedas comprender el tema y no perderte. ";
+
+            MensajeEmergente.Mostrar(texto, "Ayuda - Información Intermedia");
+        }
     }
 }

@@ -247,7 +247,6 @@
             Padding = new Padding(3, 24, 3, 3);
             SizeGripStyle = SizeGripStyle.Show;
             Text = "Formaliza-T";
-            Load += Form1_Load;
             sidebar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pcbMenu).EndInit();
             panelMenu.ResumeLayout(false);
