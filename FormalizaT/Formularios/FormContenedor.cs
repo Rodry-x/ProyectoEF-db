@@ -1,10 +1,12 @@
-using FormalizaT.Utilidades;
 using FormalizaT.Formularios;
+using FormalizaT.Utilidades;
+using MaterialSkin;
+using MaterialSkin.Controls;
 
 
 namespace FormalizaT
 {
-    public partial class FormContenedor : Form
+    public partial class FormContenedor : MaterialForm
     {
         // ----- Campos para los formularios secundarios ----- //
         private FormPrincipal formPrincipal;
@@ -16,6 +18,15 @@ namespace FormalizaT
         public FormContenedor()
         {
             InitializeComponent();
+
+            //Diseño Material Design
+            var materialManager = MaterialSkinManager.Instance;
+            materialManager.AddFormToManage(this);
+            materialManager.Theme = MaterialSkinManager.Themes.LIGHT; // o DARK
+            materialManager.ColorScheme = new ColorScheme(
+                Primary.Blue600, Primary.Blue700, Primary.Blue200,
+                Accent.LightBlue200, TextShade.WHITE);
+
             InicializarPanelPrincipal();
         }
 

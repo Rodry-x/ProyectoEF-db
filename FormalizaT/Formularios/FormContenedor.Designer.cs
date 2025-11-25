@@ -30,18 +30,18 @@
         {
             panelContenedor = new Panel();
             iconoPerfil = new PictureBox();
-            btnSimularTributos = new Button();
-            btnAyuda = new Button();
-            btnRuc = new Button();
-            btnBeneficios = new Button();
             iconoTributos = new PictureBox();
             iconoConsejos = new PictureBox();
             iconoRuc = new PictureBox();
             iconoBeneficio = new PictureBox();
             btnSalir = new Button();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            button1 = new Button();
             pictureBox1 = new PictureBox();
+            materialButton1 = new MaterialSkin.Controls.MaterialButton();
+            materialButton2 = new MaterialSkin.Controls.MaterialButton();
+            materialButton3 = new MaterialSkin.Controls.MaterialButton();
+            materialButton4 = new MaterialSkin.Controls.MaterialButton();
+            materialButton5 = new MaterialSkin.Controls.MaterialButton();
             ((System.ComponentModel.ISupportInitialize)iconoPerfil).BeginInit();
             ((System.ComponentModel.ISupportInitialize)iconoTributos).BeginInit();
             ((System.ComponentModel.ISupportInitialize)iconoConsejos).BeginInit();
@@ -52,67 +52,30 @@
             // 
             // panelContenedor
             // 
-            panelContenedor.Location = new Point(242, 9);
+            panelContenedor.Location = new Point(256, 67);
+            panelContenedor.Margin = new Padding(3, 2, 3, 2);
             panelContenedor.Name = "panelContenedor";
-            panelContenedor.Size = new Size(630, 530);
+            panelContenedor.Size = new Size(551, 403);
             panelContenedor.TabIndex = 0;
             // 
             // iconoPerfil
             // 
             iconoPerfil.Image = Properties.Resources.iconoCiudadanos;
-            iconoPerfil.Location = new Point(22, 12);
+            iconoPerfil.Location = new Point(41, 75);
+            iconoPerfil.Margin = new Padding(3, 2, 3, 2);
             iconoPerfil.Name = "iconoPerfil";
-            iconoPerfil.Size = new Size(204, 185);
+            iconoPerfil.Size = new Size(178, 139);
             iconoPerfil.SizeMode = PictureBoxSizeMode.Zoom;
             iconoPerfil.TabIndex = 1;
             iconoPerfil.TabStop = false;
             // 
-            // btnSimularTributos
-            // 
-            btnSimularTributos.Location = new Point(74, 219);
-            btnSimularTributos.Name = "btnSimularTributos";
-            btnSimularTributos.Size = new Size(152, 39);
-            btnSimularTributos.TabIndex = 2;
-            btnSimularTributos.Text = "Simular Tributos";
-            btnSimularTributos.UseVisualStyleBackColor = true;
-            btnSimularTributos.Click += cambiarAlPanelSimularTributos_Click;
-            // 
-            // btnAyuda
-            // 
-            btnAyuda.Location = new Point(74, 369);
-            btnAyuda.Name = "btnAyuda";
-            btnAyuda.Size = new Size(152, 40);
-            btnAyuda.TabIndex = 3;
-            btnAyuda.Text = "Consejos";
-            btnAyuda.UseVisualStyleBackColor = true;
-            btnAyuda.Click += cambiarAlPanelConsejos_Click;
-            // 
-            // btnRuc
-            // 
-            btnRuc.Location = new Point(74, 268);
-            btnRuc.Name = "btnRuc";
-            btnRuc.Size = new Size(152, 40);
-            btnRuc.TabIndex = 4;
-            btnRuc.Text = "Aprendizaje";
-            btnRuc.UseVisualStyleBackColor = true;
-            btnRuc.Click += cambiarAlPanelRuc_Click;
-            // 
-            // btnBeneficios
-            // 
-            btnBeneficios.Location = new Point(74, 316);
-            btnBeneficios.Name = "btnBeneficios";
-            btnBeneficios.Size = new Size(152, 42);
-            btnBeneficios.TabIndex = 5;
-            btnBeneficios.Text = "Beneficios";
-            btnBeneficios.UseVisualStyleBackColor = true;
-            btnBeneficios.Click += cambiarAlPanelBeneficios_Click;
-            // 
             // iconoTributos
             // 
             iconoTributos.Image = Properties.Resources.imagenCanchitoDeFinanzas;
-            iconoTributos.Location = new Point(22, 219);
+            iconoTributos.Location = new Point(19, 224);
+            iconoTributos.Margin = new Padding(3, 2, 3, 2);
             iconoTributos.Name = "iconoTributos";
-            iconoTributos.Size = new Size(46, 39);
+            iconoTributos.Size = new Size(40, 29);
             iconoTributos.SizeMode = PictureBoxSizeMode.Zoom;
             iconoTributos.TabIndex = 6;
             iconoTributos.TabStop = false;
@@ -120,9 +83,10 @@
             // iconoConsejos
             // 
             iconoConsejos.Image = Properties.Resources.imagenTips;
-            iconoConsejos.Location = new Point(22, 369);
+            iconoConsejos.Location = new Point(19, 342);
+            iconoConsejos.Margin = new Padding(3, 2, 3, 2);
             iconoConsejos.Name = "iconoConsejos";
-            iconoConsejos.Size = new Size(46, 40);
+            iconoConsejos.Size = new Size(40, 30);
             iconoConsejos.SizeMode = PictureBoxSizeMode.Zoom;
             iconoConsejos.TabIndex = 7;
             iconoConsejos.TabStop = false;
@@ -130,9 +94,10 @@
             // iconoRuc
             // 
             iconoRuc.Image = Properties.Resources.imagenAprendizaje;
-            iconoRuc.Location = new Point(22, 268);
+            iconoRuc.Location = new Point(19, 261);
+            iconoRuc.Margin = new Padding(3, 2, 3, 2);
             iconoRuc.Name = "iconoRuc";
-            iconoRuc.Size = new Size(46, 40);
+            iconoRuc.Size = new Size(40, 30);
             iconoRuc.SizeMode = PictureBoxSizeMode.Zoom;
             iconoRuc.TabIndex = 8;
             iconoRuc.TabStop = false;
@@ -140,9 +105,10 @@
             // iconoBeneficio
             // 
             iconoBeneficio.Image = Properties.Resources.imagenBeneficio;
-            iconoBeneficio.Location = new Point(22, 322);
+            iconoBeneficio.Location = new Point(19, 302);
+            iconoBeneficio.Margin = new Padding(3, 2, 3, 2);
             iconoBeneficio.Name = "iconoBeneficio";
-            iconoBeneficio.Size = new Size(46, 34);
+            iconoBeneficio.Size = new Size(40, 26);
             iconoBeneficio.SizeMode = PictureBoxSizeMode.Zoom;
             iconoBeneficio.TabIndex = 9;
             iconoBeneficio.TabStop = false;
@@ -150,54 +116,153 @@
             // btnSalir
             // 
             btnSalir.Font = new Font("Segoe UI", 15F);
-            btnSalir.Location = new Point(22, 481);
+            btnSalir.Location = new Point(7, 430);
+            btnSalir.Margin = new Padding(3, 2, 3, 2);
             btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(204, 49);
+            btnSalir.Size = new Size(230, 37);
             btnSalir.TabIndex = 10;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = true;
             btnSalir.Click += cerrarAplicacion_click;
             // 
-            // button1
-            // 
-            button1.Location = new Point(74, 415);
-            button1.Name = "button1";
-            button1.Size = new Size(152, 40);
-            button1.TabIndex = 11;
-            button1.Text = "Encuesta";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += enviarAlFormularioDeGoogle_Click;
-            // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.iconoEncuesta;
-            pictureBox1.Location = new Point(22, 415);
+            pictureBox1.Location = new Point(19, 387);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(46, 40);
+            pictureBox1.Size = new Size(40, 30);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 12;
             pictureBox1.TabStop = false;
             // 
+            // materialButton1
+            // 
+            materialButton1.AutoSize = false;
+            materialButton1.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton1.Depth = 0;
+            materialButton1.HighEmphasis = true;
+            materialButton1.Icon = null;
+            materialButton1.Location = new Point(75, 224);
+            materialButton1.Margin = new Padding(4, 6, 4, 6);
+            materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton1.Name = "materialButton1";
+            materialButton1.NoAccentTextColor = Color.Empty;
+            materialButton1.Size = new Size(144, 36);
+            materialButton1.TabIndex = 13;
+            materialButton1.Text = "         Tributos          ";
+            materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton1.UseAccentColor = false;
+            materialButton1.UseVisualStyleBackColor = true;
+            materialButton1.Click += cambiarAlPanelSimularTributos_Click;
+            // 
+            // materialButton2
+            // 
+            materialButton2.AutoSize = false;
+            materialButton2.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton2.Depth = 0;
+            materialButton2.HighEmphasis = true;
+            materialButton2.Icon = null;
+            materialButton2.Location = new Point(73, 264);
+            materialButton2.Margin = new Padding(4, 6, 4, 6);
+            materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton2.Name = "materialButton2";
+            materialButton2.NoAccentTextColor = Color.Empty;
+            materialButton2.Size = new Size(146, 36);
+            materialButton2.TabIndex = 14;
+            materialButton2.Text = "        Aprendizaje      ";
+            materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton2.UseAccentColor = false;
+            materialButton2.UseVisualStyleBackColor = true;
+            materialButton2.Click += cambiarAlPanelRuc_Click;
+            // 
+            // materialButton3
+            // 
+            materialButton3.AutoSize = false;
+            materialButton3.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton3.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton3.Depth = 0;
+            materialButton3.HighEmphasis = true;
+            materialButton3.Icon = null;
+            materialButton3.Location = new Point(73, 305);
+            materialButton3.Margin = new Padding(4, 6, 4, 6);
+            materialButton3.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton3.Name = "materialButton3";
+            materialButton3.NoAccentTextColor = Color.Empty;
+            materialButton3.Size = new Size(146, 36);
+            materialButton3.TabIndex = 15;
+            materialButton3.Text = "           Beneficios           ";
+            materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton3.UseAccentColor = false;
+            materialButton3.UseVisualStyleBackColor = true;
+            materialButton3.Click += cambiarAlPanelBeneficios_Click;
+            // 
+            // materialButton4
+            // 
+            materialButton4.AutoSize = false;
+            materialButton4.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton4.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton4.Depth = 0;
+            materialButton4.HighEmphasis = true;
+            materialButton4.Icon = null;
+            materialButton4.Location = new Point(73, 344);
+            materialButton4.Margin = new Padding(4, 6, 4, 6);
+            materialButton4.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton4.Name = "materialButton4";
+            materialButton4.NoAccentTextColor = Color.Empty;
+            materialButton4.Size = new Size(146, 36);
+            materialButton4.TabIndex = 16;
+            materialButton4.Text = "Consejos";
+            materialButton4.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton4.UseAccentColor = false;
+            materialButton4.UseVisualStyleBackColor = true;
+            materialButton4.Click += cambiarAlPanelConsejos_Click;
+            // 
+            // materialButton5
+            // 
+            materialButton5.AutoSize = false;
+            materialButton5.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton5.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton5.Depth = 0;
+            materialButton5.HighEmphasis = true;
+            materialButton5.Icon = null;
+            materialButton5.Location = new Point(74, 384);
+            materialButton5.Margin = new Padding(4, 6, 4, 6);
+            materialButton5.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton5.Name = "materialButton5";
+            materialButton5.NoAccentTextColor = Color.Empty;
+            materialButton5.Size = new Size(145, 36);
+            materialButton5.TabIndex = 17;
+            materialButton5.Text = "Encuesta";
+            materialButton5.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton5.UseAccentColor = false;
+            materialButton5.UseVisualStyleBackColor = true;
+            materialButton5.Click += enviarAlFormularioDeGoogle_Click;
+            // 
             // FormContenedor
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
-            ClientSize = new Size(882, 553);
+            ClientSize = new Size(812, 475);
+            Controls.Add(materialButton5);
+            Controls.Add(materialButton4);
+            Controls.Add(materialButton3);
+            Controls.Add(materialButton2);
+            Controls.Add(materialButton1);
             Controls.Add(pictureBox1);
-            Controls.Add(button1);
             Controls.Add(btnSalir);
             Controls.Add(iconoBeneficio);
             Controls.Add(iconoRuc);
             Controls.Add(iconoConsejos);
             Controls.Add(iconoTributos);
-            Controls.Add(btnBeneficios);
-            Controls.Add(btnRuc);
-            Controls.Add(btnAyuda);
-            Controls.Add(btnSimularTributos);
             Controls.Add(iconoPerfil);
             Controls.Add(panelContenedor);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "FormContenedor";
+            Padding = new Padding(3, 48, 3, 2);
             Text = "Formaliza-T";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)iconoPerfil).EndInit();
@@ -213,17 +278,17 @@
 
         private Panel panelContenedor;
         private PictureBox iconoPerfil;
-        private Button btnSimularTributos;
-        private Button btnAyuda;
-        private Button btnRuc;
-        private Button btnBeneficios;
         private PictureBox iconoTributos;
         private PictureBox iconoConsejos;
         private PictureBox iconoRuc;
         private PictureBox iconoBeneficio;
         private Button btnSalir;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private Button button1;
         private PictureBox pictureBox1;
+        private MaterialSkin.Controls.MaterialButton materialButton1;
+        private MaterialSkin.Controls.MaterialButton materialButton2;
+        private MaterialSkin.Controls.MaterialButton materialButton3;
+        private MaterialSkin.Controls.MaterialButton materialButton4;
+        private MaterialSkin.Controls.MaterialButton materialButton5;
     }
 }

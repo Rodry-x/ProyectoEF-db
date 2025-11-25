@@ -1,4 +1,5 @@
-﻿using FormalizaT.Utilidades;
+﻿using FormalizaT.EstructuraDeDatos;
+using FormalizaT.Utilidades;
 
 namespace FormalizaT.Formularios.FormsSimularTributos
 {
@@ -18,6 +19,13 @@ namespace FormalizaT.Formularios.FormsSimularTributos
             PanelController.CambiarPanel(panelSimularTributosQuintaCategoria, formSimularTributos.PanelSimularTributosControl);
         }
 
+        // --- Estructura de datos para tramos ---
+        private class TramoImpuesto
+        {
+            public decimal Limite { get; set; }
+            public decimal Tasa { get; set; }
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
             try
@@ -26,13 +34,13 @@ namespace FormalizaT.Formularios.FormsSimularTributos
                 decimal sueldo = string.IsNullOrWhiteSpace(txtSueldoMensual.Text) ? 0 : decimal.Parse(txtSueldoMensual.Text);
                 decimal bonificaciones = string.IsNullOrWhiteSpace(txtBonificaciones.Text) ? 0 : decimal.Parse(txtBonificaciones.Text);
 
-                // Calcular ingreso anual
+                // Ingreso anual (sueldo 12 meses + bonificaciones)
                 decimal ingresoAnual = (sueldo * 12) + bonificaciones;
 
-                // Definir UIT vigente (2025)
+                // UIT vigente
                 decimal UIT = 5350m;
 
-                // Calcular base imponible (descontar 7 UIT)
+                // Base imponible = ingreso anual – 7 UIT
                 decimal baseImponible = ingresoAnual - (7 * UIT);
 
                 if (baseImponible <= 0)
@@ -43,59 +51,72 @@ namespace FormalizaT.Formularios.FormsSimularTributos
                     return;
                 }
 
-                // Calcular impuesto usando estructura de datos
+                // Calcular impuesto usando ListaEnlazada
                 decimal impuesto = CalcularImpuestoQuinta(baseImponible, UIT);
                 decimal resultado = ingresoAnual - impuesto;
-
-                lblDetalles.Text =
-                    $"Ingreso anual: S/. {ingresoAnual:N2}\n" +
-                    $"Base imponible (después de 7 UIT): S/. {baseImponible:N2}\n" +
-                    $"Cálculo conforme a tasas progresivas SUNAT 2025.";
-                lblImpuesto.Text = $"Impuesto: S/. {impuesto:N2}";
-                lblResultado.Text = $"Resultado neto: S/. {resultado:N2}";
             }
             catch
             {
-                MessageBox.Show("Por favor, ingrese valores numéricos válidos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Por favor, ingrese valores numéricos válidos.",
+                    "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        // --- Estructura de datos para los tramos y tasas ---
-        private struct TramoImpuesto
-        {
-            public decimal Limite;
-            public decimal Tasa;
-        }
-
+        //  CALCULAR IMPUESTO 5TA  //
         private decimal CalcularImpuestoQuinta(decimal baseImponible, decimal UIT)
         {
-            // Definir tramos según SUNAT 2025
-            TramoImpuesto[] tramos = new TramoImpuesto[]
-            {
-                new TramoImpuesto { Limite = 5 * UIT,  Tasa = 0.08m },
-                new TramoImpuesto { Limite = 20 * UIT, Tasa = 0.14m },
-                new TramoImpuesto { Limite = 35 * UIT, Tasa = 0.17m },
-                new TramoImpuesto { Limite = 45 * UIT, Tasa = 0.20m },
-                new TramoImpuesto { Limite = decimal.MaxValue, Tasa = 0.30m }
-            };
+            // Crear lista enlazada propia con los tramos
+            ListaEnlazada<TramoImpuesto> tramos = new ListaEnlazada<TramoImpuesto>();
 
-            decimal impuesto = 0;
-            decimal restante = baseImponible;
-            decimal anterior = 0;
+            tramos.Agregar(new TramoImpuesto { Limite = 5 * UIT, Tasa = 0.08m });
+            tramos.Agregar(new TramoImpuesto { Limite = 20 * UIT, Tasa = 0.14m });
+            tramos.Agregar(new TramoImpuesto { Limite = 35 * UIT, Tasa = 0.17m });
+            tramos.Agregar(new TramoImpuesto { Limite = 45 * UIT, Tasa = 0.20m });
+            tramos.Agregar(new TramoImpuesto { Limite = decimal.MaxValue, Tasa = 0.30m });
 
-            foreach (var tramo in tramos)
+            decimal impuesto = 0m;
+            decimal anterior = 0m;
+
+            // Para detallar cada tramo
+            string detalleTramos = "Detalle por tramos:\n";
+
+            var nodo = tramos.Inicio;
+
+            while (nodo != null)
             {
-                if (restante <= tramo.Limite)
+                var tramo = nodo.Valor;
+                decimal montoTramo = 0m;
+
+                if (baseImponible <= tramo.Limite)
                 {
-                    impuesto += (restante - anterior) * tramo.Tasa;
+                    montoTramo = (baseImponible - anterior);
+                    if (montoTramo > 0)
+                        impuesto += montoTramo * tramo.Tasa;
+
+                    // Registrar detalle
+                    detalleTramos +=
+                        $"Hasta {tramo.Limite:N2} (tasa {tramo.Tasa:P0}): S/. {(montoTramo * tramo.Tasa):N2}\n";
+
                     break;
                 }
                 else
                 {
-                    impuesto += (tramo.Limite - anterior) * tramo.Tasa;
+                    montoTramo = (tramo.Limite - anterior);
+                    if (montoTramo > 0)
+                        impuesto += montoTramo * tramo.Tasa;
+
+                    // Registrar detalle
+                    detalleTramos +=
+                        $"Hasta {tramo.Limite:N2} (tasa {tramo.Tasa:P0}): S/. {(montoTramo * tramo.Tasa):N2}\n";
+
                     anterior = tramo.Limite;
                 }
+
+                nodo = nodo.Siguiente;
             }
+
+            // Mostrar detalle en la etiqueta lblDetalles (se concatena al texto ya asignado)
+            lblDetalles.Text += "\n\n" + detalleTramos;
 
             return impuesto;
         }
