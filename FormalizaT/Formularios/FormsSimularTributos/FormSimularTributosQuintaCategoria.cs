@@ -120,5 +120,33 @@ namespace FormalizaT.Formularios.FormsSimularTributos
 
             return impuesto;
         }
+
+        private void Ayuda_Click(object sender, EventArgs e)
+        {
+            var texto =
+                "Ayuda — Simulación 5ª categoría:" + Environment.NewLine +
+                "- Entradas:" + Environment.NewLine +
+                "  • Sueldo mensual: salario por mes." + Environment.NewLine +
+                "  • Bonificaciones: pagos extraordinarios anuales." + Environment.NewLine +
+                "- Cálculo:" + Environment.NewLine +
+                "  1) Ingreso anual = Sueldo mensual × 12 + Bonificaciones." + Environment.NewLine +
+                "  2) Base imponible = Ingreso anual − 7 UIT (UIT usada: 5350)." + Environment.NewLine +
+                "  3) Si la base imponible ≤ 0 ⇒ no paga impuesto." + Environment.NewLine +
+                "  4) Si es positiva, se aplica el impuesto por tramos:" + Environment.NewLine +
+                "     • Hasta 5 UIT → 8%" + Environment.NewLine +
+                "     • Hasta 20 UIT → 14%" + Environment.NewLine +
+                "     • Hasta 35 UIT → 17%" + Environment.NewLine +
+                "     • Hasta 45 UIT → 20%" + Environment.NewLine +
+                "     • Sobre el exceso → 30%" + Environment.NewLine +
+                "- Salidas mostradas:" + Environment.NewLine +
+                "  • lblImpuesto: importe total y (en el formulario) tasa efectiva." + Environment.NewLine +
+                "  • lblResultado: ingreso neto después de impuesto." + Environment.NewLine +
+                "  • lblDetalles: se añade un desglose por tramos con el aporte de cada tramo." + Environment.NewLine +
+                "- Formato: ingresa números válidos (se admiten separadores y decimales)." + Environment.NewLine +
+                "- Nota: los resultados son orientativos; verifica normativa vigente y posibles redondeos." + Environment.NewLine +
+                "Ejemplo rápido: Sueldo 3,000 + Bonificaciones 5,000 ⇒ Ingreso anual 41,000; Base imponible = 41,000 − 37,450 = 3,550 (se aplica 8% sobre esa base).";
+
+            MensajeEmergente.Mostrar(texto, "Ayuda - Simulación 5ta categoría");
+        }
     }
 }

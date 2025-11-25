@@ -40,11 +40,14 @@
             label1 = new Label();
             txtMonto = new TextBox();
             label2 = new Label();
+            pictureBox1 = new PictureBox();
             panelSimularTributosCuartaCategoria.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panelSimularTributosCuartaCategoria
             // 
+            panelSimularTributosCuartaCategoria.Controls.Add(pictureBox1);
             panelSimularTributosCuartaCategoria.Controls.Add(lblImpuesto);
             panelSimularTributosCuartaCategoria.Controls.Add(label5);
             panelSimularTributosCuartaCategoria.Controls.Add(label4);
@@ -161,6 +164,17 @@
             label2.TabIndex = 24;
             label2.Text = "Ingresar el monto ganado:";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.iconoHelp;
+            pictureBox1.Location = new Point(568, 469);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(41, 39);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 33;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += Ayuda_Click;
+            // 
             // FormSimularTributosCuartaCategoria
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -171,6 +185,7 @@
             Text = "FormSimularTributosCuartaCategoria";
             panelSimularTributosCuartaCategoria.ResumeLayout(false);
             panelSimularTributosCuartaCategoria.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -188,5 +203,6 @@
         private Label label5;
         private Label label4;
         private Label lblImpuesto;
+        private PictureBox pictureBox1;
     }
 }

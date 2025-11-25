@@ -164,5 +164,27 @@ namespace FormalizaT.Formularios.FormsSimularTributos
             lblResultados.Text = "";
             lblImpuesto.Text = "";
         }
+
+        private void Ayuda_Click(object sender, EventArgs e)
+        {
+            var texto =
+                "Simulación — Tercera Categoría:" + Environment.NewLine +
+                "- Regímenes disponibles:" + Environment.NewLine +
+                "  • RUS: cuotas fijas por categoría (Cat.1 y Cat.2). Límites de ingresos para aplicar RUS." + Environment.NewLine +
+                "  • RER: tasa sobre ingresos (1.5%)." + Environment.NewLine +
+                "  • MYPE Tributario: impuesto por tramos sobre la utilidad (10% hasta 15 UIT; 29.5% sobre el exceso)." + Environment.NewLine +
+                "  • Régimen General: impuesto sobre la utilidad con tasa aproximada 29.5%." + Environment.NewLine +
+                "- Uso del formulario:" + Environment.NewLine +
+                "  1) Introduce Ingresos (monto bruto) y Gastos (monto que deduces)." + Environment.NewLine +
+                "  2) Selecciona el régimen que corresponde a tu actividad." + Environment.NewLine +
+                "  3) Pulsa 'Simular' para ver el valor de 'Impuesto' y la 'Utilidad neta después de impuesto'." + Environment.NewLine +
+                "- Notas:" + Environment.NewLine +
+                "  • UIT referencial usada: 5350 (2025)." + Environment.NewLine +
+                "  • Si la utilidad es negativa, el formulario mostrará 'Pérdida'." + Environment.NewLine +
+                "  • Los resultados son orientativos: verifica la normativa vigente y redondeos." + Environment.NewLine +
+                "  • Formato: usa números (se admiten decimales y separadores).";
+
+            MensajeEmergente.Mostrar(texto, "Ayuda - Simulación de Tributos Tercera Categoría");
+        }
     }
 }

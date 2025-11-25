@@ -37,7 +37,6 @@ namespace FormalizaT.Formularios.FormsSimularTributos
             });
             return lista;
         }
-        // -------------------------------------------------------
 
         private void simularImporte_Click(object sender, EventArgs e)
         {
@@ -87,6 +86,16 @@ namespace FormalizaT.Formularios.FormsSimularTributos
             lblResultado.Text = neto.ToString("C2", CultureInfo.CurrentCulture);
             lblImpuesto.Text = impuesto.ToString("C2", CultureInfo.CurrentCulture);
             lblAdicional.Text = "Cálculo correcto para Primera Categoría (5%).";
+        }
+
+        private void Ayuda_Click(object sender, EventArgs e)
+        {
+            var texto = "Simulación de Tributos - Primera Categoría:\n\n" +
+                        "Ingrese el monto de ingresos para calcular el impuesto correspondiente a la Primera Categoría, " +
+                        "que tiene una tasa fija del 5% sobre los ingresos netos. " +
+                        "El sistema calculará automáticamente el impuesto y el monto neto después del impuesto.";
+
+            MensajeEmergente.Mostrar(texto, "Ayuda - Simulación de Tributos Primera Categoría");
         }
     }
 }

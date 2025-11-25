@@ -43,12 +43,15 @@
             label6 = new Label();
             button1 = new Button();
             label1 = new Label();
+            pictureBox2 = new PictureBox();
             panelSimularTributoSegundaCategoria.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // panelSimularTributoSegundaCategoria
             // 
+            panelSimularTributoSegundaCategoria.Controls.Add(pictureBox2);
             panelSimularTributoSegundaCategoria.Controls.Add(pictureBox1);
             panelSimularTributoSegundaCategoria.Controls.Add(lblImpuesto);
             panelSimularTributoSegundaCategoria.Controls.Add(lblResultados);
@@ -196,6 +199,17 @@
             label1.TabIndex = 1;
             label1.Text = "Simular Tributo De Segunda Categoria";
             // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.iconoHelp;
+            pictureBox2.Location = new Point(343, 447);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(57, 48);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 25;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += Ayuda_Click;
+            // 
             // FormSimularTributosSegundaCategoria
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -207,6 +221,7 @@
             panelSimularTributoSegundaCategoria.ResumeLayout(false);
             panelSimularTributoSegundaCategoria.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
         }
 
@@ -227,5 +242,6 @@
         private Label lblImpuesto;
         private Label lblResultados;
         private Label label7;
+        private PictureBox pictureBox2;
     }
 }

@@ -117,5 +117,25 @@ namespace FormalizaT.Formularios.FormsSimularTributos
             lblResultado.Text =
                 $"{neto.ToString("C2")} (base imponible: {baseImponible.ToString("C2")}, tasa marginal: {tasaMarginal.ToString("P0")})";
         }
+
+        private void Ayuda_Click(object sender, EventArgs e)
+        {
+            var texto =
+                "Ayuda — Simulación 4ta categoría:" + Environment.NewLine +
+                "- Entrada: introduce el Monto Bruto (ingresos por servicios de 4ta categoría)." + Environment.NewLine +
+                "- Deducciones aplicadas en la simulación:" + Environment.NewLine +
+                "  • Deducción automática del 20% sobre el monto bruto." + Environment.NewLine +
+                "  • Deducción adicional fija: 7 UIT (UIT referencial usada: 5350)." + Environment.NewLine +
+                "- Base imponible = (Monto bruto × 0.80) − 7 UIT. Si la base imponible ≤ 0 → impuesto = S/ 0.00." + Environment.NewLine +
+                "- Cálculo por tramos: se aplican tasas marginales según tramos (8%, 14%, 17%, 20%, 30%)." + Environment.NewLine +
+                "- Salidas mostradas:" + Environment.NewLine +
+                "  • Impuesto: importe total calculado y tasa efectiva sobre el bruto." + Environment.NewLine +
+                "  • Resultado: neto después de impuesto; también se muestra la base imponible y la tasa marginal aplicada." + Environment.NewLine +
+                "- Notas:" + Environment.NewLine +
+                "  • Los valores son orientativos; validar normativa vigente y redondeos." + Environment.NewLine +
+                "  • Formato: acepta números con decimales y símbolo de moneda (ej. 2500 o 2,500.00).";
+
+            MensajeEmergente.Mostrar(texto, "Ayuda - Simulación de Tributos Cuarta Categoría");
+        }
     }
 }

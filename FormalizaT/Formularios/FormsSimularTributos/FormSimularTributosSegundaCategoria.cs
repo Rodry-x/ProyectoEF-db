@@ -138,5 +138,22 @@ namespace FormalizaT.Formularios.FormsSimularTributos
             lblImpuesto.Text = impuestoBuilder.ToString().TrimEnd();
             lblResultados.Text = resultadoBuilder.ToString().TrimEnd();
         }
+
+        private void Ayuda_Click(object sender, EventArgs e)
+        {
+            var texto =
+                "Simulación - Segunda Categoría:\n" +
+                "- Monto Bruto: introduce el total antes de impuestos. Se aplican tramos:\n" +
+                "  • Hasta 5 UIT → 8%\n" +
+                "  • Hasta 20 UIT → 14%\n" +
+                "  • Más de 20 UIT → 30%\n" +
+                "- Monto Neto: introduce el monto neto; por defecto se aplica una tasa de ejemplo (6.25%).\n" +
+                "- Resultados: 'Impuesto' muestra el monto calculado; 'Resultado' es lo que queda después de restar el impuesto.\n" +
+                "- Formato: usa números; se admiten separadores y símbolo de moneda (ej. 1500 o 1,500.00).\n" +
+                "- Historial: cada simulación se guarda en el historial local para consultas posteriores.\n" +
+                "Nota: las tasas son orientativas. Verifica la normativa vigente para valores oficiales.";
+
+            MensajeEmergente.Mostrar(texto, "Ayuda - Simulación de Tributos Segunda Categoría");
+        }
     }
 }
