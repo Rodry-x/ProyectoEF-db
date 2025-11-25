@@ -1,7 +1,8 @@
-using FormalizaT.Formularios;
+﻿using FormalizaT.Formularios;
 using FormalizaT.Utilidades;
 using MaterialSkin;
 using MaterialSkin.Controls;
+using System.Runtime.InteropServices;
 
 
 namespace FormalizaT
@@ -19,13 +20,14 @@ namespace FormalizaT
         {
             InitializeComponent();
 
-            //Dise�o Material Design
+            // --- MaterialSkin: mantener la configuración de colores/tema pero NO registrar el form ---
             var materialManager = MaterialSkinManager.Instance;
-            materialManager.AddFormToManage(this);
+            // NO llamar a materialManager.AddFormToManage(this);
             materialManager.Theme = MaterialSkinManager.Themes.LIGHT; // o DARK
             materialManager.ColorScheme = new ColorScheme(
                 Primary.Blue600, Primary.Blue700, Primary.Blue200,
                 Accent.LightBlue200, TextShade.WHITE);
+
 
             InicializarPanelPrincipal();
         }
@@ -72,6 +74,35 @@ namespace FormalizaT
         private void cerrarAplicacion_click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void menu_Click(object sender, EventArgs e)
+        {
+            sidebarTransition.Start();
+        }
+
+        bool sidebarExpandido = true;
+
+        private void sidebarTransition_Tick(object sender, EventArgs e)
+        {
+            if (sidebarExpandido)
+            {
+                sidebar.Width -= 10;
+                if (sidebar.Width <= 50)
+                {
+                    sidebarExpandido = false;
+                    sidebarTransition.Stop();
+                }
+            }
+            else
+            {
+                sidebar.Width += 10;
+                if (sidebar.Width >= 192)
+                {
+                    sidebarExpandido = true;
+                    sidebarTransition.Stop();
+                }
+            }
         }
     }
 }

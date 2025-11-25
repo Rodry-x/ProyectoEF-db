@@ -28,113 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             panelContenedor = new Panel();
-            iconoPerfil = new PictureBox();
-            iconoTributos = new PictureBox();
-            iconoConsejos = new PictureBox();
-            iconoRuc = new PictureBox();
-            iconoBeneficio = new PictureBox();
-            btnSalir = new Button();
             backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            pictureBox1 = new PictureBox();
             materialButton1 = new MaterialSkin.Controls.MaterialButton();
             materialButton2 = new MaterialSkin.Controls.MaterialButton();
             materialButton3 = new MaterialSkin.Controls.MaterialButton();
             materialButton4 = new MaterialSkin.Controls.MaterialButton();
             materialButton5 = new MaterialSkin.Controls.MaterialButton();
-            ((System.ComponentModel.ISupportInitialize)iconoPerfil).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)iconoTributos).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)iconoConsejos).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)iconoRuc).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)iconoBeneficio).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            sidebar = new FlowLayoutPanel();
+            materialButton6 = new MaterialSkin.Controls.MaterialButton();
+            pcbMenu = new PictureBox();
+            sidebarTransition = new System.Windows.Forms.Timer(components);
+            panelMenu = new Panel();
+            label1 = new Label();
+            sidebar.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pcbMenu).BeginInit();
+            panelMenu.SuspendLayout();
             SuspendLayout();
             // 
             // panelContenedor
             // 
-            panelContenedor.Location = new Point(243, 68);
-            panelContenedor.Margin = new Padding(3, 2, 3, 2);
+            panelContenedor.Location = new Point(49, 61);
             panelContenedor.Name = "panelContenedor";
-            panelContenedor.Size = new Size(551, 403);
+            panelContenedor.Size = new Size(630, 530);
             panelContenedor.TabIndex = 0;
-            // 
-            // iconoPerfil
-            // 
-            iconoPerfil.Image = Properties.Resources.iconoCiudadanos;
-            iconoPerfil.Location = new Point(41, 75);
-            iconoPerfil.Margin = new Padding(3, 2, 3, 2);
-            iconoPerfil.Name = "iconoPerfil";
-            iconoPerfil.Size = new Size(178, 139);
-            iconoPerfil.SizeMode = PictureBoxSizeMode.Zoom;
-            iconoPerfil.TabIndex = 1;
-            iconoPerfil.TabStop = false;
-            // 
-            // iconoTributos
-            // 
-            iconoTributos.Image = Properties.Resources.imagenCanchitoDeFinanzas;
-            iconoTributos.Location = new Point(19, 224);
-            iconoTributos.Margin = new Padding(3, 2, 3, 2);
-            iconoTributos.Name = "iconoTributos";
-            iconoTributos.Size = new Size(40, 29);
-            iconoTributos.SizeMode = PictureBoxSizeMode.Zoom;
-            iconoTributos.TabIndex = 6;
-            iconoTributos.TabStop = false;
-            // 
-            // iconoConsejos
-            // 
-            iconoConsejos.Image = Properties.Resources.imagenTips;
-            iconoConsejos.Location = new Point(19, 342);
-            iconoConsejos.Margin = new Padding(3, 2, 3, 2);
-            iconoConsejos.Name = "iconoConsejos";
-            iconoConsejos.Size = new Size(40, 30);
-            iconoConsejos.SizeMode = PictureBoxSizeMode.Zoom;
-            iconoConsejos.TabIndex = 7;
-            iconoConsejos.TabStop = false;
-            // 
-            // iconoRuc
-            // 
-            iconoRuc.Image = Properties.Resources.imagenAprendizaje;
-            iconoRuc.Location = new Point(19, 261);
-            iconoRuc.Margin = new Padding(3, 2, 3, 2);
-            iconoRuc.Name = "iconoRuc";
-            iconoRuc.Size = new Size(40, 30);
-            iconoRuc.SizeMode = PictureBoxSizeMode.Zoom;
-            iconoRuc.TabIndex = 8;
-            iconoRuc.TabStop = false;
-            // 
-            // iconoBeneficio
-            // 
-            iconoBeneficio.Image = Properties.Resources.imagenBeneficio;
-            iconoBeneficio.Location = new Point(19, 302);
-            iconoBeneficio.Margin = new Padding(3, 2, 3, 2);
-            iconoBeneficio.Name = "iconoBeneficio";
-            iconoBeneficio.Size = new Size(40, 26);
-            iconoBeneficio.SizeMode = PictureBoxSizeMode.Zoom;
-            iconoBeneficio.TabIndex = 9;
-            iconoBeneficio.TabStop = false;
-            // 
-            // btnSalir
-            // 
-            btnSalir.Font = new Font("Segoe UI", 15F);
-            btnSalir.Location = new Point(7, 430);
-            btnSalir.Margin = new Padding(3, 2, 3, 2);
-            btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(230, 37);
-            btnSalir.TabIndex = 10;
-            btnSalir.Text = "Salir";
-            btnSalir.UseVisualStyleBackColor = true;
-            btnSalir.Click += cerrarAplicacion_click;
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources.iconoEncuesta;
-            pictureBox1.Location = new Point(19, 387);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(40, 30);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 12;
-            pictureBox1.TabStop = false;
             // 
             // materialButton1
             // 
@@ -143,15 +61,15 @@
             materialButton1.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
             materialButton1.Depth = 0;
             materialButton1.HighEmphasis = true;
-            materialButton1.Icon = null;
-            materialButton1.Location = new Point(75, 224);
-            materialButton1.Margin = new Padding(4, 6, 4, 6);
+            materialButton1.Icon = Properties.Resources.iconoCerdo;
+            materialButton1.Location = new Point(5, 8);
+            materialButton1.Margin = new Padding(5, 8, 5, 8);
             materialButton1.MouseState = MaterialSkin.MouseState.HOVER;
             materialButton1.Name = "materialButton1";
             materialButton1.NoAccentTextColor = Color.Empty;
-            materialButton1.Size = new Size(144, 36);
+            materialButton1.Size = new Size(182, 48);
             materialButton1.TabIndex = 13;
-            materialButton1.Text = "         Tributos          ";
+            materialButton1.Text = "Tributos           ";
             materialButton1.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             materialButton1.UseAccentColor = false;
             materialButton1.UseVisualStyleBackColor = true;
@@ -164,15 +82,15 @@
             materialButton2.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
             materialButton2.Depth = 0;
             materialButton2.HighEmphasis = true;
-            materialButton2.Icon = null;
-            materialButton2.Location = new Point(73, 264);
-            materialButton2.Margin = new Padding(4, 6, 4, 6);
+            materialButton2.Icon = Properties.Resources.iconBook;
+            materialButton2.Location = new Point(5, 72);
+            materialButton2.Margin = new Padding(5, 8, 5, 8);
             materialButton2.MouseState = MaterialSkin.MouseState.HOVER;
             materialButton2.Name = "materialButton2";
             materialButton2.NoAccentTextColor = Color.Empty;
-            materialButton2.Size = new Size(146, 36);
+            materialButton2.Size = new Size(181, 48);
             materialButton2.TabIndex = 14;
-            materialButton2.Text = "        Aprendizaje      ";
+            materialButton2.Text = "Aprendizaje      ";
             materialButton2.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             materialButton2.UseAccentColor = false;
             materialButton2.UseVisualStyleBackColor = true;
@@ -185,15 +103,15 @@
             materialButton3.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
             materialButton3.Depth = 0;
             materialButton3.HighEmphasis = true;
-            materialButton3.Icon = null;
-            materialButton3.Location = new Point(73, 305);
-            materialButton3.Margin = new Padding(4, 6, 4, 6);
+            materialButton3.Icon = Properties.Resources.iconoBeneficio;
+            materialButton3.Location = new Point(5, 136);
+            materialButton3.Margin = new Padding(5, 8, 5, 8);
             materialButton3.MouseState = MaterialSkin.MouseState.HOVER;
             materialButton3.Name = "materialButton3";
             materialButton3.NoAccentTextColor = Color.Empty;
-            materialButton3.Size = new Size(146, 36);
+            materialButton3.Size = new Size(181, 48);
             materialButton3.TabIndex = 15;
-            materialButton3.Text = "           Beneficios           ";
+            materialButton3.Text = "Beneficios           ";
             materialButton3.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
             materialButton3.UseAccentColor = false;
             materialButton3.UseVisualStyleBackColor = true;
@@ -206,13 +124,13 @@
             materialButton4.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
             materialButton4.Depth = 0;
             materialButton4.HighEmphasis = true;
-            materialButton4.Icon = null;
-            materialButton4.Location = new Point(73, 344);
-            materialButton4.Margin = new Padding(4, 6, 4, 6);
+            materialButton4.Icon = Properties.Resources.iconTips;
+            materialButton4.Location = new Point(5, 200);
+            materialButton4.Margin = new Padding(5, 8, 5, 8);
             materialButton4.MouseState = MaterialSkin.MouseState.HOVER;
             materialButton4.Name = "materialButton4";
             materialButton4.NoAccentTextColor = Color.Empty;
-            materialButton4.Size = new Size(146, 36);
+            materialButton4.Size = new Size(182, 48);
             materialButton4.TabIndex = 16;
             materialButton4.Text = "Consejos";
             materialButton4.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -227,13 +145,13 @@
             materialButton5.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
             materialButton5.Depth = 0;
             materialButton5.HighEmphasis = true;
-            materialButton5.Icon = null;
-            materialButton5.Location = new Point(74, 384);
-            materialButton5.Margin = new Padding(4, 6, 4, 6);
+            materialButton5.Icon = Properties.Resources.iconPapel;
+            materialButton5.Location = new Point(5, 264);
+            materialButton5.Margin = new Padding(5, 8, 5, 8);
             materialButton5.MouseState = MaterialSkin.MouseState.HOVER;
             materialButton5.Name = "materialButton5";
             materialButton5.NoAccentTextColor = Color.Empty;
-            materialButton5.Size = new Size(145, 36);
+            materialButton5.Size = new Size(181, 48);
             materialButton5.TabIndex = 17;
             materialButton5.Text = "Encuesta";
             materialButton5.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
@@ -241,59 +159,116 @@
             materialButton5.UseVisualStyleBackColor = true;
             materialButton5.Click += enviarAlFormularioDeGoogle_Click;
             // 
+            // sidebar
+            // 
+            sidebar.BackColor = Color.FromArgb(129, 201, 250);
+            sidebar.Controls.Add(materialButton1);
+            sidebar.Controls.Add(materialButton2);
+            sidebar.Controls.Add(materialButton3);
+            sidebar.Controls.Add(materialButton4);
+            sidebar.Controls.Add(materialButton5);
+            sidebar.Controls.Add(materialButton6);
+            sidebar.Location = new Point(1, 59);
+            sidebar.Name = "sidebar";
+            sidebar.Size = new Size(50, 537);
+            sidebar.TabIndex = 18;
+            // 
+            // materialButton6
+            // 
+            materialButton6.AutoSize = false;
+            materialButton6.AutoSizeMode = AutoSizeMode.GrowAndShrink;
+            materialButton6.Density = MaterialSkin.Controls.MaterialButton.MaterialButtonDensity.Default;
+            materialButton6.Depth = 0;
+            materialButton6.HighEmphasis = true;
+            materialButton6.Icon = Properties.Resources.iconExit1;
+            materialButton6.Location = new Point(4, 326);
+            materialButton6.Margin = new Padding(4, 6, 4, 6);
+            materialButton6.MouseState = MaterialSkin.MouseState.HOVER;
+            materialButton6.Name = "materialButton6";
+            materialButton6.NoAccentTextColor = Color.Empty;
+            materialButton6.Size = new Size(181, 48);
+            materialButton6.TabIndex = 21;
+            materialButton6.Text = "Salir";
+            materialButton6.Type = MaterialSkin.Controls.MaterialButton.MaterialButtonType.Contained;
+            materialButton6.UseAccentColor = false;
+            materialButton6.UseVisualStyleBackColor = true;
+            materialButton6.Click += cerrarAplicacion_click;
+            // 
+            // pcbMenu
+            // 
+            pcbMenu.Image = Properties.Resources.iconMenu;
+            pcbMenu.Location = new Point(11, 3);
+            pcbMenu.Name = "pcbMenu";
+            pcbMenu.Size = new Size(29, 31);
+            pcbMenu.SizeMode = PictureBoxSizeMode.Zoom;
+            pcbMenu.TabIndex = 20;
+            pcbMenu.TabStop = false;
+            pcbMenu.Click += menu_Click;
+            // 
+            // sidebarTransition
+            // 
+            sidebarTransition.Interval = 10;
+            sidebarTransition.Tick += sidebarTransition_Tick;
+            // 
+            // panelMenu
+            // 
+            panelMenu.BackColor = Color.FromArgb(129, 201, 250);
+            panelMenu.Controls.Add(label1);
+            panelMenu.Controls.Add(pcbMenu);
+            panelMenu.Location = new Point(1, 24);
+            panelMenu.Name = "panelMenu";
+            panelMenu.Size = new Size(687, 37);
+            panelMenu.TabIndex = 19;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI Semibold", 13F, FontStyle.Bold | FontStyle.Italic);
+            label1.Location = new Point(54, 3);
+            label1.Name = "label1";
+            label1.Size = new Size(130, 30);
+            label1.TabIndex = 21;
+            label1.Text = "Formaliza-T";
+            // 
             // FormContenedor
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
-            ClientSize = new Size(797, 475);
-            Controls.Add(materialButton5);
-            Controls.Add(materialButton4);
-            Controls.Add(materialButton3);
-            Controls.Add(materialButton2);
-            Controls.Add(materialButton1);
-            Controls.Add(pictureBox1);
-            Controls.Add(btnSalir);
-            Controls.Add(iconoBeneficio);
-            Controls.Add(iconoRuc);
-            Controls.Add(iconoConsejos);
-            Controls.Add(iconoTributos);
-            Controls.Add(iconoPerfil);
+            ClientSize = new Size(679, 592);
+            Controls.Add(panelMenu);
+            Controls.Add(sidebar);
             Controls.Add(panelContenedor);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            FormStyle = FormStyles.ActionBar_None;
             HelpButton = true;
-            Margin = new Padding(3, 2, 3, 2);
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "FormContenedor";
-            Padding = new Padding(3, 48, 3, 2);
+            Padding = new Padding(3, 24, 3, 3);
             SizeGripStyle = SizeGripStyle.Show;
             Text = "Formaliza-T";
             Load += Form1_Load;
-            ((System.ComponentModel.ISupportInitialize)iconoPerfil).EndInit();
-            ((System.ComponentModel.ISupportInitialize)iconoTributos).EndInit();
-            ((System.ComponentModel.ISupportInitialize)iconoConsejos).EndInit();
-            ((System.ComponentModel.ISupportInitialize)iconoRuc).EndInit();
-            ((System.ComponentModel.ISupportInitialize)iconoBeneficio).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            sidebar.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pcbMenu).EndInit();
+            panelMenu.ResumeLayout(false);
+            panelMenu.PerformLayout();
             ResumeLayout(false);
         }
 
         #endregion
 
         private Panel panelContenedor;
-        private PictureBox iconoPerfil;
-        private PictureBox iconoTributos;
-        private PictureBox iconoConsejos;
-        private PictureBox iconoRuc;
-        private PictureBox iconoBeneficio;
-        private Button btnSalir;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private PictureBox pictureBox1;
         private MaterialSkin.Controls.MaterialButton materialButton1;
         private MaterialSkin.Controls.MaterialButton materialButton2;
         private MaterialSkin.Controls.MaterialButton materialButton3;
         private MaterialSkin.Controls.MaterialButton materialButton4;
         private MaterialSkin.Controls.MaterialButton materialButton5;
+        private FlowLayoutPanel sidebar;
+        private PictureBox pcbMenu;
+        private System.Windows.Forms.Timer sidebarTransition;
+        private MaterialSkin.Controls.MaterialButton materialButton6;
+        private Panel panelMenu;
+        private Label label1;
     }
 }
