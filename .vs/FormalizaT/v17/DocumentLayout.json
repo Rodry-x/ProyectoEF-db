@@ -7,12 +7,24 @@
       "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formcontenedor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\ingenieria\\downloads\\ef\\proyectoef-db\\formalizat\\formularios\\formcontenedor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formcontenedor.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\ingenieria\\downloads\\ef\\proyectoef-db\\formalizat\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\ingenieria\\downloads\\ef\\proyectoef-db\\formalizat\\formularios\\formconsejos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\ingenieria\\downloads\\ef\\proyectoef-db\\formalizat\\formularios\\formruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|C:\\Users\\Ingenieria\\Downloads\\EF\\ProyectoEF-db\\formalizat\\formularios\\formconsejos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formconsejos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\ingenieria\\downloads\\ef\\proyectoef-db\\formalizat\\formularios\\formsimulartributos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsimulartributos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\ingenieria\\downloads\\ef\\proyectoef-db\\formalizat\\formularios\\formbeneficios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formbeneficios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,32 +34,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormConsejos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\Downloads\\EF\\ProyectoEF-db\\FormalizaT\\Formularios\\FormConsejos.cs",
-              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormConsejos.cs",
-              "ToolTip": "C:\\Users\\Ingenieria\\Downloads\\EF\\ProyectoEF-db\\FormalizaT\\Formularios\\FormConsejos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormalizaT\\Formularios\\FormConsejos.cs [Dise\u00F1o]",
+              "DocumentIndex": 1,
+              "Title": "FormPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ingenieria\\Downloads\\EF\\ProyectoEF-db\\FormalizaT\\Formularios\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\Ingenieria\\Downloads\\EF\\ProyectoEF-db\\FormalizaT\\Formularios\\FormPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T03:13:47.601Z",
+              "WhenOpened": "2025-11-25T03:18:21.043Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormContenedor.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Ingenieria\\Downloads\\EF\\ProyectoEF-db\\FormalizaT\\Formularios\\FormContenedor.Designer.cs",
-              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormContenedor.Designer.cs",
-              "ToolTip": "C:\\Users\\Ingenieria\\Downloads\\EF\\ProyectoEF-db\\FormalizaT\\Formularios\\FormContenedor.Designer.cs",
-              "RelativeToolTip": "FormalizaT\\Formularios\\FormContenedor.Designer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAArwB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "FormRuc.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ingenieria\\Downloads\\EF\\ProyectoEF-db\\FormalizaT\\Formularios\\FormRuc.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormRuc.cs",
+              "ToolTip": "C:\\Users\\Ingenieria\\Downloads\\EF\\ProyectoEF-db\\FormalizaT\\Formularios\\FormRuc.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormRuc.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T03:10:46.964Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-25T03:18:20.041Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormSimularTributos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ingenieria\\Downloads\\EF\\ProyectoEF-db\\FormalizaT\\Formularios\\FormSimularTributos.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormSimularTributos.cs",
+              "ToolTip": "C:\\Users\\Ingenieria\\Downloads\\EF\\ProyectoEF-db\\FormalizaT\\Formularios\\FormSimularTributos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormSimularTributos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:18:18.931Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormBeneficios.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ingenieria\\Downloads\\EF\\ProyectoEF-db\\FormalizaT\\Formularios\\FormBeneficios.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormBeneficios.cs",
+              "ToolTip": "C:\\Users\\Ingenieria\\Downloads\\EF\\ProyectoEF-db\\FormalizaT\\Formularios\\FormBeneficios.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormBeneficios.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:17:40.017Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
@@ -58,7 +93,19 @@
               "ToolTip": "C:\\Users\\Ingenieria\\Downloads\\EF\\ProyectoEF-db\\FormalizaT\\Formularios\\FormContenedor.cs [Dise\u00F1o]",
               "RelativeToolTip": "FormalizaT\\Formularios\\FormContenedor.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T02:54:46.394Z",
+              "WhenOpened": "2025-11-25T03:16:46.748Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormConsejos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ingenieria\\Downloads\\EF\\ProyectoEF-db\\FormalizaT\\Formularios\\FormConsejos.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormConsejos.cs",
+              "ToolTip": "C:\\Users\\Ingenieria\\Downloads\\EF\\ProyectoEF-db\\FormalizaT\\Formularios\\FormConsejos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormConsejos.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T03:13:47.601Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

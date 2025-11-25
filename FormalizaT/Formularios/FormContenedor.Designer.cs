@@ -52,7 +52,7 @@
             // 
             // panelContenedor
             // 
-            panelContenedor.Location = new Point(256, 67);
+            panelContenedor.Location = new Point(243, 68);
             panelContenedor.Margin = new Padding(3, 2, 3, 2);
             panelContenedor.Name = "panelContenedor";
             panelContenedor.Size = new Size(551, 403);
@@ -246,7 +246,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
-            ClientSize = new Size(812, 475);
+            ClientSize = new Size(797, 475);
             Controls.Add(materialButton5);
             Controls.Add(materialButton4);
             Controls.Add(materialButton3);
@@ -260,9 +260,14 @@
             Controls.Add(iconoTributos);
             Controls.Add(iconoPerfil);
             Controls.Add(panelContenedor);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            HelpButton = true;
             Margin = new Padding(3, 2, 3, 2);
+            MaximizeBox = false;
+            MinimizeBox = false;
             Name = "FormContenedor";
             Padding = new Padding(3, 48, 3, 2);
+            SizeGripStyle = SizeGripStyle.Show;
             Text = "Formaliza-T";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)iconoPerfil).EndInit();
