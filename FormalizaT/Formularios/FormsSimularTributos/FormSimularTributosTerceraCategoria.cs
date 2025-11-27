@@ -33,15 +33,12 @@ namespace FormalizaT.Formularios.FormsSimularTributos
             cmbRegimenes.Items.Add("MYPE Tributario");
             cmbRegimenes.Items.Add("Régimen General (29.5%)");
         }
-
-
         // --- TRAMOS MYPE ---
         private class Tramo
         {
             public decimal Limite { get; set; }
             public decimal Tasa { get; set; }
         }
-
         private ListaEnlazada<Tramo> CrearTramosMype()
         {
             var lista = new ListaEnlazada<Tramo>();
@@ -49,7 +46,6 @@ namespace FormalizaT.Formularios.FormsSimularTributos
             lista.Agregar(new Tramo { Limite = decimal.MaxValue, Tasa = 0.295m });
             return lista;
         }
-
         private decimal CalcularMype(decimal utilidad)
         {
             var tramos = CrearTramosMype();
@@ -74,7 +70,6 @@ namespace FormalizaT.Formularios.FormsSimularTributos
             }
             return impuesto;
         }
-
         private void simularImporte_Click(object sender, EventArgs e)
         {
             string textoIngresos = txtMontoBruto.Text?.Trim() ?? string.Empty;
@@ -104,7 +99,6 @@ namespace FormalizaT.Formularios.FormsSimularTributos
 
             string regimen = cmbRegimenes.SelectedItem.ToString();
             decimal impuesto = 0m;
-
 
             // ----- RUS -----
             if (regimen.Contains("RUS"))
@@ -152,19 +146,16 @@ namespace FormalizaT.Formularios.FormsSimularTributos
             lblResultados.Text = "";
             lblImpuesto.Text = "";
         }
-
         private void txtMontoNeto_TextChanged(object sender, EventArgs e)
         {
             lblResultados.Text = "";
             lblImpuesto.Text = "";
         }
-
         private void cmbRegimenes_SelectedIndexChanged(object sender, EventArgs e)
         {
             lblResultados.Text = "";
             lblImpuesto.Text = "";
         }
-
         private void Ayuda_Click(object sender, EventArgs e)
         {
             var texto =

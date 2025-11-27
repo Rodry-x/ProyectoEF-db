@@ -89,7 +89,7 @@ namespace FormalizaT
             else
             {
                 sidebar.Width += 10;
-                if (sidebar.Width >= 192)
+                if (sidebar.Width >= 165)
                 {
                     sidebarExpandido = true;
                     sidebarTransition.Stop();

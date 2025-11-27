@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panelSimularTributosPrimeraCategoria = new Panel();
+            pictureBox2 = new PictureBox();
             lblAdicional = new Label();
             label6 = new Label();
             label5 = new Label();
@@ -42,10 +43,9 @@
             button2 = new Button();
             button1 = new Button();
             label1 = new Label();
-            pictureBox2 = new PictureBox();
             panelSimularTributosPrimeraCategoria.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panelSimularTributosPrimeraCategoria
@@ -64,26 +64,38 @@
             panelSimularTributosPrimeraCategoria.Controls.Add(button2);
             panelSimularTributosPrimeraCategoria.Controls.Add(button1);
             panelSimularTributosPrimeraCategoria.Controls.Add(label1);
-            panelSimularTributosPrimeraCategoria.Location = new Point(6, 2);
+            panelSimularTributosPrimeraCategoria.Location = new Point(5, 2);
+            panelSimularTributosPrimeraCategoria.Margin = new Padding(3, 2, 3, 2);
             panelSimularTributosPrimeraCategoria.Name = "panelSimularTributosPrimeraCategoria";
-            panelSimularTributosPrimeraCategoria.Size = new Size(630, 530);
+            panelSimularTributosPrimeraCategoria.Size = new Size(551, 398);
             panelSimularTributosPrimeraCategoria.TabIndex = 0;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.Image = Properties.Resources.iconoHelp;
+            pictureBox2.Location = new Point(311, 349);
+            pictureBox2.Margin = new Padding(3, 2, 3, 2);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(48, 34);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 13;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += Ayuda_Click;
             // 
             // lblAdicional
             // 
-            lblAdicional.Location = new Point(73, 335);
+            lblAdicional.Location = new Point(64, 251);
             lblAdicional.Name = "lblAdicional";
-            lblAdicional.Size = new Size(306, 118);
+            lblAdicional.Size = new Size(268, 88);
             lblAdicional.TabIndex = 12;
-            lblAdicional.Text = "lbl_Mensaje_Final";
             // 
             // label6
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(72, 90);
+            label6.Location = new Point(63, 68);
             label6.Name = "label6";
-            label6.Size = new Size(67, 23);
+            label6.Size = new Size(57, 19);
             label6.TabIndex = 11;
             label6.Text = "Simular";
             // 
@@ -91,18 +103,19 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(72, 218);
+            label5.Location = new Point(63, 164);
             label5.Name = "label5";
-            label5.Size = new Size(176, 23);
+            label5.Size = new Size(146, 19);
             label5.TabIndex = 10;
             label5.Text = "El impuesto es del 5%";
             // 
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.imagenBolsaDeAcciones;
-            pictureBox1.Location = new Point(416, 353);
+            pictureBox1.Location = new Point(364, 265);
+            pictureBox1.Margin = new Padding(3, 2, 3, 2);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(191, 158);
+            pictureBox1.Size = new Size(167, 118);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 9;
             pictureBox1.TabStop = false;
@@ -110,60 +123,60 @@
             // lblImpuesto
             // 
             lblImpuesto.AutoSize = true;
-            lblImpuesto.Location = new Point(225, 283);
+            lblImpuesto.Location = new Point(197, 212);
             lblImpuesto.Name = "lblImpuesto";
-            lblImpuesto.Size = new Size(154, 20);
+            lblImpuesto.Size = new Size(0, 15);
             lblImpuesto.TabIndex = 8;
-            lblImpuesto.Text = "lbl_Impuesto_cambiar";
             // 
             // lblResultado
             // 
             lblResultado.AutoSize = true;
-            lblResultado.Location = new Point(225, 254);
+            lblResultado.Location = new Point(197, 190);
             lblResultado.Name = "lblResultado";
-            lblResultado.Size = new Size(158, 20);
+            lblResultado.Size = new Size(0, 15);
             lblResultado.TabIndex = 7;
-            lblResultado.Text = "lbl_Resultado_cambiar";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(72, 283);
+            label4.Location = new Point(63, 212);
             label4.Name = "label4";
-            label4.Size = new Size(129, 20);
+            label4.Size = new Size(102, 15);
             label4.TabIndex = 6;
             label4.Text = "Impuesto a pagar:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(81, 254);
+            label3.Location = new Point(71, 190);
             label3.Name = "label3";
-            label3.Size = new Size(118, 20);
+            label3.Size = new Size(94, 15);
             label3.TabIndex = 5;
             label3.Text = "Tu dinero es del:";
             // 
             // txtMonto
             // 
-            txtMonto.Location = new Point(225, 132);
+            txtMonto.Location = new Point(197, 99);
+            txtMonto.Margin = new Padding(3, 2, 3, 2);
             txtMonto.Name = "txtMonto";
-            txtMonto.Size = new Size(330, 27);
+            txtMonto.Size = new Size(289, 23);
             txtMonto.TabIndex = 4;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(72, 135);
+            label2.Location = new Point(63, 101);
             label2.Name = "label2";
-            label2.Size = new Size(129, 20);
+            label2.Size = new Size(103, 15);
             label2.TabIndex = 3;
             label2.Text = "Ingresar el monto:";
             // 
             // button2
             // 
-            button2.Location = new Point(416, 180);
+            button2.Location = new Point(364, 135);
+            button2.Margin = new Padding(3, 2, 3, 2);
             button2.Name = "button2";
-            button2.Size = new Size(139, 42);
+            button2.Size = new Size(122, 32);
             button2.TabIndex = 2;
             button2.Text = "Simular Importe";
             button2.UseVisualStyleBackColor = true;
@@ -171,9 +184,10 @@
             // 
             // button1
             // 
-            button1.Location = new Point(26, 470);
+            button1.Location = new Point(23, 352);
+            button1.Margin = new Padding(3, 2, 3, 2);
             button1.Name = "button1";
-            button1.Size = new Size(106, 41);
+            button1.Size = new Size(93, 31);
             button1.TabIndex = 1;
             button1.Text = "Atras";
             button1.UseVisualStyleBackColor = true;
@@ -183,35 +197,25 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15F, FontStyle.Bold | FontStyle.Italic);
-            label1.Location = new Point(92, 21);
+            label1.Location = new Point(80, 16);
             label1.Name = "label1";
-            label1.Size = new Size(463, 35);
+            label1.Size = new Size(372, 28);
             label1.TabIndex = 0;
             label1.Text = "Simular Tributo De Primera Categoria";
             // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = Properties.Resources.iconoHelp;
-            pictureBox2.Location = new Point(355, 465);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(55, 46);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 13;
-            pictureBox2.TabStop = false;
-            pictureBox2.Click += Ayuda_Click;
-            // 
             // FormSimularTributosPrimeraCategoria
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(642, 538);
+            ClientSize = new Size(562, 404);
             Controls.Add(panelSimularTributosPrimeraCategoria);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "FormSimularTributosPrimeraCategoria";
             Text = "FormSimularTributosPrimeraCategoria";
             panelSimularTributosPrimeraCategoria.ResumeLayout(false);
             panelSimularTributosPrimeraCategoria.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 

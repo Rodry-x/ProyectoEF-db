@@ -30,17 +30,12 @@ namespace FormalizaT.Formularios.FormsSimularTributos
         {
             try
             {
-                // Captura de datos ingresados
                 decimal sueldo = string.IsNullOrWhiteSpace(txtSueldoMensual.Text) ? 0 : decimal.Parse(txtSueldoMensual.Text);
                 decimal bonificaciones = string.IsNullOrWhiteSpace(txtBonificaciones.Text) ? 0 : decimal.Parse(txtBonificaciones.Text);
 
-                // Ingreso anual (sueldo 12 meses + bonificaciones)
                 decimal ingresoAnual = (sueldo * 12) + bonificaciones;
-
-                // UIT vigente
                 decimal UIT = 5350m;
 
-                // Base imponible = ingreso anual – 7 UIT
                 decimal baseImponible = ingresoAnual - (7 * UIT);
 
                 if (baseImponible <= 0)
@@ -51,9 +46,14 @@ namespace FormalizaT.Formularios.FormsSimularTributos
                     return;
                 }
 
-                // Calcular impuesto usando ListaEnlazada
+                // Limpias los detalles ANTES de calcular
+                lblDetalles.Text = "Cálculo detallado del impuesto:\n";
+
                 decimal impuesto = CalcularImpuestoQuinta(baseImponible, UIT);
                 decimal resultado = ingresoAnual - impuesto;
+
+                lblImpuesto.Text = $"Impuesto: S/. {impuesto:F2}";
+                lblResultado.Text = $"Resultado neto: S/. {resultado:F2}";
             }
             catch
             {
@@ -65,7 +65,6 @@ namespace FormalizaT.Formularios.FormsSimularTributos
         //  CALCULAR IMPUESTO 5TA  //
         private decimal CalcularImpuestoQuinta(decimal baseImponible, decimal UIT)
         {
-            // Crear lista enlazada propia con los tramos
             ListaEnlazada<TramoImpuesto> tramos = new ListaEnlazada<TramoImpuesto>();
 
             tramos.Agregar(new TramoImpuesto { Limite = 5 * UIT, Tasa = 0.08m });
@@ -76,8 +75,7 @@ namespace FormalizaT.Formularios.FormsSimularTributos
 
             decimal impuesto = 0m;
             decimal anterior = 0m;
-
-            // Para detallar cada tramo
+            //para detallar los tramos
             string detalleTramos = "Detalle por tramos:\n";
 
             var nodo = tramos.Inicio;
@@ -89,25 +87,19 @@ namespace FormalizaT.Formularios.FormsSimularTributos
 
                 if (baseImponible <= tramo.Limite)
                 {
-                    montoTramo = (baseImponible - anterior);
-                    if (montoTramo > 0)
-                        impuesto += montoTramo * tramo.Tasa;
+                    montoTramo = baseImponible - anterior;
+                    impuesto += montoTramo * tramo.Tasa;
 
-                    // Registrar detalle
-                    detalleTramos +=
-                        $"Hasta {tramo.Limite:N2} (tasa {tramo.Tasa:P0}): S/. {(montoTramo * tramo.Tasa):N2}\n";
+                    detalleTramos += $"Hasta {tramo.Limite:N2} (tasa {tramo.Tasa:P0}): S/. {(montoTramo * tramo.Tasa):N2}\n";
 
                     break;
                 }
                 else
                 {
-                    montoTramo = (tramo.Limite - anterior);
-                    if (montoTramo > 0)
-                        impuesto += montoTramo * tramo.Tasa;
+                    montoTramo = tramo.Limite - anterior;
+                    impuesto += montoTramo * tramo.Tasa;
 
-                    // Registrar detalle
-                    detalleTramos +=
-                        $"Hasta {tramo.Limite:N2} (tasa {tramo.Tasa:P0}): S/. {(montoTramo * tramo.Tasa):N2}\n";
+                    detalleTramos += $"Hasta {tramo.Limite:N2} (tasa {tramo.Tasa:P0}): S/. {(montoTramo * tramo.Tasa):N2}\n";
 
                     anterior = tramo.Limite;
                 }
@@ -115,10 +107,10 @@ namespace FormalizaT.Formularios.FormsSimularTributos
                 nodo = nodo.Siguiente;
             }
 
-            // Mostrar detalle en la etiqueta lblDetalles (se concatena al texto ya asignado)
-            lblDetalles.Text += "\n\n" + detalleTramos;
+            lblDetalles.Text += "\n" + detalleTramos;
 
             return impuesto;
+        
         }
 
         private void Ayuda_Click(object sender, EventArgs e)
