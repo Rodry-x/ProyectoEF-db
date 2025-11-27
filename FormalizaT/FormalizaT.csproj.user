@@ -7,21 +7,6 @@
     <Compile Update="Formularios\FormBeneficios.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Formularios\FormsDeBeneficios\FormBeneficioCuartaCategoria.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Formularios\FormsDeBeneficios\FormBeneficioPrimeraCategoria.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Formularios\FormsDeBeneficios\FormBeneficioQuintaCategoria.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Formularios\FormsDeBeneficios\FormBeneficioSegundaCategoria.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Formularios\FormsDeBeneficios\FormBeneficioTerceraCategoria.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Formularios\FormsDeConsejos\FormConsejoPrimeraCategoria.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             panelSimularTributosQuintaCategoria = new Panel();
+            pictureBox1 = new PictureBox();
             lblDetalles = new Label();
             label6 = new Label();
             lblResultado = new Label();
@@ -42,7 +43,6 @@
             label2 = new Label();
             button1 = new Button();
             label1 = new Label();
-            pictureBox1 = new PictureBox();
             panelSimularTributosQuintaCategoria.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -67,6 +67,17 @@
             panelSimularTributosQuintaCategoria.Name = "panelSimularTributosQuintaCategoria";
             panelSimularTributosQuintaCategoria.Size = new Size(630, 531);
             panelSimularTributosQuintaCategoria.TabIndex = 0;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.iconoHelp;
+            pictureBox1.Location = new Point(568, 479);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(41, 39);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 16;
+            pictureBox1.TabStop = false;
+            pictureBox1.Click += Ayuda_Click;
             // 
             // lblDetalles
             // 
@@ -186,17 +197,6 @@
             label1.Size = new Size(449, 35);
             label1.TabIndex = 2;
             label1.Text = "Simular Tributo De Quinta Categoria";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources.iconoHelp;
-            pictureBox1.Location = new Point(568, 479);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(41, 39);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 16;
-            pictureBox1.TabStop = false;
-            pictureBox1.Click += Ayuda_Click;
             // 
             // FormSimularTributosQuintaCategoria
             // 

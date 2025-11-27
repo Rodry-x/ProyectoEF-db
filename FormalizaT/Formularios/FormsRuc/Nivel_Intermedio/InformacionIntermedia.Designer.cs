@@ -54,6 +54,7 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             pictureBox8 = new PictureBox();
+            button11 = new Button();
             panelInformacionIntermedia.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox13).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
@@ -73,6 +74,7 @@
             // panelInformacionIntermedia
             // 
             panelInformacionIntermedia.AutoScroll = true;
+            panelInformacionIntermedia.Controls.Add(button11);
             panelInformacionIntermedia.Controls.Add(pictureBox13);
             panelInformacionIntermedia.Controls.Add(button10);
             panelInformacionIntermedia.Controls.Add(pictureBox12);
@@ -99,13 +101,13 @@
             panelInformacionIntermedia.Controls.Add(label1);
             panelInformacionIntermedia.Location = new Point(7, 4);
             panelInformacionIntermedia.Name = "panelInformacionIntermedia";
-            panelInformacionIntermedia.Size = new Size(607, 696);
+            panelInformacionIntermedia.Size = new Size(607, 782);
             panelInformacionIntermedia.TabIndex = 1;
             // 
             // pictureBox13
             // 
             pictureBox13.Image = Properties.Resources.iconoHelp;
-            pictureBox13.Location = new Point(535, 607);
+            pictureBox13.Location = new Point(535, 696);
             pictureBox13.Name = "pictureBox13";
             pictureBox13.Size = new Size(54, 62);
             pictureBox13.SizeMode = PictureBoxSizeMode.Zoom;
@@ -115,7 +117,7 @@
             // 
             // button10
             // 
-            button10.Location = new Point(386, 619);
+            button10.Location = new Point(416, 623);
             button10.Name = "button10";
             button10.Size = new Size(123, 57);
             button10.TabIndex = 35;
@@ -126,7 +128,7 @@
             // pictureBox12
             // 
             pictureBox12.Image = Properties.Resources.imagenLibroAbierto;
-            pictureBox12.Location = new Point(389, 509);
+            pictureBox12.Location = new Point(419, 513);
             pictureBox12.Name = "pictureBox12";
             pictureBox12.Size = new Size(112, 104);
             pictureBox12.SizeMode = PictureBoxSizeMode.Zoom;
@@ -145,7 +147,7 @@
             // 
             // button8
             // 
-            button8.Location = new Point(218, 619);
+            button8.Location = new Point(248, 623);
             button8.Name = "button8";
             button8.Size = new Size(123, 57);
             button8.TabIndex = 32;
@@ -155,7 +157,7 @@
             // 
             // button7
             // 
-            button7.Location = new Point(41, 619);
+            button7.Location = new Point(71, 623);
             button7.Name = "button7";
             button7.Size = new Size(123, 57);
             button7.TabIndex = 31;
@@ -236,7 +238,7 @@
             // pictureBox10
             // 
             pictureBox10.Image = Properties.Resources.Educaciónfinanciera;
-            pictureBox10.Location = new Point(209, 509);
+            pictureBox10.Location = new Point(239, 513);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(142, 104);
             pictureBox10.SizeMode = PictureBoxSizeMode.Zoom;
@@ -246,7 +248,7 @@
             // pictureBox9
             // 
             pictureBox9.Image = Properties.Resources.SeguridadSocial;
-            pictureBox9.Location = new Point(24, 509);
+            pictureBox9.Location = new Point(54, 513);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(157, 104);
             pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
@@ -353,11 +355,21 @@
             pictureBox8.TabIndex = 18;
             pictureBox8.TabStop = false;
             // 
+            // button11
+            // 
+            button11.Location = new Point(24, 716);
+            button11.Name = "button11";
+            button11.Size = new Size(114, 42);
+            button11.TabIndex = 37;
+            button11.Text = "Atras";
+            button11.UseVisualStyleBackColor = true;
+            button11.Click += anterior_Click;
+            // 
             // FormInformacionIntermedia
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(618, 705);
+            ClientSize = new Size(618, 798);
             Controls.Add(panelInformacionIntermedia);
             Margin = new Padding(3, 4, 3, 4);
             Name = "FormInformacionIntermedia";
@@ -408,5 +420,6 @@
         private PictureBox pictureBox12;
         private Button button10;
         private PictureBox pictureBox13;
+        private Button button11;
     }
 }

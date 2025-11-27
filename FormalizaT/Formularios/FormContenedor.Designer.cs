@@ -49,7 +49,7 @@
             // 
             // panelContenedor
             // 
-            panelContenedor.Location = new Point(49, 61);
+            panelContenedor.Location = new Point(50, 61);
             panelContenedor.Name = "panelContenedor";
             panelContenedor.Size = new Size(630, 530);
             panelContenedor.TabIndex = 0;
@@ -168,7 +168,7 @@
             sidebar.Controls.Add(materialButton4);
             sidebar.Controls.Add(materialButton5);
             sidebar.Controls.Add(materialButton6);
-            sidebar.Location = new Point(1, 59);
+            sidebar.Location = new Point(0, 59);
             sidebar.Name = "sidebar";
             sidebar.Size = new Size(50, 537);
             sidebar.TabIndex = 18;
@@ -235,7 +235,7 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.GradientInactiveCaption;
-            ClientSize = new Size(679, 592);
+            ClientSize = new Size(680, 592);
             Controls.Add(panelMenu);
             Controls.Add(sidebar);
             Controls.Add(panelContenedor);

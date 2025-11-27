@@ -22,6 +22,7 @@ namespace FormalizaT.Formularios.FormsRuc.Nivel_Avanzado
         private FormCrecimientoYEscalamiento formCrecimientoYExpansion;
         private FormGestionDeAuditoriasTributarias formAuditoria;
         private FormFuentesAV formFuentesAV;
+        private FormRuc formRuc;
 
         private void cambiarAlPanelGestion_Click(object sender, EventArgs e)
         {
@@ -104,6 +105,12 @@ namespace FormalizaT.Formularios.FormsRuc.Nivel_Avanzado
                 "Gestión de Auditorías Tributarias: Cómo prepararse y gestionar auditorías tributarias.";
 
             MensajeEmergente.Mostrar(texto, "Ayuda - Información Avanzada");
+        }
+
+        private void anterior_click(object sender, EventArgs e)
+        {
+            formRuc = new FormRuc();
+            PanelController.CambiarPanel(panelInformacionAvanzada, formRuc.PanelRucControl);
         }
     }
 }

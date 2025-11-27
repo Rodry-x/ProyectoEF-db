@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formssimulartributos\\formsimulartributosquintacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formssimulartributos\\formsimulartributosquintacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_introductorio\\forminformacionbasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_introductorio\\forminformacionbasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formssimulartributos\\formsimulartributosquintacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formssimulartributos\\formsimulartributosquintacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_introductorio\\forminformacionbasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_introductorio\\forminformacionbasica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formssimulartributos\\formsimulartributossegundacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formssimulartributos\\formsimulartributossegundacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\informacionintermedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\informacionintermedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formssimulartributos\\formsimulartributoscuartacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formssimulartributos\\formsimulartributoscuartacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_intermedio\\informacionintermedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_intermedio\\informacionintermedia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formssimulartributos\\formsimulartributoscuartacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formssimulartributos\\formsimulartributoscuartacategoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_avanzado\\forminformacionavanzada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_avanzado\\forminformacionavanzada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formsruc\\nivel_avanzado\\forminformacionavanzada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formsruc\\nivel_avanzado\\forminformacionavanzada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|c:\\users\\rodry\\source\\repos\\formalizat\\formalizat\\formularios\\formruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1C1B78CB-6F21-43BD-90E0-6173DD3BCC0D}|FormalizaT\\FormalizaT.csproj|solutionrelative:formalizat\\formularios\\formruc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,64 +59,89 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormSimularTributosQuintaCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosQuintaCategoria.cs",
-              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosQuintaCategoria.cs",
-              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosQuintaCategoria.cs",
-              "RelativeToolTip": "FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosQuintaCategoria.cs",
-              "ViewState": "AgIAAHwAAAAAAAAAAIAwwH0AAAAXAAAAAAAAAA==",
+              "Title": "FormInformacionBasica.cs",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Introductorio\\FormInformacionBasica.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Introductorio\\FormInformacionBasica.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Introductorio\\FormInformacionBasica.cs",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Introductorio\\FormInformacionBasica.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswEEAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T23:23:56.471Z",
+              "WhenOpened": "2025-11-27T22:13:14.678Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormSimularTributosQuintaCategoria.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosQuintaCategoria.cs",
-              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosQuintaCategoria.cs",
-              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosQuintaCategoria.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosQuintaCategoria.cs [Dise\u00F1o]",
+              "Title": "FormInformacionBasica.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Introductorio\\FormInformacionBasica.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Introductorio\\FormInformacionBasica.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Introductorio\\FormInformacionBasica.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Introductorio\\FormInformacionBasica.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T23:23:33.939Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormSimularTributosSegundaCategoria.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosSegundaCategoria.cs",
-              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosSegundaCategoria.cs",
-              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosSegundaCategoria.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosSegundaCategoria.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T23:23:33.311Z",
+              "WhenOpened": "2025-11-27T22:12:00.202Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FormSimularTributosCuartaCategoria.cs",
-              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosCuartaCategoria.cs",
-              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosCuartaCategoria.cs",
-              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosCuartaCategoria.cs",
-              "RelativeToolTip": "FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosCuartaCategoria.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAtwIgAAAAAAAAAAAAAAA==",
+              "Title": "InformacionIntermedia.cs",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\InformacionIntermedia.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\InformacionIntermedia.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\InformacionIntermedia.cs",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\InformacionIntermedia.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAMwGwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T23:22:11.655Z",
+              "WhenOpened": "2025-11-27T22:11:26.138Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormSimularTributosCuartaCategoria.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosCuartaCategoria.cs",
-              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosCuartaCategoria.cs",
-              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosCuartaCategoria.cs [Dise\u00F1o]",
-              "RelativeToolTip": "FormalizaT\\Formularios\\FormsSimularTributos\\FormSimularTributosCuartaCategoria.cs [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "InformacionIntermedia.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\InformacionIntermedia.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\InformacionIntermedia.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\InformacionIntermedia.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Intermedio\\InformacionIntermedia.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-25T23:21:47.514Z",
+              "WhenOpened": "2025-11-27T22:10:16.092Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormInformacionAvanzada.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Avanzado\\FormInformacionAvanzada.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Avanzado\\FormInformacionAvanzada.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Avanzado\\FormInformacionAvanzada.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Avanzado\\FormInformacionAvanzada.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T22:09:17.707Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormRuc.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormRuc.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormRuc.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormRuc.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormRuc.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T22:07:59.224Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormInformacionAvanzada.cs",
+              "DocumentMoniker": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Avanzado\\FormInformacionAvanzada.cs",
+              "RelativeDocumentMoniker": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Avanzado\\FormInformacionAvanzada.cs",
+              "ToolTip": "C:\\Users\\rodry\\source\\repos\\FormalizaT\\FormalizaT\\Formularios\\FormsRuc\\Nivel_Avanzado\\FormInformacionAvanzada.cs",
+              "RelativeToolTip": "FormalizaT\\Formularios\\FormsRuc\\Nivel_Avanzado\\FormInformacionAvanzada.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAmwG8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-27T22:04:13.033Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             panelInformacionAvanzada = new Panel();
+            button10 = new Button();
+            pictureBox8 = new PictureBox();
             button11 = new Button();
             pictureBox12 = new PictureBox();
             button9 = new Button();
@@ -52,8 +54,8 @@
             cambiarAlPanelPasosParaFormalizar = new Button();
             pictureBox1 = new PictureBox();
             label1 = new Label();
-            pictureBox8 = new PictureBox();
             panelInformacionAvanzada.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).BeginInit();
@@ -65,12 +67,12 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             SuspendLayout();
             // 
             // panelInformacionAvanzada
             // 
             panelInformacionAvanzada.AutoScroll = true;
+            panelInformacionAvanzada.Controls.Add(button10);
             panelInformacionAvanzada.Controls.Add(pictureBox8);
             panelInformacionAvanzada.Controls.Add(button11);
             panelInformacionAvanzada.Controls.Add(pictureBox12);
@@ -97,12 +99,33 @@
             panelInformacionAvanzada.Controls.Add(label1);
             panelInformacionAvanzada.Location = new Point(7, 7);
             panelInformacionAvanzada.Name = "panelInformacionAvanzada";
-            panelInformacionAvanzada.Size = new Size(630, 713);
+            panelInformacionAvanzada.Size = new Size(630, 813);
             panelInformacionAvanzada.TabIndex = 2;
+            // 
+            // button10
+            // 
+            button10.Location = new Point(15, 744);
+            button10.Name = "button10";
+            button10.Size = new Size(108, 46);
+            button10.TabIndex = 37;
+            button10.Text = "Anterior";
+            button10.UseVisualStyleBackColor = true;
+            button10.Click += anterior_click;
+            // 
+            // pictureBox8
+            // 
+            pictureBox8.Image = Properties.Resources.iconoHelp;
+            pictureBox8.Location = new Point(561, 744);
+            pictureBox8.Name = "pictureBox8";
+            pictureBox8.Size = new Size(47, 43);
+            pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox8.TabIndex = 36;
+            pictureBox8.TabStop = false;
+            pictureBox8.Click += Ayuda_Click;
             // 
             // button11
             // 
-            button11.Location = new Point(358, 644);
+            button11.Location = new Point(417, 666);
             button11.Name = "button11";
             button11.Size = new Size(123, 57);
             button11.TabIndex = 35;
@@ -113,7 +136,7 @@
             // pictureBox12
             // 
             pictureBox12.Image = Properties.Resources.imagenLibroAbierto;
-            pictureBox12.Location = new Point(358, 509);
+            pictureBox12.Location = new Point(417, 531);
             pictureBox12.Name = "pictureBox12";
             pictureBox12.Size = new Size(123, 129);
             pictureBox12.SizeMode = PictureBoxSizeMode.Zoom;
@@ -122,7 +145,7 @@
             // 
             // button9
             // 
-            button9.Location = new Point(461, 428);
+            button9.Location = new Point(473, 436);
             button9.Name = "button9";
             button9.Size = new Size(129, 76);
             button9.TabIndex = 33;
@@ -132,7 +155,7 @@
             // 
             // button8
             // 
-            button8.Location = new Point(203, 620);
+            button8.Location = new Point(262, 654);
             button8.Name = "button8";
             button8.Size = new Size(123, 81);
             button8.TabIndex = 32;
@@ -142,7 +165,7 @@
             // 
             // button7
             // 
-            button7.Location = new Point(38, 620);
+            button7.Location = new Point(93, 654);
             button7.Name = "button7";
             button7.Size = new Size(123, 57);
             button7.TabIndex = 31;
@@ -152,7 +175,7 @@
             // 
             // button6
             // 
-            button6.Location = new Point(314, 428);
+            button6.Location = new Point(326, 436);
             button6.Name = "button6";
             button6.Size = new Size(123, 57);
             button6.TabIndex = 30;
@@ -162,7 +185,7 @@
             // 
             // button5
             // 
-            button5.Location = new Point(165, 428);
+            button5.Location = new Point(177, 436);
             button5.Name = "button5";
             button5.Size = new Size(123, 57);
             button5.TabIndex = 29;
@@ -172,7 +195,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(15, 428);
+            button4.Location = new Point(27, 436);
             button4.Name = "button4";
             button4.Size = new Size(126, 57);
             button4.TabIndex = 28;
@@ -182,7 +205,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(466, 216);
+            button3.Location = new Point(478, 224);
             button3.Name = "button3";
             button3.Size = new Size(123, 59);
             button3.TabIndex = 27;
@@ -192,7 +215,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(314, 219);
+            button2.Location = new Point(326, 227);
             button2.Name = "button2";
             button2.Size = new Size(123, 57);
             button2.TabIndex = 26;
@@ -202,7 +225,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(165, 217);
+            button1.Location = new Point(177, 225);
             button1.Name = "button1";
             button1.Size = new Size(123, 71);
             button1.TabIndex = 25;
@@ -213,7 +236,7 @@
             // pictureBox11
             // 
             pictureBox11.Image = Properties.Resources.Comprobante;
-            pictureBox11.Location = new Point(461, 293);
+            pictureBox11.Location = new Point(473, 301);
             pictureBox11.Name = "pictureBox11";
             pictureBox11.Size = new Size(129, 129);
             pictureBox11.SizeMode = PictureBoxSizeMode.Zoom;
@@ -223,7 +246,7 @@
             // pictureBox10
             // 
             pictureBox10.Image = Properties.Resources.imageAuditoria;
-            pictureBox10.Location = new Point(193, 509);
+            pictureBox10.Location = new Point(252, 531);
             pictureBox10.Name = "pictureBox10";
             pictureBox10.Size = new Size(142, 104);
             pictureBox10.SizeMode = PictureBoxSizeMode.Zoom;
@@ -233,7 +256,7 @@
             // pictureBox9
             // 
             pictureBox9.Image = Properties.Resources.PasosFOR2;
-            pictureBox9.Location = new Point(17, 509);
+            pictureBox9.Location = new Point(76, 531);
             pictureBox9.Name = "pictureBox9";
             pictureBox9.Size = new Size(157, 104);
             pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
@@ -243,7 +266,7 @@
             // pictureBox7
             // 
             pictureBox7.Image = Properties.Resources.Multasysanciones;
-            pictureBox7.Location = new Point(314, 293);
+            pictureBox7.Location = new Point(326, 301);
             pictureBox7.Name = "pictureBox7";
             pictureBox7.Size = new Size(123, 129);
             pictureBox7.SizeMode = PictureBoxSizeMode.Zoom;
@@ -253,7 +276,7 @@
             // pictureBox6
             // 
             pictureBox6.Image = Properties.Resources.imagedigitalizacion;
-            pictureBox6.Location = new Point(165, 293);
+            pictureBox6.Location = new Point(177, 301);
             pictureBox6.Name = "pictureBox6";
             pictureBox6.Size = new Size(123, 129);
             pictureBox6.SizeMode = PictureBoxSizeMode.Zoom;
@@ -263,7 +286,7 @@
             // pictureBox5
             // 
             pictureBox5.Image = Properties.Resources.imagenFinanciera;
-            pictureBox5.Location = new Point(17, 293);
+            pictureBox5.Location = new Point(29, 301);
             pictureBox5.Name = "pictureBox5";
             pictureBox5.Size = new Size(123, 129);
             pictureBox5.SizeMode = PictureBoxSizeMode.Zoom;
@@ -273,7 +296,7 @@
             // pictureBox4
             // 
             pictureBox4.Image = Properties.Resources.imagenIndecopi;
-            pictureBox4.Location = new Point(466, 83);
+            pictureBox4.Location = new Point(478, 91);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(123, 129);
             pictureBox4.SizeMode = PictureBoxSizeMode.Zoom;
@@ -283,7 +306,7 @@
             // pictureBox3
             // 
             pictureBox3.Image = Properties.Resources.imagenGestionLaboral;
-            pictureBox3.Location = new Point(314, 83);
+            pictureBox3.Location = new Point(326, 91);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(123, 129);
             pictureBox3.SizeMode = PictureBoxSizeMode.Zoom;
@@ -293,7 +316,7 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.gestion_financiera;
-            pictureBox2.Location = new Point(165, 83);
+            pictureBox2.Location = new Point(177, 91);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(123, 129);
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
@@ -302,7 +325,7 @@
             // 
             // cambiarAlPanelPasosParaFormalizar
             // 
-            cambiarAlPanelPasosParaFormalizar.Location = new Point(17, 217);
+            cambiarAlPanelPasosParaFormalizar.Location = new Point(29, 225);
             cambiarAlPanelPasosParaFormalizar.Name = "cambiarAlPanelPasosParaFormalizar";
             cambiarAlPanelPasosParaFormalizar.Size = new Size(123, 57);
             cambiarAlPanelPasosParaFormalizar.TabIndex = 5;
@@ -313,7 +336,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.imagenGestion1;
-            pictureBox1.Location = new Point(17, 83);
+            pictureBox1.Location = new Point(29, 91);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(123, 129);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -330,29 +353,19 @@
             label1.TabIndex = 0;
             label1.Text = "Nivel Avanzado";
             // 
-            // pictureBox8
-            // 
-            pictureBox8.Image = Properties.Resources.iconoHelp;
-            pictureBox8.Location = new Point(555, 644);
-            pictureBox8.Name = "pictureBox8";
-            pictureBox8.Size = new Size(47, 43);
-            pictureBox8.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox8.TabIndex = 36;
-            pictureBox8.TabStop = false;
-            pictureBox8.Click += Ayuda_Click;
-            // 
             // FormInformacionAvanzada
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
-            ClientSize = new Size(642, 727);
+            ClientSize = new Size(642, 832);
             Controls.Add(panelInformacionAvanzada);
             Margin = new Padding(3, 4, 3, 4);
             Name = "FormInformacionAvanzada";
             Text = "FormInformacionAvanzada";
             panelInformacionAvanzada.ResumeLayout(false);
             panelInformacionAvanzada.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox12).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox11).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox10).EndInit();
@@ -364,7 +377,6 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox8).EndInit();
             ResumeLayout(false);
         }
 
@@ -395,5 +407,6 @@
         private PictureBox pictureBox1;
         private Label label1;
         private PictureBox pictureBox8;
+        private Button button10;
     }
 }

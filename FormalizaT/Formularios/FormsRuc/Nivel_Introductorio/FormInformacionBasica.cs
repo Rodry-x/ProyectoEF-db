@@ -15,6 +15,7 @@ namespace FormalizaT.Formularios.FormsRuc
         private FormFuentes formFuentes;
         private FormTiposDeRUC formTiposDeRenta;
         private FormQuienDebeInscribirseEnElRuc formQuienDebeInscribirseEnElRuc;
+        private FormRuc formRuc;
 
         public Panel PanelInformacionBasicaControl => panelInformacionBasica;
 
@@ -57,6 +58,12 @@ namespace FormalizaT.Formularios.FormsRuc
                 "¿Quien debe inscribirse?: Nos ayuda a identificar quienes deben de estar inscritos en el RUC.";
 
             MensajeEmergente.Mostrar(texto, "Ayuda - Información Introductoria");
+        }
+
+        private void anterior_Click(object sender, EventArgs e)
+        {
+            formRuc = new FormRuc();
+            PanelController.CambiarPanel(panelInformacionBasica, formRuc.PanelRucControl);
         }
     }
 }

@@ -24,6 +24,7 @@ namespace FormalizaT.Formularios
         private FormSeguridadSocial formSeguridadSocial;
         private FormEducaciónFinanciera formEducaciónFinanciera;
         private FormFuentes_int formFuentes_Int;
+        private FormRuc formRuc;
 
 
         public Panel PanelInformacionIntermediaControl => panelInformacionIntermedia;
@@ -101,6 +102,12 @@ namespace FormalizaT.Formularios
                 "Recuerda seguir en orden para que puedas comprender el tema y no perderte. ";
 
             MensajeEmergente.Mostrar(texto, "Ayuda - Información Intermedia");
+        }
+
+        private void anterior_Click(object sender, EventArgs e)
+        {
+            formRuc = new FormRuc();
+            PanelController.CambiarPanel(panelInformacionIntermedia, formRuc.PanelRucControl);
         }
     }
 }
